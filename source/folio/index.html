@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#f7f2e6">
   <meta name="description" content="自贡往返青岛、威海和烟台的八天路书，可加住一晚。逐日路线、三城地点图册、食单和返程速查。">
   <title>$title</title>
+  $preload
   <style>$styles</style>
 </head>
 <body>
@@ -28,11 +29,11 @@
   </header>
 
   <main id="top">
-    <section class="cover shell" data-guide-view="home" aria-labelledby="trip-title">
+    <section class="cover" data-guide-view="home" aria-labelledby="trip-title">
       <div class="cover-spread">
-        <div class="cover-copy">
+        <div class="cover-copy shell">
           <p class="cover-meta">自贡往返 <span>8 天 7 晚</span><span>5–6 人</span></p>
-          <h1 id="trip-title">$title</h1>
+          <h1 id="trip-title">$cover_title</h1>
           <p class="cover-intro">$intro</p>
           <div class="cover-actions">
             <a class="button primary" href="#routes">看八天行程</a>
@@ -42,10 +43,10 @@
         </div>
         $hero
       </div>
-      <nav id="route-overview" class="trip-rail" aria-label="三城停留顺序">$stops</nav>
+      <nav id="route-overview" class="trip-rail shell" aria-label="三城停留顺序">$stops</nav>
     </section>
 
-    <section id="routes" class="chapter itinerary" data-guide-view="routes" data-scenery="qingdao" aria-labelledby="routes-title">
+    <section id="routes" class="chapter itinerary" data-guide-view="routes" data-scenery="oldtown" aria-labelledby="routes-title">
       <div class="shell">
         <header class="chapter-head">
           <div>
@@ -167,7 +168,7 @@
           <h2 class="chapter-title" id="prep-title"><span class="motif chapter-mark motif-prep" aria-hidden="true"></span>行前准备</h2>
           <nav class="chapter-actions" aria-label="行前速查">
             <a class="text-action" href="#trip-budget">看预算</a>
-            <a class="text-action" data-offline hidden>保存离线版</a>
+            $offline
           </nav>
         </header>
         <div class="prep-cover">

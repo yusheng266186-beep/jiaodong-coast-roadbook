@@ -348,13 +348,17 @@
         else link.removeAttribute("aria-current");
       }
     }
+    if (section === "home") {
+      coastScenery(null);
+      return;
+    }
     const dayLine = section === "routes" ? line + dayRail.offsetHeight : line;
     const scene = sceneryStops.get(section).findLast(stop => stop.getBoundingClientRect().top <= dayLine);
     const atlas = section === "routes" && atlasDetails.open ? routeAtlas.getBoundingClientRect() : null;
     const mapArt = atlas && atlas.bottom > dayLine && atlas.top < innerHeight * .7
       ? atlasPages[Number(routeAtlas.dataset.activeDay) - 1].querySelector("figure[data-art]").dataset.art
       : null;
-    const art = mapArt || scene?.dataset.scenery || views.get(section).dataset.scenery || "qingdao";
+    const art = mapArt || scene?.dataset.scenery || views.get(section).dataset.scenery || "oldtown";
     coastScenery(art, () => artImages.get(art)?.src);
     if (section !== "routes") return;
     const current = dayPages.findLast(page => page.getBoundingClientRect().top <= dayLine);
@@ -793,12 +797,4 @@
     openedForPrint = [];
   });
 
-  const download = document.querySelector("[data-offline]");
-  if (location.protocol === "https:" || location.protocol === "http:") {
-    const offlineURL = new URL(location.href);
-    offlineURL.hash = "";
-    download.href = offlineURL.href;
-    download.download = "胶东海岸八日.html";
-    download.hidden = false;
-  }
 })();

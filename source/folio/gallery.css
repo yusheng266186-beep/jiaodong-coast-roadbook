@@ -1,16 +1,8 @@
-.cover-spread::before,.footer::before {
+.footer::before {
   background: var(--ornaments) no-repeat;
   background-size: 200% 200%;
   aspect-ratio: 1;
   pointer-events: none;
-}
-.cover-spread::before {
-  content: "";
-  position: absolute;
-  inset: auto auto -4.1rem calc(43% - 11rem);
-  width: clamp(11rem, 23vw, 19rem);
-  opacity: .31;
-  background-position: left top;
 }
 .footer::before {
   content: "";
@@ -167,7 +159,6 @@
   .scene-card .art-plate img { height: auto; aspect-ratio: 1.46; }
 }
 @media (max-width: 650px) {
-  .cover-spread::before { inset: -1.9rem -.1rem auto auto; width: 10rem; opacity: .2; }
   .scene-track { grid-auto-columns: 81%; gap: .69rem; }
   .scene-card .art-plate img { aspect-ratio: 1.38; }
   .scene-position { min-width: 2.85em; }
@@ -203,7 +194,7 @@
   .image-opener span { forced-color-adjust: none; color: ButtonText; background: Canvas; }
 }
 @media print {
-  .scenes,.cover-spread::before,.footer::before { display: none !important; }
+  .scenes,.footer::before { display: none !important; }
   .food-grid,.food-city-grid { display: block; }
   .food-city > header { break-after: avoid; }
 }

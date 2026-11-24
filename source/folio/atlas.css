@@ -266,7 +266,14 @@
 .image-opener:is(:hover,:focus-visible) span { color: #fff2d8; background: #254638; }
 .image-opener:active span { transform: scale(.88); }
 .image-opener:focus-visible { outline-offset: -4px; outline-color: #ffebc0; }
-.cover-plate figcaption { z-index: 2; }
+.cover-plate .image-opener {
+  inset: auto var(--gutter) 2.4rem auto;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.cover-plate .image-opener span { inset: .24rem; width: auto; height: auto; }
 .image-viewer {
   width: min(1040px,94vw);
   max-width: 94vw;

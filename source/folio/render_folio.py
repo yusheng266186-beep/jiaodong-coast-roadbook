@@ -135,7 +135,7 @@ def citation(href, label, classes="source-link"):
 
 
 class FieldGuide:
-    def __init__(self, spec, art, coastline, folder):
+    def __init__(self, spec, art, coastline, folder, asset_url=data_url, offline_href=None):
         self.spec = spec
         self.trip = spec["trip"]
         self.route = spec["routes"][0]
@@ -147,6 +147,8 @@ class FieldGuide:
         self.day_numbers = {item["id"]: idx for idx, day in enumerate(self.days, 1) for item in day["items"]}
         self.folder = folder
         self.art = art
+        self.asset_url = asset_url
+        self.offline_href = offline_href
         self.embedded_art = set()
         self.coastline = coastline
         self.place_stories = json.loads((folder / "place-stories.json").read_text(encoding="utf-8"))
@@ -196,7 +198,7 @@ class FieldGuide:
     def image(self, key, cover=False, caption_name=True):
         record = self.art[key]
         self.embedded_art.add(key)
-        address = data_url(self.art_path(record["file"]))
+        address = self.asset_url(self.art_path(record["file"]))
         attrs = 'fetchpriority="high"' if cover else 'loading="lazy" decoding="async"'
         art = f'<img src="{address}" alt="{quoted(record["alt"])}" {attrs}>'
         credit = link(record["reference"], record.get("reference_label", "实拍参考"),
@@ -435,10 +437,10 @@ class FieldGuide:
         art_key, _, place_id = DAY_ART[number - 1]
         art = self.art[art_key]
         title = quoted(art["name"])
-        src = data_url(self.thumbnail(self.art_path(art.get("thumb", art["file"]))))
+        src = self.asset_url(self.thumbnail(self.art_path(art.get("thumb", art["file"]))))
         return (
             f'<figure class="day-illustration"><a href="{place_url(place_id)}" class="day-illustration-link">'
-            f'<img src="{src}" alt="{quoted(art["alt"])}" loading="lazy" decoding="async">'
+            f'<img src="{src}" alt="{quoted(art["alt"])}" loading="lazy" decoding="async" fetchpriority="low">'
             f'<span>{title}<span aria-hidden="true">↗</span></span></a></figure>'
         )
 
@@ -542,7 +544,7 @@ class FieldGuide:
             path = self.edited_photo_path(photo)
         if not lead:
             path = self.thumbnail(path)
-        return f'<img src="{data_url(path)}" alt="{quoted(photo["caption"])}" loading="lazy" decoding="async">'
+        return f'<img src="{self.asset_url(path)}" alt="{quoted(photo["caption"])}" loading="lazy" decoding="async">'
 
     def sight_group(self, group):
         items = []
@@ -656,9 +658,9 @@ class FieldGuide:
                     entry.setdefault("reference", art["reference"])
                     entry["illustration"] = True
                     if art_key not in self.embedded_art:
-                        entry["src"] = data_url(self.art_path(art["file"]))
+                        entry["src"] = self.asset_url(self.art_path(art["file"]))
                 else:
-                    entry["src"] = data_url(self.edited_photo_path(record))
+                    entry["src"] = self.asset_url(self.edited_photo_path(record))
                     entry.pop("file")
                     entry["illustration"] = True
                 photos[key] = entry
@@ -855,8 +857,8 @@ class FieldGuide:
             day: [row[0] for row in rows] for day, rows in self.sights["day_choices"].items()
         }
         snapshot["tips"] = [tip for tip in snapshot["tips"] if tip["category"] not in ("使用", "图源")]
-        texture = data_url(self.folder / "art" / "navigation.webp")
-        ornaments = data_url(self.folder / "art" / "marginalia.webp")
+        texture = self.asset_url(self.folder / "art" / "navigation.webp")
+        ornaments = self.asset_url(self.folder / "art" / "marginalia.webp")
         styles = f':root{{--motifs: url("{texture}");--ornaments: url("{ornaments}")}}\n' + "\n".join(
             (self.folder / name).read_text(encoding="utf-8")
             for name in ("style.css", "atlas.css", "gallery.css", "directory.css", "steps.css")
@@ -868,8 +870,15 @@ class FieldGuide:
             raise ValueError("内嵌样式与脚本应为完整源文件")
         template = Template((self.folder / "index.html").read_text(encoding="utf-8"))
         coast = json_for_script({"window": MAP_WINDOW, "coast": self.coastline})
+        title = quoted(self.trip["title"])
+        cover_title = title.replace("沿着胶东海岸", "<span>沿着</span>胶东海岸")
+        preload, offline = "", ""
+        if self.offline_href:
+            cover_source = self.asset_url(self.art_path(self.art["qingdao"]["file"]))
+            preload = f'<link rel="preload" as="image" href="{quoted(cover_source)}" fetchpriority="high">'
+            offline = link(self.offline_href, "保存离线版", flags=' download="胶东海岸八日.html"')
         return template.substitute(
-            title=quoted(self.trip["title"]), intro=quoted(self.trip["summary"]),
+            title=title, cover_title=cover_title, intro=quoted(self.trip["summary"]), preload=preload, offline=offline,
             notice=quoted(self.trip["notice"]), styles=styles, script=script,
             hero=self.image("qingdao", cover=True), stops=self.stops(), days=self.day_tabs(), chapters=self.chapters(),
             atlas=self.atlas_pages(), pins=self.map_pins(), coast=coast, scenes=self.scenes(),

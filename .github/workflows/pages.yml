@@ -22,8 +22,8 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
-      - name: Build the offline roadbook
-        run: python3 source/build.py --output _site
+      - name: Build the hosted site and offline roadbook
+        run: python3 source/build.py --web --output _site
       - uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: _site
