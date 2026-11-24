@@ -577,6 +577,48 @@
       "kind": "official",
       "url": "https://www.plgvr.com/",
       "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-yaner-hill",
+      "title": "青岛政务网 · 燕儿岛山公园",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/ylly/ywfl/yllh/202409/t20240906_8240094.shtml",
+      "checked_at": "2026-11-24T17:04:11+08:00"
+    },
+    {
+      "id": "sight-jiulong-bay",
+      "title": "威海市便民地图 · 九龙湾公园",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/szdt/web/mapIndex/3?area=&mapClassificationId=&mapClassificationPid=42&name=",
+      "checked_at": "2026-11-24T17:04:11+08:00"
+    },
+    {
+      "id": "sight-maotou-hill",
+      "title": "威海发布 · 环海路沿线观景平台",
+      "kind": "official",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33223706",
+      "checked_at": "2026-11-24T17:04:11+08:00"
+    },
+    {
+      "id": "sight-yt-first-beach",
+      "title": "芝罘区文旅局 · 海岸旅游线路",
+      "kind": "official",
+      "url": "https://www.zhifu.gov.cn/art/2025/3/6/art_51883_2916888.html",
+      "checked_at": "2026-11-24T17:04:11+08:00"
+    },
+    {
+      "id": "sight-baxian-sea",
+      "title": "蓬莱区政府 · 八仙过海景区开放信息",
+      "kind": "official",
+      "url": "https://www.penglai.gov.cn/art/2025/1/27/art_13354_2986447.html",
+      "checked_at": "2026-11-24T17:04:11+08:00"
+    },
+    {
+      "id": "sight-maotou-road",
+      "title": "威海市政府 · 半月湾环海路通行与接驳",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/art/2026/4/20/art_58956_6296646.html",
+      "checked_at": "2026-11-24T17:04:11+08:00"
     }
   ],
   "places": [
@@ -1811,6 +1853,92 @@
         {
           "label": "高德搜地点",
           "url": "https://uri.amap.com/search?keyword=%E7%94%B0%E6%A8%AA%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yaner-hill",
+      "name": "燕儿岛山公园",
+      "category": "sight",
+      "area": "青岛 · 市南 · 浮山湾东侧",
+      "address": "市南区珠海支路、澳门路一带，导航搜燕儿岛山公园",
+      "note": "木栈道有台阶，海雾或大风天看现场封闭提示。与奥帆中心里的燕岛山公园名称很像，打车时发准确定位。",
+      "source_ids": [
+        "sight-yaner-hill"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%87%95%E5%84%BF%E5%B2%9B%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "jiulong-bay",
+      "name": "九龙湾公园",
+      "category": "sight",
+      "area": "威海 · 经开区 · 皇冠",
+      "address": "皇冠街道林海路与滨海大道交叉口一带，定位九龙湾公园",
+      "note": "九龙湾公园与海上公园是两个不同的公园。两辆车出发前统一地图定位和集合点，沿公共步道游览，远离湿滑岸石。",
+      "source_ids": [
+        "sight-jiulong-bay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E4%B9%9D%E9%BE%99%E6%B9%BE%E5%85%AC%E5%9B%AD&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "maotou-hill",
+      "name": "猫头山观景台",
+      "category": "sight",
+      "area": "威海 · 环翠 · 半月湾环海路",
+      "address": "孙家疃环海路辅线，导航可搜猫头山 2 号观景台，按现场接驳指引到达",
+      "note": "辅线可能分段限行。出发前查半月湾景区当天的通行、接驳和回程安排，只走开放观景台及步道。",
+      "source_ids": [
+        "sight-maotou-hill",
+        "sight-maotou-road"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%8C%AB%E5%A4%B4%E5%B1%B1%E8%A7%82%E6%99%AF%E5%8F%B0&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-first-beach",
+      "name": "烟台第一海水浴场",
+      "category": "sight",
+      "area": "烟台 · 芝罘 · 滨海广场东侧",
+      "address": "芝罘区滨海北路，地图搜烟台第一海水浴场",
+      "note": "地图加上烟台芝罘，避免误选蓬莱的同名浴场。按散步安排，海况或现场管制影响沙滩时，改走护栏内步道。",
+      "source_ids": [
+        "sight-yt-first-beach"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E7%AC%AC%E4%B8%80%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%9C%BA&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "baxian-sea",
+      "name": "八仙过海景区",
+      "category": "sight",
+      "area": "烟台 · 蓬莱 · 蓬莱湾",
+      "address": "蓬莱区仙境路沿海，导航搜八仙过海景区游客入口",
+      "note": "现场还有“八仙渡海口”的称呼。与蓬莱阁分开安排入园，先查当日售票、开放和返程接车点。",
+      "source_ids": [
+        "sight-baxian-sea"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
         }
       ]
     }

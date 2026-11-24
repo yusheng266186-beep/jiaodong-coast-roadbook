@@ -85,6 +85,7 @@ DISHES = (
     ("青岛 · 中山路", "郑庄脂渣", "crispy-pork", "d2-dinner", "zhongshan", "青岛口味的猪肉脂渣，咸香偏脆。逛老城时可在特产店问郑庄脂渣，先买小袋分尝。带走前看明保质期和保存条件。"),
     ("威海 · 长峰", "葱烧海参", "braised-cucumber", "d5-dinner", "changfeng", "威海鲁菜里常见的海参做法，葱段煸香后入汁。想加菜可在长峰附近鲁菜馆问是否供应、按位还是按盘，以及能否做成共享小份。"),
     ("烟台 · 蓬莱", "蓬莱八仙宴", "eight-immortals", "d7-lunch", "", "蓬莱以八仙故事命名的主题宴席。可提前问海情广场或宝龙海上仙街一带的鲁菜馆，五六人能否做小份或单点几道，确认总价和备餐时间。插图以齐鲁八仙宴展陈实拍为参考。赶下午行程时，午饭照常吃小面。"),
+    ("烟台 · 蓬莱", "蓬莱蒸汽海鲜", "pl-steam", "d7-lunch", "", "想把蓬莱午饭吃长一点，可去海情广场或抹直口一带找蒸汽海鲜。五六人先问时令贝虾的重量、锅价和加工费，合点一锅，再配小面或一盘青菜。插图参考青岛店家的同类蒸锅实拍。"),
 )
 MEAL_AREAS = {"hanle", "pichai", "nanhong", "zhongshan", "may4", "taidong", "changfeng", "suocheng", "chaoyang"}
 FOOD_LEADS = {"spicy-clams", "potstickers", "fish-pot", "yangnyeom", "sea-rice", "noodle"}
@@ -101,6 +102,7 @@ FOOD_EVIDENCE = {
     "crispy-pork": ("青岛早报 · 青岛老字号与脂渣", "https://epaper.qingdaonews.com/qdzb/h5/html5/2026-01/22/content_144796_3066822.htm"),
     "braised-cucumber": ("威海公共文旅服务云 · 威海味道", "https://www.whggwly.com/new-25480.html"),
     "eight-immortals": ("烟台市政府 · 蓬莱风味与就餐片区", "https://www.yantai.gov.cn/art/2023/11/9/art_50727_3154373.html"),
+    "pl-steam": ("烟台市政府 · 蓬莱蒸汽海鲜与就餐片区", "https://www.yantai.gov.cn/art/2023/11/9/art_50727_3154373.html"),
 }
 CHURCH_REFERENCE = "https://www.qingdao.gov.cn/yfqd/qdwl/cjfw/wyqtsjd/202009/t20200910_521996.shtml"
 KINDS = {"sight": "景点", "stay": "住宿", "food": "美食", "transport": "交通", "other": "其他"}
@@ -419,7 +421,8 @@ class FieldGuide:
             f'aria-expanded="false" aria-controls="{day_id}--schedule">展开当天细节</button>'
         )
         return (
-            f'<article class="day-page" id="{day_id}" data-day-page="{number}" aria-labelledby="{day_id}-title">'
+            f'<article class="day-page" id="{day_id}" data-day-page="{number}" '
+            f'data-scenery="{DAY_ART[number - 1][0]}" aria-labelledby="{day_id}-title">'
             f'<div class="day-brief"><header class="day-heading"><p class="day-meta">第 {number} 天 <span>{quoted(meta)}</span></p>'
             f'<h3 id="{day_id}-title">{quoted(day["title"])}</h3></header>{day_story}'
             f'<p class="day-focus">{quoted(day.get("focus", ""))}</p>{self.day_illustration(number)}{stay}{forecast}</div>'
@@ -451,15 +454,22 @@ class FieldGuide:
 
     def extra_day(self):
         extra = self.sights["extra_day"]
+        group = next(group for city in self.sights["cities"] for group in city["groups"] if group.get("extra_day"))
+        previews = join(
+            f'<a href="{place_url(place_id)}">{self.sight_image(place_id, 0)}'
+            f'<span>{quoted(self.places[place_id]["name"])}</span></a>'
+            for place_id, *_ in group["sights"]
+        )
         rows = join(
-            f'<li><time>{clock}</time><div>{link(place_url(place_id), title, "inline-place")}{paragraph(detail)}</div></li>'
+            f'<li><span class="longer-clock">{quoted(clock)}</span>'
+            f'<div>{link(place_url(place_id), title, "inline-place")}{paragraph(detail)}</div></li>'
             for clock, title, place_id, detail in extra["stages"]
         )
         return (
-            '<section class="longer-route" id="extra-day" aria-labelledby="extra-day-title">'
+            '<section class="longer-route" id="extra-day" data-scenery="weihai" aria-labelledby="extra-day-title">'
             '<div><p class="day-meta">可选第 6 天 · 9 天 8 晚</p>'
             f'<h3 id="extra-day-title">{quoted(extra["title"])}</h3>{paragraph(extra["intro"])}'
-            f'{self.sight_image("half-moon", 0)}</div>'
+            f'<div class="longer-sights">{previews}</div></div>'
             f'<div><ol>{rows}</ol><p class="longer-planning">{quoted(extra["planning"])}</p>'
             f'<nav class="longer-next" aria-label="九天行程后段">{self.day_link(6, "第 7 天 · 芝罘老城")}'
             f'{self.day_link(7, "第 8 天 · 蓬莱")}{self.day_link(8, "第 9 天 · 返程")}</nav></div></section>'
@@ -476,8 +486,9 @@ class FieldGuide:
             if place:
                 where = link(place_url(place), "查附近用餐" if place in MEAL_AREAS else "查用餐地点")
             else:
-                query = urlencode({"keyword": "蓬莱鲁菜", "city": "烟台", "src": "jiaodong-roadbook", "callnative": 0})
-                where = citation(f"https://uri.amap.com/search?{query}", "查蓬莱城区鲁菜馆", "text-action")
+                nearby = "蒸汽海鲜" if art == "pl-steam" else "鲁菜馆"
+                query = urlencode({"keyword": f"蓬莱{nearby}", "city": "烟台", "src": "jiaodong-roadbook", "callnative": 0})
+                where = citation(f"https://uri.amap.com/search?{query}", f"查蓬莱城区{nearby}", "text-action")
             menus[city].append(
                 f'<article class="food-card" id="food-{art}">'
                 f'{self.image(art, caption_name=False)}<details class="dish-details">'
@@ -489,7 +500,8 @@ class FieldGuide:
                 f'{credit}</div></div></details></article>'
             )
         return join(
-            f'<section class="food-city" data-food-city="{quoted(city)}" aria-labelledby="menu-city-{number}">'
+            f'<section class="food-city" data-food-city="{quoted(city)}" '
+            f'data-scenery="{DAY_ART[CITIES[number - 1][3] - 1][0]}" aria-labelledby="menu-city-{number}">'
             f'<header><h3 class="subhead" id="menu-city-{number}">{quoted(city)}</h3><span>{len(cards)} 道</span></header>'
             f'<div class="food-city-grid" data-film>{"".join(cards)}</div></section>'
             for number, (city, cards) in enumerate(menus.items(), 1)
@@ -508,7 +520,7 @@ class FieldGuide:
             image_link = f'<a class="city-view" href="{place_url(lead)}" aria-label="看{quoted(self.places[lead]["name"])}详情">'
             groups = join(self.sight_group(group) for group in city["groups"])
             sections.append(
-                f'<article class="city-gallery" id="{anchor}" aria-labelledby="{anchor}-title">'
+                f'<article class="city-gallery" id="{anchor}" data-scenery="{DAY_ART[start - 1][0]}" aria-labelledby="{anchor}-title">'
                 f'<header class="city-gallery-intro">{image_link}{self.sight_image(lead, -1, lead=True)}</a>'
                 f'<div><p class="day-meta">第 {start}–{end} 天 · {count} 处可游览</p>'
                 f'<h3 id="{anchor}-title">{name}</h3><p class="city-gallery-heading">{quoted(city["heading"])}</p>'
@@ -547,8 +559,9 @@ class FieldGuide:
         day = group.get("day")
         route = self.day_link(day, f"看第 {day} 天") if day else link("#extra-day", "看九天版走法")
         classes = "sight-group extra-sights" if group.get("extra_day") else "sight-group"
+        backdrop = DAY_ART[day - 1][0] if day else "weihai"
         return (
-            f'<section class="{classes}"><header><div>'
+            f'<section class="{classes}" data-scenery="{backdrop}"><header><div>'
             f'<h4>{quoted(group["title"])}</h4>{paragraph(group["caption"])}</div>{route}</header>'
             f'<ul class="sight-grid">{join(items)}</ul></section>'
         )
@@ -809,6 +822,13 @@ class FieldGuide:
             f'<div class="compact-tips">{tips}</div></section>'
         )
 
+    def prep_plates(self):
+        plates = (
+            ("packing", "证件随身带，海边穿的防风外层放箱顶。"),
+            ("station", "青岛站和青岛北站分开核对，两车都按票面发定位。"),
+        )
+        return join(f'<div>{self.image(key, caption_name=False)}{paragraph(copy)}</div>' for key, copy in plates)
+
     def source_list(self):
         credits = []
         for art in self.art.values():
@@ -857,6 +877,6 @@ class FieldGuide:
             food=self.food(), food_tip=self.food_tip(),
             place_atlas=self.place_atlas(), place_routes=self.place_routes(), place_controls=self.place_controls(),
             places=self.place_directory(), place_total=len(self.places), sight_total=self.sight_count, returning=self.returning(),
-            prep=self.prep(), packing=self.image("packing", caption_name=False),
+            prep=self.prep(), packing=self.prep_plates(),
             sources=self.source_list(), data=json_for_script(snapshot), place_media=json_for_script(self.media_payload()),
         )

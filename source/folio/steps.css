@@ -8,7 +8,7 @@
   background: transparent;
   color: #2d5746;
   font-size: .85rem;
-  font-weight: 670;
+  font-weight: 590;
 }
 .detail-toggle::before {
   content: "";
@@ -28,7 +28,7 @@
 .field-steps {
   position: relative;
   display: grid;
-  gap: .17rem;
+  gap: .28rem;
   padding: 0;
   margin-block: .08rem .31rem;
   list-style: none;
@@ -48,7 +48,7 @@
   gap: .45rem;
   color: #285341;
   font-size: .91rem;
-  font-weight: 680;
+  font-weight: 600;
   line-height: 1.67;
 }
 .field-step-name::before {
@@ -61,7 +61,7 @@
   margin-block-start: .59em;
   background: #a4573e;
 }
-.field-steps > li p { color: #31483b; font-size: .94rem; line-height: 1.58; }
+.field-steps > li p { color: #31483b; font-size: .96rem; line-height: 1.76; }
 .field-step-links { display: flex; flex-wrap: wrap; gap: 0 .66rem; }
 .field-step-links .inline-place { display: inline-flex; align-items: center; gap: .31rem; min-height: 44px; font-size: .82rem; }
 .field-step-links .inline-place::after {
@@ -75,7 +75,7 @@
 .activity-context {
   color: var(--muted);
   font-size: .87rem;
-  line-height: 1.53;
+  line-height: 1.72;
 }
 .place-card #place-back { margin-inline-end: .48rem; }
 .place-card #place-back::after { order: -1; rotate: 180deg; }
@@ -93,9 +93,9 @@
 .checklist .field-steps { margin-block: 0 .25rem; }
 .checklist .field-steps > li { border-block-end: 0; padding-block: .19rem .24rem; }
 @media (max-width: 680px) {
-  .field-steps > li { grid-template-columns: 1fr; padding-block: .38rem .47rem; }
+  .field-steps > li { grid-template-columns: 1fr; row-gap: .28rem; padding-block: .55rem .72rem; }
   .field-steps > li > div { padding-inline-start: .82rem; }
-  .field-steps > li p { font-size: .91rem; line-height: 1.57; }
+  .field-steps > li p { font-size: .955rem; line-height: 1.8; }
   .return-choice-list { grid-template-columns: 1fr; }
   .return-choice-list > li + li { border-top: 1px solid var(--rule); }
 }

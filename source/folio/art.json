@@ -331,5 +331,14 @@
     "credit": "烟海 e 家 · 学院展陈实拍",
     "original": "https://ytapp.jiaodong.net/pic/003/105/804/00310580483_ed1a26fe.jpg",
     "reference_file": "photos/food-refs/eight-immortals.webp"
+  },
+  "pl-steam": {
+    "file": "pl-steam.webp",
+    "alt": "圆形蒸汽锅里排着熟虾、扇贝和蛤蜊，锅沿上方有淡淡蒸汽",
+    "name": "蓬莱蒸汽海鲜",
+    "reference": "https://touch.travel.qunar.com/comment/10161945964",
+    "credit": "青岛同类蒸汽海鲜 · 去哪儿用户实拍参考",
+    "original": "https://youimg1.c-ctrip.com/target/10071a0000019b08eE677.jpg",
+    "reference_file": "photos/food-refs/pl-steam.webp"
   }
 }

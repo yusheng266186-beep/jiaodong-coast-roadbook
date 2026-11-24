@@ -105,7 +105,7 @@
   justify-content: space-between;
   gap: .48rem;
   border-block-start: 1px solid var(--chapter-rule);
-  padding-block: .72rem .89rem;
+  padding-block: .92rem 1.05rem;
 }
 .food-city > header .subhead { margin: 0; }
 .food-city > header > span { color: #6c503b; font-size: .88rem; }
@@ -118,19 +118,21 @@
 .food-card:nth-child(-n+2) { grid-column: span 3; }
 .food-card .art-plate img { aspect-ratio: 1.52; object-position: center; }
 .food-card:nth-child(-n+2) .art-plate img { aspect-ratio: 1.92; }
-@media (min-width: 651px) {
-  .food-city-grid:has(> :nth-child(9):last-child) { grid-template-columns: repeat(12,minmax(0,1fr)); }
-  .food-city-grid:has(> :nth-child(9):last-child) > .food-card:nth-child(-n+2) { grid-column: span 6; }
-  .food-city-grid:has(> :nth-child(9):last-child) > .food-card:nth-child(n+3):nth-child(-n+5) { grid-column: span 4; }
-  .food-city-grid:has(> :nth-child(9):last-child) > .food-card:nth-child(n+6) { grid-column: span 3; }
+@media (min-width: 1030px) {
+  .food-city-grid:has(> :nth-child(10):last-child) { grid-template-columns: repeat(8,minmax(0,1fr)); }
+  .food-city-grid:has(> :nth-child(10):last-child) > .food-card:nth-child(-n+2) { grid-column: span 4; }
+}
+@media (min-width: 651px) and (max-width: 1029px) {
+  .food-city-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .food-city-grid > .food-card:nth-child(n) { grid-column: span 1; }
 }
 .dish-details > summary {
   position: relative;
   display: grid;
-  gap: .18rem;
+  gap: .28rem;
   align-content: center;
-  min-height: 54px;
-  padding: .2rem 1.75rem .28rem 0;
+  min-height: 60px;
+  padding: .38rem 1.53rem .42rem 0;
   list-style: none;
 }
 .dish-details > summary::after {
@@ -146,7 +148,7 @@
 .dish-details[open] > summary::after { rotate: 225deg; }
 .dish-details > summary:hover { color: var(--clay-dark); }
 .dish-day { color: #77503e; font-size: .76rem; }
-.dish-name { font: 570 clamp(1.19rem,2.05vw,1.72rem)/1.33 var(--display); }
+.dish-name { font: 545 clamp(1.19rem,2.05vw,1.72rem)/1.43 var(--display); }
 .dish-details .food-copy { padding-block-start: .34rem; }
 .food-actions .source-link { font-size: .75rem; }
 @media (max-width: 900px) {
@@ -177,7 +179,7 @@
     align-items: start;
     gap: .77rem;
     border-block-start: 1px solid var(--chapter-rule);
-    padding-block-start: .91rem;
+    padding-block-start: 1.12rem;
   }
   .food-card:first-child .art-plate img { aspect-ratio: 1.7; }
   .food-card:first-child .dish-name { font-size: 1.58rem; }
@@ -185,7 +187,7 @@
   .food-card + .food-card .food-copy { padding-block-start: 0; }
   .food-card + .food-card .art-plate img { aspect-ratio: 1.23; }
   .food-card + .food-card figcaption > span { display: none; }
-  .food-card + .food-card .dish-description { font-size: .87rem; line-height: 1.52; }
+  .food-card + .food-card .dish-description { font-size: .93rem; line-height: 1.77; }
   .food-card .image-opener span { transform: scale(.83); transform-origin: top right; }
   .food-card .image-opener:active span { transform: scale(.72); }
   .food-actions { column-gap: .52rem; }

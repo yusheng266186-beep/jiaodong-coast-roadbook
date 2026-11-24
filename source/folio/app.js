@@ -8,6 +8,7 @@
   const dayRail = document.querySelector(".day-nav");
   const dayTabs = Array.from(document.querySelectorAll("[data-day-select]"));
   const routeAtlas = document.getElementById("route-atlas");
+  const atlasDetails = routeAtlas.closest("details");
   const atlasPages = Array.from(routeAtlas.querySelectorAll("[data-atlas-day]"));
   const atlasSteps = Array.from(routeAtlas.querySelectorAll("[data-atlas-step]"));
   const atlasPosition = document.getElementById("atlas-position");
@@ -50,6 +51,9 @@
   const placeBack = document.getElementById("place-back");
   const placeFilters = Array.from(document.querySelectorAll("[data-place-filter]"));
   const views = new Map(Array.from(document.querySelectorAll("[data-guide-view]"), view => [view.dataset.guideView, view]));
+  const sceneryStops = new Map([...views].map(([id, view]) => [id, [...view.querySelectorAll("[data-scenery]")]]));
+  const coastScenery = sceneryStage(document.getElementById("coast-scenery"));
+  const placeScenery = sceneryStage(document.getElementById("place-scenery"));
   const navLinks = Array.from(document.querySelectorAll("[data-guide-tab]"));
   const returnAnchor = `field-${route.id}--event-${route.return_item_id}`;
   const scheduleID = (number) => `route-${route.id}--day-${number}`;
@@ -198,10 +202,45 @@
     return photo.src || artImages.get(photo.art)?.src;
   }
 
+  function sceneryStage(stage) {
+    const layers = Array.from(stage.children);
+    let front = 0;
+    let scene;
+    let request = 0;
+    return async (name, getSource) => {
+      if (name === scene) return;
+      scene = name;
+      const revision = ++request;
+      const source = getSource?.();
+      if (!source) {
+        delete stage.dataset.scene;
+        for (const layer of layers) {
+          layer.removeAttribute("data-visible");
+          layer.removeAttribute("src");
+        }
+        return;
+      }
+      const incoming = 1 - front;
+      const image = layers[incoming];
+      image.src = source;
+      try { await image.decode(); } catch {
+        if (revision === request) scene = undefined;
+        return;
+      }
+      if (revision !== request) return;
+      layers[front].removeAttribute("data-visible");
+      image.setAttribute("data-visible", "");
+      stage.dataset.scene = name;
+      front = incoming;
+    };
+  }
+
   function showPlacePhoto(index) {
     photoIndex = Math.min(gallery.length - 1, Math.max(0, index));
     const photo = gallery[photoIndex];
-    placeImage.src = photoSource(photo);
+    const source = photoSource(photo);
+    placeImage.src = source;
+    placeScenery(placeViewer.dataset.place + "-" + photoIndex, () => source);
     placeImage.alt = photo.caption;
     photoPosition.textContent = `第 ${photoIndex + 1} 张，共 ${gallery.length} 张`;
     photoCaption.textContent = photo.caption + " · 据实拍绘制";
@@ -220,6 +259,8 @@
 
   function showPlace(card, imageIndex) {
     const id = card.id.slice(6);
+    if (id !== placeViewer.dataset.place) placeScenery(null);
+    placeViewer.dataset.place = id;
     placeViewer.dataset.kind = card.closest(".place-entry").dataset.kind;
     placeViewerTitle.textContent = card.querySelector("h4").textContent;
     placeViewerInfo.replaceChildren(card.querySelector(".place-facts").cloneNode(true));
@@ -273,6 +314,7 @@
     atlasPosition.textContent = day + " / " + atlasPages.length;
     atlasSteps[0].disabled = day === 1;
     atlasSteps[1].disabled = day === atlasPages.length;
+    scheduleReading();
   }
 
   function parseHash(hash) {
@@ -285,6 +327,10 @@
     const storedDay = new URLSearchParams(query).get("day");
     const day = storedDay !== null && /^\d+$/.test(storedDay) ? dayAt(Number(storedDay) + 1) : null;
     return {id:anchor === "routes" && day ? scheduleID(day) : anchor, day};
+  }
+
+  function scheduleReading() {
+    if (!readingFrame) readingFrame = requestAnimationFrame(trackReading);
   }
 
   function trackReading() {
@@ -302,8 +348,15 @@
         else link.removeAttribute("aria-current");
       }
     }
+    const dayLine = section === "routes" ? line + dayRail.offsetHeight : line;
+    const scene = sceneryStops.get(section).findLast(stop => stop.getBoundingClientRect().top <= dayLine);
+    const atlas = section === "routes" && atlasDetails.open ? routeAtlas.getBoundingClientRect() : null;
+    const mapArt = atlas && atlas.bottom > dayLine && atlas.top < innerHeight * .7
+      ? atlasPages[Number(routeAtlas.dataset.activeDay) - 1].querySelector("figure[data-art]").dataset.art
+      : null;
+    const art = mapArt || scene?.dataset.scenery || views.get(section).dataset.scenery || "qingdao";
+    coastScenery(art, () => artImages.get(art)?.src);
     if (section !== "routes") return;
-    const dayLine = line + dayRail.offsetHeight;
     const current = dayPages.findLast(page => page.getBoundingClientRect().top <= dayLine);
     const day = Number(current?.dataset.dayPage || 1);
     if (activeDay === day) return;
@@ -467,14 +520,13 @@
     bars.observe(dayRail);
   }
   setMapDay(1);
+  atlasDetails.addEventListener("toggle", scheduleReading);
   for (const button of atlasSteps) {
     button.addEventListener("click", () => setMapDay(Number(routeAtlas.dataset.activeDay) + Number(button.dataset.atlasStep)));
   }
   renderPlaces();
   navigate();
-  addEventListener("scroll", () => {
-    if (!readingFrame) readingFrame = requestAnimationFrame(trackReading);
-  }, {passive:true});
+  addEventListener("scroll", scheduleReading, {passive:true});
   window.addEventListener("popstate", () => navigate({restore:true}));
   window.addEventListener("hashchange", () => navigate());
   document.addEventListener("click", (event) => {

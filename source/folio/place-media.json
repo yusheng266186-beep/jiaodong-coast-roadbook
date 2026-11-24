@@ -1144,5 +1144,75 @@
       "reference": "https://k.sina.com.cn/article_1460202233_5708eaf9001000wap.html",
       "original": "https://k.sinaimg.cn/n/sinacn/20171014/a974-fymvuys9738705.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
     }
+  ],
+  "yaner-hill": [
+    {
+      "file": "places/yaner-1.webp",
+      "caption": "坡下的礁岸、木护栏和海浪",
+      "reference": "https://you.ctrip.com/sight/qingdao5/1834810.html",
+      "original": "https://youimg1.c-ctrip.com/target/1A04160000010jyj7715A.jpg"
+    },
+    {
+      "file": "places/yaner-2.webp",
+      "caption": "从岬角边的栈道望海湾",
+      "reference": "https://you.ctrip.com/sight/qingdao5/1834810.html",
+      "original": "https://dimg03.c-ctrip.com/images/0106o120008a9d8hoFFA0_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "jiulong-bay": [
+    {
+      "file": "places/jiulong-1.webp",
+      "caption": "从近岸看内湾和桥的拱影",
+      "reference": "https://touch.travel.qunar.com/comment/10160250487",
+      "original": "https://youimg1.c-ctrip.com/target/100i1700000118yg4B5E9.jpg"
+    },
+    {
+      "file": "places/jiulong-2.webp",
+      "caption": "九龙湾沙滩与开阔海面",
+      "reference": "https://you.ctrip.com/sight/weihai169/5604354.html",
+      "original": "https://youimg1.c-ctrip.com/target/1A06fk105kfrdddhcA0C5.jpg"
+    }
+  ],
+  "maotou-hill": [
+    {
+      "file": "places/maotou-1.webp",
+      "caption": "猫头山 2 号观景台一带的松树与海面",
+      "reference": "https://sg.trip.com/moments/poi-maotou-mountain-no-2-viewing-platform-136458291/",
+      "original": "https://ak-d.tripcdn.com/images/1me2j12000jr7uenn522A.jpg"
+    },
+    {
+      "file": "places/maotou-3.webp",
+      "caption": "环海路猫头山段的临海平台与猫装置",
+      "reference": "https://m.thepaper.cn/newsDetail_forward_33223706",
+      "original": "https://imgpai.thepaper.cn/pphimage/20260524/6a726d03-4420-4c13-8465-5facf856da6b.jpg"
+    }
+  ],
+  "yt-first-beach": [
+    {
+      "file": "places/ytbeach-1.webp",
+      "caption": "芝罘第一海水浴场的临海道路和远处海面",
+      "reference": "https://touch.travel.qunar.com/comment/10141963450",
+      "original": "https://youimg1.c-ctrip.com/target/100p0m000000dw3wt9D35.jpg"
+    },
+    {
+      "file": "places/ytbeach-3.webp",
+      "caption": "浴场岸边的白帆形遮棚",
+      "reference": "https://baike.so.com/gallery/list?eid=5788196&ghid=first&pic_idx=2&sid=6000984",
+      "original": "https://so1.360tres.com/t018fd133f44efe0974.jpg"
+    }
+  ],
+  "baxian-sea": [
+    {
+      "file": "places/baxian-1.webp",
+      "caption": "八仙过海景区入口石坊与后方楼阁",
+      "reference": "https://ishare.ifeng.com/c/s/7mS17nK6qiQ",
+      "original": "https://d.ifengimg.com/q100/img1.ugc.ifeng.com/newugc/20190506/11/wemedia/831e823135be00f3675e8eec0e49dacaa9a993ea_size88_w962_h638.jpg"
+    },
+    {
+      "file": "places/baxian-coast.webp",
+      "caption": "俯看葫芦形园区及其连岸海堤",
+      "reference": "https://www.ourchinastory.com/zh/3463",
+      "original": "https://www.ourchinastory.com/images/cover/travel-leisure/2022/02/horizontal/%E7%95%B6%E4%BB%A3%E4%B8%AD%E5%9C%8B-%E6%BD%AE%E9%81%8A%E7%94%9F%E6%B4%BB-%E6%97%85%E9%81%8A%E9%A2%A8%E7%89%A9-%E5%85%AB%E4%BB%99%E9%81%8E%E6%B5%B7COVER_x1.jpg"
+    }
   ]
 }
