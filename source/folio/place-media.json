@@ -1,0 +1,1148 @@
+{
+  "zigong": [
+    {
+      "file": "places/zigong-0.webp",
+      "caption": "站台与「自贡站」站牌",
+      "reference": "https://www.zgm.cn/content/6780fc344a6be",
+      "original": "https://files.zgm.cn/thumb/55/e9/55e9c6da11dfb572a1925e5239e4f9b9.jpg"
+    },
+    {
+      "file": "places/zigong-2.webp",
+      "caption": "站房与站前广场",
+      "reference": "https://sichuan.scol.com.cn/ggxw/202111/58347282.html",
+      "original": "https://imgcdn.scol.com.cn/NEWS_78DA86C3C46D0122986E59333887398E.JPG"
+    }
+  ],
+  "tfu-rail": [
+    {
+      "file": "places/tfu-rail-0.webp",
+      "caption": "机场站铁路进站通道",
+      "reference": "https://sichuan.scol.com.cn/ggxw/202312/82430113.html",
+      "original": "https://imgcdn.scol.com.cn/NEWS_55E4F49F264A8D76D270E7AEA1F8C5A4.JPG"
+    },
+    {
+      "file": "places/tfu-rail-1.webp",
+      "caption": "站台与「天府机场站」站牌",
+      "reference": "https://h5.ifeng.com/c/vivoArticle/v002L43ZbHbGoPsBRwm16AzB4--gPCJGI9NC-_-_01yLdUkHOk__?isNews=1&showComments=0",
+      "original": "https://x0.ifengimg.com/res/2023/305B5C7F6C9FED387B9A37915DA350C9D71E6B84_size81_w1080_h810.jpg"
+    }
+  ],
+  "tfu": [
+    {
+      "file": "places/tfu-0.webp",
+      "caption": "航站楼内侧与玻璃幕墙",
+      "reference": "https://www.gooood.cn/chengdu-tianfu-international-airport-by-cswadi.htm",
+      "original": "https://oss.gooood.cn/uploads/2024/05/017-chengdu-tianfu-international-airport-by-cswadi-960x640.jpg"
+    },
+    {
+      "file": "places/tfu-1.webp",
+      "caption": "航站楼屋盖和大厅",
+      "reference": "https://www.sohu.com/a/781230167_121124407",
+      "original": "https://q1.itc.cn/q_70/images03/20240524/df4f63566b79407986160d17825562fd.jpeg"
+    },
+    {
+      "file": "places/tfu-3.webp",
+      "caption": "航站楼内的公共空间",
+      "reference": "https://www.gooood.cn/chengdu-tianfu-international-airport-by-cswadi.htm",
+      "original": "https://oss.gooood.cn/uploads/2024/05/013-chengdu-tianfu-international-airport-by-cswadi-960x640.jpg"
+    }
+  ],
+  "tao": [
+    {
+      "file": "places/tao-0.webp",
+      "caption": "综合交通换乘指示",
+      "reference": "https://www.xmandarinchinese.com/community/News/303.html",
+      "original": "https://www.xmandarinchinese.com/uploads/allimg/260330/1-2603301A432109.jpg"
+    },
+    {
+      "file": "places/tao-2.webp",
+      "caption": "接驳换乘大厅",
+      "reference": "https://www.sohu.com/na/482943747_162758",
+      "original": "https://p9.itc.cn/q_70/images03/20210812/3092216a682a472ca1fb198f22728eac.jpeg"
+    }
+  ],
+  "qd-station": [
+    {
+      "art": "station",
+      "caption": "青岛站红顶站房"
+    },
+    {
+      "file": "places/qd-station-1.webp",
+      "caption": "红顶站房与站前广场",
+      "reference": "https://www.travelchinaguide.com/china-trains/high-speed/hongkong-qingdao.htm",
+      "original": "https://www.travelchinaguide.com/images/photogallery/2024/qingdao-railway-station.jpg"
+    },
+    {
+      "file": "places/qd-station-3.webp",
+      "caption": "候车区与历史站房一侧",
+      "reference": "https://www.cunzj.com/note/45",
+      "original": "https://fe.cunzj.com/note_img/6TxthviG0E1szU5RMB05.jpg"
+    }
+  ],
+  "qd-north": [
+    {
+      "file": "places/qd-north-0.webp",
+      "caption": "车站候车区",
+      "reference": "https://m.baike.com/wikiid/7238503848959934522",
+      "original": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/eccf1a5d8c6d405fa236ae826ca1a760~tplv-xv4ileqgde-resize-w%3A720.image"
+    },
+    {
+      "file": "places/qd-north-2.webp",
+      "caption": "青岛北站出行现场",
+      "reference": "https://www.dailyqd.com/guanhai/434003_1.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202602/b947915e3d35d5fc5c32bf8a7f3d48cb.jpeg"
+    }
+  ],
+  "hongdao": [
+    {
+      "file": "places/hongdao-1.webp",
+      "caption": "海浪形站房外观",
+      "reference": "https://www.cscec.com.cn/zgjz_new/xwzx_new/zqydt_new/202307/3690630.html",
+      "original": "https://www.cscec.com.cn/zgjz_new/xwzx_new/zqydt_new/202307/W020230707374912883141.jpg"
+    },
+    {
+      "file": "places/hongdao-3.webp",
+      "caption": "红岛站高铁站台",
+      "reference": "https://www.dailyqd.com/guanhai/309597_1.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202403/2c68088bcc2a7228a64a3ec0045ad93d.jpeg"
+    }
+  ],
+  "qd-hotel": [
+    {
+      "file": "places/qd-hotel-0.webp",
+      "caption": "沿街入店处",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9003432",
+      "original": "https://img.huazhu.com/hdata_hcube/39df371ae79cfecac3112d1238552fb3.jpg",
+      "credit": "华住会 · 门店相册"
+    },
+    {
+      "file": "places/qd-hotel-4.webp",
+      "caption": "酒店早餐区",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9003432",
+      "original": "https://img.huazhu.com/hdata_hcube/b73534d359e5827c6c0709f4e4f11443.jpg",
+      "credit": "华住会 · 门店相册"
+    }
+  ],
+  "qd-hotel-b": [
+    {
+      "file": "places/qd-hotel-b-0.webp",
+      "caption": "酒店外观",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9010306",
+      "original": "https://img.huazhu.com/hdata_hcube/bbe0b5e3432241137f808aee708efd76.jpeg",
+      "credit": "华住会 · 门店相册"
+    },
+    {
+      "file": "places/qd-hotel-b-6.webp",
+      "caption": "自助洗衣设施",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9010306",
+      "original": "https://img.huazhu.com/hdata_hcube/be8e62a42cfebb16db918345f23edaf8.jpg",
+      "credit": "华住会 · 门店相册"
+    }
+  ],
+  "zhongshan": [
+    {
+      "art": "zhongshan",
+      "caption": "中山路街景"
+    },
+    {
+      "file": "places/zhongshan-0.webp",
+      "caption": "从老街望向教堂",
+      "reference": "https://qd.ifeng.com/c/8Do1e0bYzun",
+      "original": "https://x0.ifengimg.com/ucms/2022_09/3553EE70F68786C7F0F357625C4844C5F3B6378A_size637_w1920_h1282.jpg"
+    },
+    {
+      "file": "places/zhongshan-2.webp",
+      "caption": "节日期间的中山路街面",
+      "reference": "https://english.iqilu.com/news/news/2026/0430/5910649.shtml",
+      "original": "https://img12.iqilu.com/10339/article/202604/30/38b1d660dd464a25ac559f1373064f68.jpg"
+    }
+  ],
+  "zhanqiao": [
+    {
+      "art": "qingdao",
+      "caption": "海湾上的栈桥与回澜阁"
+    },
+    {
+      "file": "places/zhanqiao-2.webp",
+      "caption": "从上方看栈桥与回澜阁",
+      "reference": "https://www.sohu.com/a/501030600_121106991",
+      "original": "https://p2.itc.cn/q_70/images03/20211114/c970510861934f84b5fc6da42965184f.jpeg"
+    },
+    {
+      "file": "places/zhanqiao-3.webp",
+      "caption": "回澜阁与桥身侧向航拍",
+      "reference": "https://feeds-drcn.cloud.huawei.com.cn/landingpage/latest?channel=-1&cpid=666&ctype=news&docid=10510197b1d7278d80a4fe888ba8a4e7e94cbe2&dy_scenario=relate&emuiver=&ifl=zh_CN&r=CN&sdkVersion=&tn=02329cafd82715011847568705d791a8a60f92c62fb9fbd835c51a35a677c3ed&to_app=hwbrowser",
+      "original": "https://contentcenter-drcn.dbankcdn.cn/img/pub_1/Browser_contentImg_1019_8/4f/v3/10510197b1d7278d80a4fe888ba8a4e7e94cbe2/09e6ffc572204e0aa90e489c8556dcf6_5_2/hd.webp"
+    }
+  ],
+  "church": [
+    {
+      "caption": "教堂广场正面与圆窗",
+      "illustration": true,
+      "reference": "https://unsplash.com/photos/a-large-building-with-st-michaels-cathedral-qingdao-VrhIklqX4ns",
+      "original": "https://images.unsplash.com/photo-1669612911280-2f50bd3b6306",
+      "credit": "Da Da · Unsplash",
+      "art": "church-square"
+    },
+    {
+      "file": "places/church-aerial.webp",
+      "caption": "从高处看教堂红顶与老城",
+      "reference": "https://news.qingdaonews.com/qingdao/2023-03/21/content_23422811.htm",
+      "original": "https://img.guanhai.com.cn/a/10001/202303/98fc45e3025139db47b073126afa86f4.jpeg",
+      "credit": "青岛新闻网 · 实拍"
+    },
+    {
+      "file": "places/church-3.webp",
+      "caption": "教堂侧墙与双塔",
+      "reference": "https://you.ctrip.com/sight/qingdao5/5320.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh2t12000khxc4894BE7_W_640_10000.jpg?proc=autoorient"
+    },
+    {
+      "file": "places/church-interior.webp",
+      "caption": "厅内彩绘与拱顶",
+      "reference": "https://you.ctrip.com/sight/qingdao5/5320.html",
+      "original": "https://dimg04.c-ctrip.com/images/100c0i0000009f9dmDDBB_W_640_10000.jpg?proc=autoorient"
+    },
+    {
+      "file": "places/church-square.webp",
+      "caption": "正对广场的两座尖塔",
+      "reference": "https://unsplash.com/photos/a-large-building-with-st-michaels-cathedral-qingdao-VrhIklqX4ns",
+      "original": "https://images.unsplash.com/photo-1669612911280-2f50bd3b6306",
+      "credit": "Da Da · Unsplash"
+    }
+  ],
+  "chunhe": [
+    {
+      "file": "places/chunhe-1.webp",
+      "caption": "中山路转角的春和楼",
+      "reference": "https://www.qdsnqwhg.cn/html/wenhuadongtai/2021/0825/2181.html",
+      "original": "https://www.qdsnqwhg.cn/uploads/allimg/210825/1-210R5103Z32W.jpg"
+    },
+    {
+      "file": "places/chunhe-2.webp",
+      "caption": "店面与街道一侧",
+      "reference": "https://triple.guide/restaurants/914035d7-e3ee-4780-868a-50f11b5d5c2d",
+      "original": "https://media.triple.guide/triple-cms/c_limit%2Cf_auto%2Ch_1024%2Cw_1024/42b76705-ed57-491f-a6ad-2eef4b6e4885.jpeg"
+    }
+  ],
+  "qd-fish-dumplings": [
+    {
+      "art": "dumpling",
+      "caption": "青岛鲅鱼水饺（菜式参考）"
+    },
+    {
+      "file": "places/zhongshan-0.webp",
+      "caption": "老城步行环境（周边街区）",
+      "reference": "https://qd.ifeng.com/c/8Do1e0bYzun",
+      "original": "https://x0.ifengimg.com/ucms/2022_09/3553EE70F68786C7F0F357625C4844C5F3B6378A_size637_w1920_h1282.jpg"
+    }
+  ],
+  "pichai": [
+    {
+      "file": "places/pichai-3.webp",
+      "caption": "从侧巷看劈柴院",
+      "reference": "https://www.dailyqd.com/channelzt/2020-10/10/content_525066.htm",
+      "original": "https://pic.dailyqd.com/uploadfiles/hw/channelzt/img/attachement/jpeg/site3/20201010/74d02b95a34b20eb81e103.jpeg"
+    },
+    {
+      "file": "places/pichai-0.webp",
+      "caption": "里巷与沿街摊位",
+      "reference": "https://gs.ctrip.com/html5/you/sight/qingdao5/108956.html",
+      "original": "https://dimg04.c-ctrip.com/images/0102g12000n97wqkeD43D_W_750_0.jpg?proc=autoorient"
+    }
+  ],
+  "art": [
+    {
+      "file": "places/art-2.webp",
+      "caption": "大学路馆内院落",
+      "reference": "https://www.qingdaonese.com/elena-qingdao-art-museum/",
+      "original": "https://i0.wp.com/www.qingdaonese.com/wp-content/uploads/2013/10/Qingdao-Art-Museum-Elena-Main-Hall.jpg?fit=640%2C400&ssl=1"
+    },
+    {
+      "file": "places/art-0.webp",
+      "caption": "馆内过往展览布置",
+      "reference": "https://fun.dakabang.net/fun/fun/15738/",
+      "original": "https://mmbiz.qpic.cn/mmbiz_jpg/jGm4sgnoybzYRVGP5YOfK8XeUPGN70SciaiaW001J5fic6t8ibZpawX7n1ichJtzw0ZoqCibxU7zHib4Y7qGKSMKnbtYw/640?from=appmsg&wx_fmt=jpeg"
+    }
+  ],
+  "xdx": [
+    {
+      "file": "places/xdx-0.webp",
+      "caption": "花坛一侧看入口",
+      "reference": "https://blog.udn.com/Olivia20090408/80277271",
+      "original": "https://g.udn.com.tw/upfiles/B_OL/Olivia20090408/PSN_PHOTO/137/f_19363137_1.JPG"
+    },
+    {
+      "file": "places/xdx-1.webp",
+      "caption": "入口拱门与上坡步道",
+      "reference": "https://you.ctrip.com/sight/qingdao5/132668.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh6112000jksrfnf6203_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "qinyu": [
+    {
+      "file": "places/qinyu2-1.webp",
+      "caption": "海岸路牌与礁岸",
+      "reference": "https://m.baike.com/wikiid/7337970913176830004",
+      "original": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/f12360d1fc83411887a5f52a007f96ce~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "file": "places/qinyu2-2.webp",
+      "caption": "琴屿路一带海边树下的休息点",
+      "reference": "https://www.dailyqd.com/guanhai/391491_1.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202506/7343a25016d8c124bd6b76dbef214997.jpeg"
+    }
+  ],
+  "governor": [
+    {
+      "file": "places/governor-0.webp",
+      "caption": "近看博物馆建筑",
+      "reference": "https://www.sdguanguang.com/sys-nd/68.html",
+      "original": "https://31081613.s21i.faiusr.com/2/ABUIABACGAAg4MHrpgYo_Ie6UDDoBzjuBQ.jpg"
+    },
+    {
+      "file": "places/governor-2.webp",
+      "caption": "总督楼旧址建筑群的俯视",
+      "reference": "https://dp.pconline.com.cn/photo/2158229_29.html",
+      "original": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1108/19/c7/8702502_8702502_1313741762015_mthumb.jpg"
+    }
+  ],
+  "beer": [
+    {
+      "file": "places/beer-0.webp",
+      "caption": "登州路厂房外立面",
+      "reference": "https://www.tripadvisor.cn/Attraction_Review-g297458-d1810486-Reviews-Qingdao_Beer_Museum-Qingdao_Shandong.html",
+      "original": "https://dimg04.c-ctrip.com/images/02Y6612000aeogy4v2A56_R_1080_808_Q90.jpg"
+    },
+    {
+      "file": "places/beer-1.webp",
+      "caption": "街对面看原厂区建筑",
+      "reference": "https://www.klook.com/zh-CN/activity/165246-tsingtao-beer-museum/",
+      "original": "https://res.klook.com/image/upload/activities/lkgoukrllxlysgnadhu6.jpg"
+    }
+  ],
+  "taidong": [
+    {
+      "file": "places/taidong-0.webp",
+      "caption": "夜间人流与入口标志",
+      "reference": "https://qingdao.iqilu.com/qdminsheng/2023/1128/5556178.shtml",
+      "original": "https://img12.iqilu.com/10339/clue/202311/28/2256ae2f-b3ba-493e-9813-455a777f6dbb.jpeg"
+    },
+    {
+      "file": "places/taidong-1.webp",
+      "caption": "白天的台东步行街",
+      "reference": "https://www.dailyqd.com/guanhai/204287_2.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202208/926ceeaae76de6be0d976741836f7569.jpeg"
+    }
+  ],
+  "badaguan": [
+    {
+      "art": "stone-villa",
+      "caption": "八大关花石楼"
+    },
+    {
+      "file": "places/badaguan-1.webp",
+      "caption": "从海湾望向八大关建筑",
+      "reference": "https://m.sdguanguang.com/nd.jsp?id=70",
+      "original": "https://31081613.s21i.faiusr.com/2/ABUIABACGAAgvsHrpgYooNedlgUw6Ac4tAQ.jpg"
+    },
+    {
+      "file": "places/badaguan-2.webp",
+      "caption": "海边步行段与礁石",
+      "reference": "https://you.ctrip.com/sight/qingdao5/50529.html",
+      "original": "https://youimg1.c-ctrip.com/target/100g0a0000004raey2594.jpg"
+    }
+  ],
+  "beach": [
+    {
+      "file": "places/beach-1.webp",
+      "caption": "从沙滩一侧看浴场",
+      "reference": "https://touch.travel.qunar.com/comment/3557155",
+      "original": "https://img1.qunarzz.com/travel/d3/1503/85/7d1eeb7d04d08a.jpg_r_720x480x95_cc0d573b.jpg"
+    },
+    {
+      "file": "places/beach-0.webp",
+      "caption": "从岸边望向海湾",
+      "reference": "https://touch.travel.qunar.com/comment/3557155",
+      "original": "https://img1.qunarzz.com/travel/d7/1503/5d/1c2a7e67576f37.jpg_r_720x480x95_5940f164.jpg"
+    }
+  ],
+  "may4": [
+    {
+      "art": "fushan",
+      "caption": "浮山湾夜色"
+    },
+    {
+      "file": "places/may4-0.webp",
+      "caption": "从广场看浮山湾夜色",
+      "reference": "https://k.sina.cn/article_6418481182_17e92401e00100adw7.html",
+      "original": "https://k.sinaimg.cn/n/sinacn16/267/w640h427/20180530/6f4f-hcffhsv7311427.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "file": "places/may4-2.webp",
+      "caption": "五月的风雕塑与夜景",
+      "reference": "https://k.sina.cn/article_6418481182_17e92401e00100adw7.html",
+      "original": "https://k.sinaimg.cn/n/sinacn16/267/w640h427/20180530/20ef-hcffhsv7312588.jpg/w700d1q75cms.jpg"
+    }
+  ],
+  "sailing": [
+    {
+      "file": "places/sailing-1.webp",
+      "caption": "奥帆中心旗阵步道",
+      "reference": "https://www.sohu.com/picture/591476400",
+      "original": "https://p1.itc.cn/q_70/images01/20221010/eea91f6191544c8296d2512db0051367.jpeg"
+    },
+    {
+      "file": "places/sailing-3.webp",
+      "caption": "码头与帆船泊位",
+      "reference": "https://dp.pconline.com.cn/dphoto/list_3519534.html",
+      "original": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1505/10/c4/6577902_6577902_1431225924070.jpg"
+    }
+  ],
+  "qd-mall": [
+    {
+      "file": "places/qd-mall-1.webp",
+      "caption": "商场入口近景",
+      "reference": "https://www.trip.com/moments/detail/qingdao-5-143370565/",
+      "original": "https://ak-d.tripcdn.com/images/1mi3c224x98q26ogjABFF.jpg?proc=source%2Ftrip"
+    },
+    {
+      "file": "places/qd-mall-2.webp",
+      "caption": "山东路一侧看商场",
+      "reference": "https://qd.ifeng.com/c/8dpo5r98ZYx",
+      "original": "https://x0.ifengimg.com/ucms/2024_43/C0130214E1F9CEBF70D8E2E2769D7761E0F90DE3_size578_w1920_h1281.jpg"
+    }
+  ],
+  "wh-station": [
+    {
+      "file": "places/wh-station-3.webp",
+      "caption": "威海站客运通道",
+      "reference": "https://www.whnews.cn/news/node/2026-02/24/content_-32302.htm",
+      "original": "https://www.whnews.cn/news/data/20260224/20260212075705465.png"
+    },
+    {
+      "file": "places/wh-station-2.webp",
+      "caption": "威海站网约车候车区指示",
+      "reference": "https://www.whinfo.net.cn/jiaotong/20136.html",
+      "original": "https://whinfo.net.cn/uploads/20260508/b97f12e38606fbd897a9d42c7f780805.webp"
+    }
+  ],
+  "wh-north": [
+    {
+      "file": "places/wh-north-0.webp",
+      "caption": "威海北站站房大厅",
+      "reference": "https://www.ztqm.com/wiki/448/",
+      "original": "https://www.ztqm.com/uploads/2022/11/032313153586.jpg"
+    },
+    {
+      "file": "places/wh-north-3.webp",
+      "caption": "威海北站车辆接驳区",
+      "reference": "https://jtj.weihai.gov.cn/art/2025/7/2/art_14884_5623705.html",
+      "original": "https://jtj.weihai.gov.cn/picture/0/06cb4217523b4331aa9085ec94270b22.jpg"
+    }
+  ],
+  "wh-hotel": [
+    {
+      "file": "places/wh-hotel-0.webp",
+      "caption": "酒店所在楼体",
+      "reference": "https://www.bthhotels.com/hotel/063132",
+      "original": "https://images.bthhotels.com/hotel_img/1783494383055_063132_n_1.jpg",
+      "credit": "首旅如家 · 门店相册"
+    },
+    {
+      "file": "places/wh-hotel-1.webp",
+      "caption": "酒店大堂及前台",
+      "reference": "https://www.bthhotels.com/hotel/063132",
+      "original": "https://images.bthhotels.com/hotel_img/1783494492861_063132_n_2.jpg",
+      "credit": "首旅如家 · 门店相册"
+    },
+    {
+      "file": "places/wh-hotel-4.webp",
+      "caption": "酒店展示房间",
+      "reference": "https://www.bthhotels.com/hotel/063132",
+      "original": "https://images.bthhotels.com/hotel_img/1783494818398_063132_n_5.jpg",
+      "credit": "首旅如家 · 门店相册"
+    }
+  ],
+  "wh-hotel-b": [
+    {
+      "file": "places/wh-hotel-b-0.webp",
+      "caption": "酒店所在楼体",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9018859",
+      "original": "https://img.huazhu.com/hdata_hcube/aeedb97f68ea539816f095b399878f68.jpg",
+      "credit": "华住会 · 门店相册"
+    },
+    {
+      "file": "places/wh-hotel-b-5.webp",
+      "caption": "大堂服务区",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9018859",
+      "original": "https://img.huazhu.com/hdata_hcube/0d2fd19bc97d1081a08097a439ae4d63.jpg",
+      "credit": "华住会 · 门店相册"
+    }
+  ],
+  "hanle": [
+    {
+      "art": "hanlefang",
+      "caption": "韩乐坊街区夜景"
+    },
+    {
+      "file": "places/hanle-3.webp",
+      "caption": "韩乐坊夜间入口",
+      "reference": "https://www.whnews.cn/news/node/2020-10/27/content_7155017.htm",
+      "original": "https://www.whnews.cn/news/data/attachement/jpg/site2/20201027/8cec4b950886210257a714.jpg"
+    },
+    {
+      "file": "places/hanle-2.webp",
+      "caption": "从广场另一侧看门楼",
+      "reference": "https://kr.trip.com/moments/detail/weihai-169-134577900/",
+      "original": "https://ak-d.tripcdn.com/images/0102712000ne50clqC895.jpg"
+    },
+    {
+      "file": "places/wh-night.webp",
+      "caption": "从高处看韩乐坊夜市人行通道",
+      "reference": "https://www.weihai.gov.cn/art/2025/7/23/art_58817_5668927.html",
+      "original": "https://www.weihai.gov.cn/picture/-1/250723163619131218.jpg",
+      "credit": "威海市政府 · 实拍"
+    }
+  ],
+  "xingfu": [
+    {
+      "art": "weihai",
+      "caption": "海岸边的幸福门"
+    },
+    {
+      "file": "places/xingfu-3.webp",
+      "caption": "幸福门近景",
+      "reference": "https://ditu.amap.com/place/B0FFGM2GIN",
+      "original": "https://aos-comment.amap.com/B0FFGM2GIN/comment/27853a13fd7bf47906e98c4a560ab3ed_2048_2048_80.jpg"
+    },
+    {
+      "file": "places/xingfu-0.webp",
+      "caption": "幸福门广场灯光",
+      "reference": "https://kr.trip.com/moments/detail/weihai-169-119885304/",
+      "original": "https://ak-d.tripcdn.com/images/1mi5z12000cppw23iB4B9_R_600_400_R5_Q90.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "photo-frame": [
+    {
+      "art": "weihai-frame",
+      "caption": "从广场正面看大相框"
+    },
+    {
+      "file": "places/photo-frame-0.webp",
+      "caption": "正面看画框与广场",
+      "reference": "https://www.trip.com/moments/detail/weihai-169-145915814/",
+      "original": "https://ak-d.tripcdn.com/images/1mi07224x99ehthuh2342_Q90.jpg?proc=source%2Ftrip"
+    },
+    {
+      "file": "places/photo-frame-3.webp",
+      "caption": "从侧面看巨手和画框",
+      "reference": "https://sa.trip.com/moments/detail/weihai-169-145915814?locale=en-SA",
+      "original": "https://ak-d.tripcdn.com/images/1mi1l224x99ejxpkaD81D_R_600_400_R5_Q90.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "lighthouse-wh": [
+    {
+      "art": "yuehai",
+      "caption": "悦海公园海滨灯塔"
+    },
+    {
+      "file": "places/lighthouse-wh-0.webp",
+      "caption": "从园路看灯塔",
+      "reference": "https://you.ctrip.com/sight/weihai169/136592172.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh1k12000k3pdaza2A4F_W_640_10000.jpg?proc=autoorient"
+    },
+    {
+      "file": "places/lighthouse-wh-1.webp",
+      "caption": "海边步道与灯塔侧景",
+      "reference": "https://www.trip.com/moments/detail/weihai-169-138954467",
+      "original": "https://ak-d.tripcdn.com/images/1mi0f12000qam6m4504BD.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "liugong-port": [
+    {
+      "file": "places/liugong-port-0.webp",
+      "caption": "大陆客运中心外的候船通道",
+      "reference": "https://www.liugongdao.com.cn/index.php?a=show&catid=10&id=2512",
+      "original": "https://www.liugongdao.com.cn/img/Article/UploadFiles/201510/2015100311214605.jpg"
+    },
+    {
+      "file": "places/liugong-port-2.webp",
+      "caption": "大陆码头站前道路",
+      "reference": "https://www.chinatianqi.com.cn/",
+      "original": "https://img.bjyyb.net/sites/65000/65086/20220820104036167.jpg"
+    }
+  ],
+  "liugong-pier": [
+    {
+      "art": "harbor",
+      "caption": "刘公岛码头与海湾"
+    },
+    {
+      "file": "places/liugong-pier-0.webp",
+      "caption": "岛上旅客码头与停泊船只",
+      "reference": "https://www.liugongdao.com.cn/index.php?a=show&c=index&catid=18&id=1889&m=content",
+      "original": "https://www.liugongdao.com.cn/img/Article/UploadFiles/201207/2012072921250446.jpg"
+    },
+    {
+      "file": "places/liugong-pier-3.webp",
+      "caption": "从空中看刘公岛船行一侧",
+      "reference": "https://www.liugongdao.com.cn/index.php?a=lists&c=index&catid=19&m=content",
+      "original": "https://www.liugongdao.com.cn/uploadfile/2021/0312/20210312032220593.jpg"
+    }
+  ],
+  "liugong": [
+    {
+      "file": "places/liugong-0.webp",
+      "caption": "陈列馆主体外观",
+      "reference": "https://dp.pconline.com.cn/photo/list_5078433.html",
+      "original": "https://img.pconline.com.cn/images/upload/upc/tx/itbbs/2005/13/c5/207869155_1589332299209.jpg"
+    },
+    {
+      "file": "places/liugong-1.webp",
+      "caption": "广场一侧看陈列馆",
+      "reference": "https://bbs.zol.com.cn/dcbbs/d268_177300.html",
+      "original": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g5/M00/08/02/ChMkJ1Xycb6IM80rAAffRv1HPAgAACgPwMmGfMAB99e871.jpg"
+    }
+  ],
+  "liugong-navy": [
+    {
+      "file": "places/liugong-navy-2.webp",
+      "caption": "海军公所入口与屋檐",
+      "reference": "https://chiculture.org.hk/en/photo-story/133",
+      "original": "https://chiculture.org.hk/sites/mainsite/files/styles/free_style_image_styles/public/2019-03/mainsite_psd_aug2-yangwu03_2019-08.jpg?itok=Qx01CJBx"
+    },
+    {
+      "file": "places/island-0.webp",
+      "caption": "海军公所正门正面",
+      "reference": "https://www.liugongdao.com.cn/index.php?a=lists&m=wap&siteid=1&typeid=48",
+      "original": "http://www.liugongdao.com.cn/uploadfile/2020/1215/20201215110418391.jpg",
+      "credit": "刘公岛景区 · 实拍"
+    }
+  ],
+  "changfeng": [
+    {
+      "file": "places/changfeng-0.webp",
+      "caption": "长峰农贸市场外部和主入口",
+      "reference": "https://finance.sina.com.cn/jjxw/2024-07-01/doc-incaqvnm4982374.shtml",
+      "original": "https://n.sinaimg.cn/spider20240701/644/w900h544/20240701/4564-37e814d1741b098b7f18500778c86e7e.jpg"
+    },
+    {
+      "file": "places/changfeng-2.webp",
+      "caption": "从高处看市场的楼体与步行区",
+      "reference": "https://finance.sina.com.cn/jjxw/2024-07-01/doc-incaqvnm4982374.shtml",
+      "original": "https://n.sinaimg.cn/spider20240701/606/w900h506/20240701/cd86-69fbc277f75f42ca8964bdace83bf9d3.jpg"
+    }
+  ],
+  "wh-museum": [
+    {
+      "file": "places/wh-museum-2.webp",
+      "caption": "威海市博物馆过往展陈现场",
+      "reference": "https://wlj.weihai.gov.cn/art/2023/8/18/art_13702_3899747.html",
+      "original": "https://wlj.weihai.gov.cn/picture/0/037ca36e02ad422ea582e0c4a7fe5f6a.jpg"
+    },
+    {
+      "file": "places/wh-museum-0.webp",
+      "caption": "「老威海」馆内展区的海草房",
+      "reference": "https://xinwen.bjd.com.cn/channels/5b165687a010550e5ddc0e6a/contentShare/5de8be9be4b0fe93cc167bbc/AP64579aa9e4b05339adcd28ef.html",
+      "original": "https://static.bjd.com.cn/dams-res/editing/image/202312/26/658af17cd5de9bf28156c9e7.jpeg"
+    }
+  ],
+  "wh-mall": [
+    {
+      "file": "places/wh-mall-1.webp",
+      "caption": "步行街白天入口",
+      "reference": "https://ditu.amap.com/place/B027714JDO",
+      "original": "https://aos-comment.amap.com/B027714JDO/comment/%5B2025-12-07-10-19-14%5D97CC94C9-E8C9-46C7-AAF1-86A60C5DE8B_1765073955785_50020463.jpg"
+    },
+    {
+      "file": "places/wh-mall-2.webp",
+      "caption": "同一街口夜景",
+      "reference": "https://www.amap.com/place/B027714JDO",
+      "original": "https://store.is.autonavi.com/showpic/bb9d628c95023eb90000000974778760?type=pic"
+    },
+    {
+      "file": "places/wh-mall-0.webp",
+      "caption": "商场室内中庭",
+      "reference": "https://weihai.jiwu.com/loupan/180147.html",
+      "original": "https://img12.jiwu.com/buildpics/88/4/1233/1233983_m.jpg"
+    }
+  ],
+  "muping": [
+    {
+      "file": "places/muping-0.webp",
+      "caption": "站房入口与「牟平站」站名",
+      "reference": "https://ditu.amap.com/place/B0FFFEN0OP",
+      "original": "https://aos-comment.amap.com/B0FFFEN0OP/comment/394aeb66f1113630c46c12da04bc6f8b_2048_2048_80.jpg"
+    },
+    {
+      "file": "places/muping-2.webp",
+      "caption": "站前广场的交通导引",
+      "reference": "https://news.shm.com.cn/2025-10/25/content_5459463.htm",
+      "original": "https://news.shm.com.cn/files/2025-10/25/5459463_3150bc20-da84-4ccf-a03c-799968a86588.jpg"
+    }
+  ],
+  "yt-station": [
+    {
+      "file": "places/yt-station-1.webp",
+      "caption": "烟台站铁路站房入口",
+      "reference": "https://travel.qunar.com/p-pl3839869",
+      "original": "https://img1.qunarzz.com/travel/d8/1507/b4/dd6e52abf0c1c8.jpg_r_720x480x95_31d95b12.jpg"
+    },
+    {
+      "file": "places/yt-station-0.webp",
+      "caption": "烟台站站台与到站列车",
+      "reference": "https://news.shm.com.cn/2025-10/25/content_5459463.htm",
+      "original": "https://news.shm.com.cn/files/2025-10/25/5459463_dd2ea692-c714-4107-9bd5-7b151e8a90f1.jpg"
+    }
+  ],
+  "yt-hotel": [
+    {
+      "file": "places/yt-hotel-0.webp",
+      "caption": "朝阳街沿街酒店外观",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9011848",
+      "original": "https://img.huazhu.com/hdata_hcube/1be4dd543902cf7ef54aaaa10a084e4e.jpg",
+      "credit": "华住会 · 门店相册"
+    },
+    {
+      "file": "places/yt-hotel-2.webp",
+      "caption": "酒店大堂与公共空间",
+      "reference": "https://m.huazhu.com/Hotel/Detail/9011848",
+      "original": "https://img.huazhu.com/hdata_hcube/6eef167e964e5cb03e3b4ff8f31578b3.jpg",
+      "credit": "华住会 · 门店相册"
+    }
+  ],
+  "yt-hotel-b": [
+    {
+      "file": "places/yt-hotel-b-0.webp",
+      "caption": "酒店外观",
+      "reference": "https://m.huazhu.com/Hotel/Detail/2640993",
+      "original": "https://img.huazhu.com/hdata_hcube/a28aa66dcfa8d2e672b3c588da0b027c.jpg",
+      "credit": "华住会 · 门店相册"
+    },
+    {
+      "file": "places/yt-hotel-b-3.webp",
+      "caption": "酒店公共餐区",
+      "reference": "https://m.huazhu.com/Hotel/Detail/2640993",
+      "original": "https://img.huazhu.com/hdata_hcube/d280e36406108c388fed053d6a615466.jpg",
+      "credit": "华住会 · 门店相册"
+    }
+  ],
+  "yt-hill": [
+    {
+      "art": "lighthouse",
+      "caption": "烟台山上灯塔与纪念碑"
+    },
+    {
+      "file": "places/yt-hill-1.webp",
+      "caption": "山坡步道望向灯塔",
+      "reference": "https://you.ctrip.com/sight/yantai170/9871.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh2b12000jhhnxri335B_W_640_10000.jpg?proc=autoorient"
+    },
+    {
+      "file": "places/yt-hill-3.webp",
+      "caption": "烽火台一带与灯塔",
+      "reference": "https://live2makan.com/2022/04/06/yantai-yantai-hill-%E7%83%9F%E5%8F%B0%E5%B1%B1/",
+      "original": "https://i0.wp.com/live2makan.com/wp-content/uploads/2022/03/l2m-cn-2112-yantai-mountain-20.jpg?fit=1200%2C750&ssl=1"
+    }
+  ],
+  "chaoyang": [
+    {
+      "art": "chaoyang",
+      "caption": "朝阳街老街立面"
+    },
+    {
+      "file": "places/chaoyang-1.webp",
+      "caption": "朝阳街沿街转角",
+      "reference": "https://plantprotein2025.scievent.com/da-hui-zhi-yuan-zhe-yu-fu-wu-dui-jie.html",
+      "original": "https://cache.scievent.cn/e422/ecb0baabbf64483ea4feba73d26370ba.png"
+    },
+    {
+      "file": "places/chaoyang-2.webp",
+      "caption": "沿街橱窗与夜景",
+      "reference": "https://us.trip.com/moments/poi-chaoyang-pedestrian-street-112647083/",
+      "original": "https://ak-d.tripcdn.com/images/1mi4f224x964uzt2wB8CE.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "suocheng": [
+    {
+      "art": "suocheng",
+      "caption": "所城里巷道"
+    },
+    {
+      "file": "places/suocheng-0.webp",
+      "caption": "所城里老巷",
+      "reference": "https://www.xinhuanet.com/photo/20241018/fe49c49d6f814a6cb504f4f4eef4951d/c.html",
+      "original": "https://www.xinhuanet.com/photo/20241018/fe49c49d6f814a6cb504f4f4eef4951d/20241018fe49c49d6f814a6cb504f4f4eef4951d_202410189bb645bb440b400dad47be952b5f4ca3.jpg"
+    },
+    {
+      "file": "places/suocheng-2.webp",
+      "caption": "城墙步行通道",
+      "reference": "https://kr.trip.com/moments/detail/yantai-170-119173315/",
+      "original": "https://ak-d.tripcdn.com/images/1mi0k12000avcjwfu0035.jpg?proc=source%2Ftrip"
+    },
+    {
+      "file": "places/suocheng-3.webp",
+      "caption": "所城里入口标志",
+      "reference": "https://you.ctrip.com/sight/yantai170/135454215.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh1512000ovazgktBBEE_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "benjia": [
+    {
+      "art": "sea-rice",
+      "caption": "烟台海肠捞饭（菜式参考）"
+    },
+    {
+      "file": "places/suocheng-0.webp",
+      "caption": "所城里步行环境（周边街区）",
+      "reference": "https://www.xinhuanet.com/photo/20241018/fe49c49d6f814a6cb504f4f4eef4951d/c.html",
+      "original": "https://www.xinhuanet.com/photo/20241018/fe49c49d6f814a6cb504f4f4eef4951d/20241018fe49c49d6f814a6cb504f4f4eef4951d_202410189bb645bb440b400dad47be952b5f4ca3.jpg"
+    }
+  ],
+  "baina": [
+    {
+      "file": "places/baina2-0.webp",
+      "caption": "朝阳街观澜餐厅外观",
+      "reference": "https://tpakira.hatenablog.com/entry/2026/06/07/222036",
+      "original": "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tpakira/20260607/20260607183403.jpg"
+    },
+    {
+      "file": "places/baina-banquet.webp",
+      "caption": "朝阳街店开埠宴活动现场",
+      "reference": "https://www.sohu.com/a/746315296_121123926",
+      "original": "https://p6.itc.cn/q_70/images03/20231222/111eede85a10474b93bcb5636425434a.jpeg",
+      "credit": "齐鲁晚报 · 吕奇"
+    }
+  ],
+  "wine": [
+    {
+      "file": "places/wine-0.webp",
+      "caption": "博物馆的百年酒窖",
+      "reference": "https://www.cymuseum.cn/daolan/",
+      "original": "https://www.cymuseum.cn/wp-content/uploads/2024/02/2024022007190440.jpg",
+      "credit": "张裕酒文化博物馆"
+    },
+    {
+      "file": "places/wine-1.webp",
+      "caption": "「百年流霞」展厅",
+      "reference": "https://www.cymuseum.cn/daolan/",
+      "original": "https://www.cymuseum.cn/wp-content/uploads/2024/02/2024020613281387.jpg",
+      "credit": "张裕酒文化博物馆"
+    }
+  ],
+  "yt-museum": [
+    {
+      "file": "places/yt-museum-1.webp",
+      "caption": "烟台市博物馆正门",
+      "reference": "https://whxy.sdyu.edu.cn/info/1029/7066.htm",
+      "original": "https://whxy.sdyu.edu.cn/__local/E/23/57/854E1460F69BA43AF0FBCC02192_E301E610_E928.png"
+    },
+    {
+      "file": "places/yt-museum-3.webp",
+      "caption": "文化广场一侧看展馆",
+      "reference": "https://www.amap.com/ranking/yantai/scenic/370602",
+      "original": "https://aos-comment.amap.com/UKFN9HT2M870QV5A_AIGC/a9369f37792499ee2946353dde1f56c.jpeg"
+    }
+  ],
+  "nanhong": [
+    {
+      "file": "places/nanhong-1.webp",
+      "caption": "小吃摊位实景",
+      "reference": "https://k.sina.cn/article_6445991596_1803606ac001004e7f.html",
+      "original": "https://k.sinaimg.cn/n/sinacn/w640h435/20180305/1e16-fxipenn2642445.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "file": "places/nanhong-2.webp",
+      "caption": "南洪夜市的一处点心摊",
+      "reference": "https://kr.trip.com/moments/detail/yantai-170-140840744/",
+      "original": "https://ak-d.tripcdn.com/images/1mi3v224x980g8x08CCB7.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "penglai": [
+    {
+      "art": "yantai",
+      "caption": "景区内的蓬莱阁与海岸"
+    },
+    {
+      "file": "places/penglai-1.webp",
+      "caption": "水城振扬门正面",
+      "reference": "https://touch.travel.qunar.com/comment/10158193627",
+      "original": "https://youimg1.c-ctrip.com/target/100v12000000t78vo7424.jpg"
+    },
+    {
+      "file": "places/penglai-0.webp",
+      "caption": "从城墙一侧看门楼",
+      "reference": "https://www.zairun.com/%E7%83%9F%E5%8F%B0%E8%93%AC%E8%8E%B1%E8%A7%81%E9%97%BB/",
+      "original": "https://blog-imgs-134.fc2.com/l/s/g/lsgster/DSCF3657.jpg"
+    }
+  ],
+  "pl-pickup": [
+    {
+      "file": "places/penglai-1.webp",
+      "caption": "行程中的振扬门正面（景区入口参考）",
+      "reference": "https://touch.travel.qunar.com/comment/10158193627",
+      "original": "https://youimg1.c-ctrip.com/target/100v12000000t78vo7424.jpg"
+    },
+    {
+      "file": "places/penglai-2.webp",
+      "caption": "振扬门门洞（进景区时参考）",
+      "reference": "https://m.baike.com/wikiid/6920464276162715434",
+      "original": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/e227d3e536114e37a715e28bcffc979f~tplv-xv4ileqgde-resize-w%3A750.image"
+    }
+  ],
+  "pl-station": [
+    {
+      "file": "places/pl-station-0.webp",
+      "caption": "蓬莱站站前广场",
+      "reference": "https://news.shm.com.cn/2025-10/25/content_5459463.htm",
+      "original": "https://news.shm.com.cn/files/2025-10/25/5459463_6e7c44b5-3bb4-48cc-a5c0-5f8812ce5c12.jpg"
+    },
+    {
+      "file": "places/pl-station-2.webp",
+      "caption": "高处看车站与铁路",
+      "reference": "https://www.gzstv.com/a/b26ae6838d9a46c7bfab51f23d3395cb",
+      "original": "https://media.gzstv.com/images/2025/03/02/6d6cb50ff98e43b49d881f19c7cac65c.jpg"
+    }
+  ],
+  "noodles": [
+    {
+      "art": "noodle",
+      "caption": "蓬莱小面与鱼卤（菜式参考）"
+    },
+    {
+      "file": "places/noodles2-1.webp",
+      "caption": "蓬莱小面的盛盘与小菜（菜式实拍）",
+      "reference": "https://finance.sina.com.cn/jjxw/2023-04-14/doc-imyqhyiq6631674.shtml",
+      "original": "https://n.sinaimg.cn/spider20230414/734/w877h657/20230414/9bea-fafaa97413e649f2cdc3fba9cdef2299.jpg"
+    }
+  ],
+  "ynt": [
+    {
+      "art": "airport",
+      "caption": "烟台蓬莱机场 T2 航站楼"
+    },
+    {
+      "file": "places/ynt-0.webp",
+      "caption": "T2 国内出发候机区",
+      "reference": "https://blog.udn.com/visa520infinite/181398304",
+      "original": "https://g.udn.com.tw/upfiles/B_VI/visa520infinite/PSN_PHOTO/919/f_28537919_1.jpg"
+    },
+    {
+      "file": "places/ynt-2.webp",
+      "caption": "T2 候机厅靠登机口一侧",
+      "reference": "https://blog.udn.com/visa520infinite/181398304",
+      "original": "https://g.udn.com.tw/upfiles/B_VI/visa520infinite/PSN_PHOTO/924/f_28537924_1.jpg"
+    }
+  ],
+  "yt-bus": [
+    {
+      "file": "places/yt-bus-1.webp",
+      "caption": "青年路客运站与发车区",
+      "reference": "https://m.baike.com/wikiid/132525616230481671",
+      "original": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/833c7c6d0f164aaea3f0afed06d64368~tplv-xv4ileqgde-resize-w%3A750.image"
+    },
+    {
+      "file": "places/yt-bus-2.webp",
+      "caption": "汽车总站站前路段",
+      "reference": "https://4travel.jp/travelogue/10769657",
+      "original": "https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/28/89/56/650x_28895682.jpg?updated_at=1367145788"
+    }
+  ],
+  "ckg": [
+    {
+      "file": "places/ckg-3.webp",
+      "caption": "值机与安检大厅",
+      "reference": "https://cq.gov.cn/ywdt/bmts/202504/t20250409_14506325.html",
+      "original": "https://cq.gov.cn/ywdt/bmts/202504/W020250409585717094771.jpg"
+    },
+    {
+      "file": "places/ckg-0.webp",
+      "caption": "重庆江北机场候机区域",
+      "reference": "https://you.ctrip.com/traffic/chongqing158/j13099773-dianping-p5.html",
+      "original": "https://dimg04.c-ctrip.com/images/0106t120009f5s1g47B12.jpg"
+    }
+  ],
+  "beer-pure": [
+    {
+      "file": "places/beer-pure-0.webp",
+      "caption": "纯生之旅参观入口",
+      "reference": "https://m.tuniu.com/menpiao/4404471",
+      "original": "https://youimg1.c-ctrip.com/target/0105r12000asqzmd33032.jpg"
+    },
+    {
+      "file": "places/beer-pure-3.webp",
+      "caption": "二厂工业参观现场",
+      "reference": "https://www.58kaocha.com/h-nd-3596.html",
+      "original": "https://16125646.s21i.faiusr.com/4/ABUIABAEGAAgm9z3iAYo6aaxpgUwtAU49gQ.png"
+    }
+  ],
+  "signal-hill": [
+    {
+      "file": "places/signal-a.webp",
+      "caption": "从坡下仰看红色观景楼",
+      "reference": "https://you.ctrip.com/sight/qingdao5/143748760.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh5g12000o6naiw92FAA_W_640_10000.jpg?proc=autoorient"
+    },
+    {
+      "file": "places/signal-b.webp",
+      "caption": "两座球形观景楼近景",
+      "reference": "https://www.qingdaonese.com/signal-hill-%E4%BF%A1%E5%8F%B7%E5%B1%B1-qingdao/",
+      "original": "https://i0.wp.com/www.qingdaonese.com/wp-content/uploads/2020/07/3973889076_6453d6e09a_o-scaled.jpg?fit=973%2C649&ssl=1"
+    }
+  ],
+  "dabaodao": [
+    {
+      "file": "places/dabaodao-a.webp",
+      "caption": "广兴里的院门和外立面",
+      "reference": "https://www.dailyqd.com/guanhai/180365_2.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202205/bdff2d78b890252c75102099831b698d.jpeg"
+    },
+    {
+      "file": "places/dabaodao-c.webp",
+      "caption": "大鲍岛步行街巷",
+      "reference": "https://you.ctrip.com/sight/qingdao5/136060790.html",
+      "original": "https://dimg04.c-ctrip.com/images/1mh1g12000hhxc9v60F8D_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "little-qingdao": [
+    {
+      "file": "places/little-qingdao-a.webp",
+      "caption": "走向岛面的海堤",
+      "reference": "https://you.ctrip.com/sight/qingdao5/1266.html",
+      "original": "https://youimg1.c-ctrip.com/target/100f10000000owouwB3AB.jpg"
+    },
+    {
+      "file": "places/little-qingdao-b.webp",
+      "caption": "从沿岸看小青岛白色灯塔",
+      "reference": "https://gs.ctrip.com/html5/you/sight/qingdao5/1511288.html",
+      "original": "https://dimg04.c-ctrip.com/images/1me6c12000qohambt6E7F_R_640_10000_Q90.jpg?proc=source%2Ftripcommunity"
+    }
+  ],
+  "taiping-cape": [
+    {
+      "file": "places/taiping-cape-a.webp",
+      "caption": "太平角靠海木栈道与礁石",
+      "reference": "https://www.dailyqd.com/guanhai/77865_1.html",
+      "original": "https://img.guanhai.com.cn/a/10001/202104/3055410d6a6b2cd0697a8e498bd91a47.jpeg"
+    },
+    {
+      "file": "places/taiping-cape-c.webp",
+      "caption": "园内松树下的步道",
+      "reference": "https://hk.trip.com/travel-guide/attraction/qingdao/qingdao-taiping-cape-park-91691/",
+      "original": "https://ak-d.tripcdn.com/images/1mi4e12000qcbx82mFE8C.jpg?proc=source%2Ftrip"
+    }
+  ],
+  "haiyuan": [
+    {
+      "file": "places/haiyuan-a.webp",
+      "caption": "合庆码头泊船近景",
+      "reference": "https://www.whnews.cn/news/node/2021-06/10/content_7178540.htm",
+      "original": "https://www.whnews.cn/news/data/attachement/jpg/site2/20210610/e454e89cef10222bbde82b.jpg"
+    },
+    {
+      "file": "places/haiyuan-b.webp",
+      "caption": "海源公园护栏步道与海湾",
+      "reference": "https://you.ctrip.com/sight/weihai169/69241329.html",
+      "original": "https://dimg06.c-ctrip.com/images/0101q120008vlp0og5CA2_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "sea-park": [
+    {
+      "file": "places/sea-park-a.webp",
+      "caption": "隔水望海上公园的岸线",
+      "reference": "https://www.trip.com/travel-guide/attraction/weihai/marine-park-10541307/",
+      "original": "https://ak-d.tripcdn.com/images/1mh1012000btrjn890991.jpg?proc=source%2Ftrip"
+    },
+    {
+      "file": "places/sea-park-b.webp",
+      "caption": "公园里的石拱桥与水面",
+      "reference": "https://k.sina.cn/article_7036149993_p1a36320e900100ls3z.html",
+      "original": "https://k.sinaimg.cn/n/sinacn10117/280/w1600h1080/20190717/0469-hzxsvnn9625723.jpg/w700d1q75cms.jpg"
+    }
+  ],
+  "ding-residence": [
+    {
+      "file": "places/ding-residence-a.webp",
+      "caption": "院落中的丁汝昌铜像",
+      "reference": "https://www.liugongdao.com.cn/index.php?a=show&catid=103&id=601",
+      "original": "https://www.liugongdao.com.cn/img/yingxiang/UploadFiles_1326/201103/20110330013548385.jpg"
+    },
+    {
+      "file": "places/ding-residence-detail.webp",
+      "caption": "丁汝昌纪念馆侧门与砖石围墙",
+      "reference": "https://touch.travel.qunar.com/comment/10155120647",
+      "original": "https://youimg1.c-ctrip.com/target/100r0t000000i8pb1B663.jpg"
+    }
+  ],
+  "half-moon": [
+    {
+      "file": "places/half-moon-a.webp",
+      "caption": "半月湾沙滩和弧形岸线",
+      "reference": "https://tw.trip.com/travel-guide/attraction/weihai/banyue-wan-beach-24648727?curr=VND&locale=en-US",
+      "original": "https://ak-d.tripcdn.com/images/1mh6b12000f16vx7q8474.jpg"
+    },
+    {
+      "file": "places/half-moon-c.webp",
+      "caption": "环海路望半月湾附近山岸",
+      "reference": "https://dp.pconline.com.cn/dphoto/list_1939431.html",
+      "original": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1009/24/c4/5302166_5302166_1285336791765.jpg"
+    }
+  ],
+  "hongkou-1920": [
+    {
+      "file": "places/hongkou-a.webp",
+      "caption": "街区石墙红瓦洋房",
+      "reference": "https://www.trip.com/travel-guide/attraction/yantai/hongkou-1920-micro-vacation-historical-and-cultural-district-135472336/",
+      "original": "https://ak-d.tripcdn.com/images/1lo0c12000bxysx0f4385.jpg"
+    },
+    {
+      "file": "places/hongkou-b.webp",
+      "caption": "街区带圆窗和角楼的洋房",
+      "reference": "https://jp.trip.com/travel-guide/attraction/yantai/hongkou-1920-micro-vacation-historical-and-cultural-district-135472336/?curr=USD&locale=en-XX",
+      "original": "https://ak-d.tripcdn.com/images/1lo0912000bxystdjC1FB.jpg"
+    }
+  ],
+  "east-fort": [
+    {
+      "file": "places/east-fort-a.webp",
+      "caption": "临海石墙旁的小炮",
+      "reference": "https://www.trip.com/travel-guide/attraction/yantai/dongpaotai-seaside-scenic-area-10541294/",
+      "original": "https://ak-d.tripcdn.com/images/1mh0u12000jifzqcg67C5.jpg?proc=source%2Ftrip"
+    },
+    {
+      "file": "places/east-fort-b.webp",
+      "caption": "东炮台大型岸防炮侧面",
+      "reference": "https://www.sohu.com/a/561658836_100157697",
+      "original": "https://p8.itc.cn/images01/20220628/78a092737cc04757b3599f969758f331.jpeg"
+    }
+  ],
+  "qi-home": [
+    {
+      "file": "places/qi-home-a.webp",
+      "caption": "故里院落入口及台阶",
+      "reference": "https://gs.ctrip.com/html5/you/sight/yantai170/57610.html",
+      "original": "https://dimg04.c-ctrip.com/images/100d180000013ji0xEA5C.jpg"
+    },
+    {
+      "file": "places/qi-home-c.webp",
+      "caption": "故里门厅的彩画木梁",
+      "reference": "https://you.ctrip.com/sight/yantai170/57610.html",
+      "original": "https://dimg04.c-ctrip.com/images/1001160000010z8p2DD7E_W_640_10000.jpg?proc=autoorient"
+    }
+  ],
+  "tianheng-hill": [
+    {
+      "file": "places/tianheng-a.webp",
+      "caption": "礁石间的田横山临海栈道",
+      "reference": "https://dp.pconline.com.cn/dphoto/list_1408583.html",
+      "original": "https://img.pconline.com.cn/images/photoblog/9/0/1/3/9013559/20096/15/1245049609587.jpg"
+    },
+    {
+      "file": "places/tianheng-b.webp",
+      "caption": "田横山合海亭与入口一侧的树木",
+      "reference": "https://k.sina.com.cn/article_1460202233_5708eaf9001000wap.html",
+      "original": "https://k.sinaimg.cn/n/sinacn/20171014/a974-fymvuys9738705.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    }
+  ]
+}

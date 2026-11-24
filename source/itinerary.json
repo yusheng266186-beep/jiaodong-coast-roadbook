@@ -1,0 +1,4753 @@
+{
+  "schema_version": 1,
+  "trip": {
+    "id": "jiaodong-coast-eight-days",
+    "title": "沿着胶东海岸",
+    "subtitle": "青岛 · 威海 · 烟台",
+    "summary": "自贡出发，穿过青岛老城，乘船去刘公岛，再到烟台看古阁与海湾。",
+    "travelers": 6,
+    "language": "zh-CN",
+    "theme": "journey",
+    "updated_at": "2026-11-24T14:04:54+08:00",
+    "notice": "出发日期待定。全站按第 1–8 天编排，钟点和费用为规划值，航班、酒店、船班、场馆开放和票价按实际日期确认。关键出行资料复核于 2026 年 11 月 23 日。",
+    "cover": {
+      "file": "photos/qingdao-cover.webp",
+      "alt": "从海上视角俯瞰青岛栈桥和回澜阁",
+      "credit": "青岛栈桥 · zy s · Pexels",
+      "url": "https://www.pexels.com/photo/zhanqiao-pier-in-china-26873061/",
+      "focal": [
+        50,
+        55
+      ],
+      "mobile_focal": [
+        50,
+        54
+      ]
+    },
+    "scenes": [
+      {
+        "item_id": "d2-bridge",
+        "label": "青岛",
+        "title": "红瓦尽头，就是海",
+        "summary": "从栈桥走进中山路和大学路，在小鱼山上把老城与海湾放进同一个画面。另一天留给八大关的树影和浮山湾的暮色。"
+      },
+      {
+        "item_id": "d4-xingfu",
+        "label": "威海",
+        "title": "到了威海，沿海湾慢慢走",
+        "summary": "先绕幸福门、大相框和悦海公园走一段。隔天从码头乘船上刘公岛，回岸后再坐下来吃海鲜。"
+      },
+      {
+        "item_id": "d7-visit",
+        "label": "烟台",
+        "title": "从开埠老街，走到蓬莱海边",
+        "summary": "朝阳街和所城里适合慢慢走一下午。第二天把上午留给蓬莱水城与古阁，回芝罘再住一夜。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "rail",
+      "title": "铁路 12306 查询与候补",
+      "kind": "official",
+      "url": "https://www.12306.cn/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "精确按站名、日期查班次及票面。当前按 15 天预售规划。"
+    },
+    {
+      "id": "rail-sale",
+      "title": "12306 车票预售期",
+      "kind": "official",
+      "url": "https://help.12306.cn/cms/answer/h5/001531826595438842083440b580b2e0",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "含乘车当天计算，各站起售时间有区别。"
+    },
+    {
+      "id": "rail-bag",
+      "title": "铁路 12306 随身携带品规定",
+      "kind": "official",
+      "url": "https://mobile.12306.cn/otsmobile/h5/otsbussiness/info/carry-on-baggage.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "成年人随身免费总量 20kg，动车组单件外部三边合计不超过 130cm。"
+    },
+    {
+      "id": "zigong-rail",
+      "title": "四川省交通运输厅 · 成宜高铁站点",
+      "kind": "official",
+      "url": "https://www.sctyzx.gov.cn/scyw/202312/54301809.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "线路经过自贡、天府机场，以 12306 可售直达班次为准。"
+    },
+    {
+      "id": "tfu-hub",
+      "title": "四川人大 · 天府机场空铁换乘",
+      "kind": "official",
+      "url": "https://www.scspc.gov.cn/rdyw1/202411/142005.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "天府机场高铁站位于综合交通换乘中心。"
+    },
+    {
+      "id": "tao-flight",
+      "title": "春秋航空 · 成都飞青岛航班查询",
+      "kind": "provider",
+      "url": "https://flights.ch.com/flight-date/CTU-TAO/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "查目标日并核交通机场为 TFU，检索入口可能展现两个成都机场。"
+    },
+    {
+      "id": "metro",
+      "title": "青岛政务网 · 8 号线南段通车",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwyw/202609/t20260923_10737936.shtml",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "2026 年 9 月通车，胶东机场到青岛北及市区可走 8 号线。"
+    },
+    {
+      "id": "metro-map",
+      "title": "青岛地铁 · 运营查询",
+      "kind": "provider",
+      "url": "https://www.qd-metro.com/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "查运营图、站点、末班车和出口。"
+    },
+    {
+      "id": "qd-old",
+      "title": "青岛文旅局 · 老城与前海步行路线",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202606/t20260618_10638992.shtml",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "栈桥、圣弥厄尔、中山路、劈柴院与小鱼山、琴屿路。"
+    },
+    {
+      "id": "qd-bay",
+      "title": "青岛政务网 · 扬帆青岛",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/yfqd/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "五四广场与奥帆中心、近海公园的官方导览。"
+    },
+    {
+      "id": "qd-bath",
+      "title": "青岛市城市管理局 · 2026 海水浴场开放公告",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/csgl/ywfl/hygl/202607/t20260702_10650276.shtml",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "2026 年第二海水浴场游泳服务示例为 7 月 1 日到 9 月 25 日，未来日期以新公告及现场旗标为准。"
+    },
+    {
+      "id": "qd-art",
+      "title": "青岛文旅局 · 机构地址与联系方式",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/jgxx/202112/t20211210_3982147.shtml",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "市美术馆大学路 7 号，德国总督楼旧址龙山路 26 号。"
+    },
+    {
+      "id": "qd-beer",
+      "title": "青岛啤酒博物馆 · 参观须知",
+      "kind": "provider",
+      "url": "https://www.tsingtaomuseum.com/articleTitleCus/1790371205849559041?viewName=newCanguanDetail",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "登州路场馆按季安排开放，以公众号实名分时购票，带证件入馆。"
+    },
+    {
+      "id": "qd-beer-ticket",
+      "title": "青岛啤酒博物馆 · 票务须知",
+      "kind": "provider",
+      "url": "https://www.tsingtaomuseum.com/articleTitleCus/1823961726126940161?viewName=newPiaowu2Detail",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "核验普通票和当日套票，攻略为普通成人票约 ¥60 的规划额。"
+    },
+    {
+      "id": "qd-food",
+      "title": "青岛文旅局 · 老字号美食",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202512/t20251231_10428786.shtml",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "春和楼香酥鸡与鲁菜，多家老城饮食可就近比较。"
+    },
+    {
+      "id": "qd-dumpling-food",
+      "title": "青岛日报 · 老城鱼水饺与海泊路裕兴里",
+      "kind": "official",
+      "url": "https://www.sdxc.gov.cn/fzgg/whsyfz/202507/t20250729_16272572.htm",
+      "checked_at": "2026-11-23T13:49:00+08:00",
+      "note": "山东宣传网转载青岛日报的走访，记录了船歌鱼水饺在海泊路裕兴里的门店。"
+    },
+    {
+      "id": "qd-stay",
+      "title": "华住 · 桔子青岛栈桥火车站酒店",
+      "kind": "provider",
+      "url": "https://m.huazhu.com/Hotel/Detail/9003432",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "中山路 44–60 号，查同店房态、早餐与退改。"
+    },
+    {
+      "id": "qd-stay-b",
+      "title": "华住 · 汉庭青岛栈桥中山路酒店",
+      "kind": "provider",
+      "url": "https://m.huazhu.com/Hotel/Detail/9010306",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "胶州路 37 号，老城、地铁和行李寄存。"
+    },
+    {
+      "id": "wh-bay",
+      "title": "威海住建局 · 精品海岸公园路线",
+      "kind": "official",
+      "url": "https://zjj.weihai.gov.cn/art/2025/1/23/art_28581_5207285.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "幸福门、威海公园、悦海公园的沿岸选点。"
+    },
+    {
+      "id": "wh-stay",
+      "title": "首旅如家 · 威海韩乐坊店",
+      "kind": "provider",
+      "url": "https://www.bthhotels.com/hotel/063132",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "韩乐坊北街乐天世纪城壹号 B 座 1 楼，具体含早请看房型。"
+    },
+    {
+      "id": "wh-stay-b",
+      "title": "华住 · 汉庭威海高铁站韩乐坊酒店",
+      "kind": "provider",
+      "url": "https://m.huazhu.com/Hotel/Detail/9018859",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "海峰路 148 号，酒店页面可查寄存、洗衣和房态。"
+    },
+    {
+      "id": "wh-food",
+      "title": "威海市政府 · 韩乐坊小吃",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/art/2025/7/23/art_58817_5668927.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "韩乐坊一带韩餐与小吃。"
+    },
+    {
+      "id": "wh-seafood",
+      "title": "威海市政府 · 长峰邻里海鲜市场",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/art/2026/4/29/art_60619_6323606.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "市场楼上加工、楼下购买，询价含加工费。"
+    },
+    {
+      "id": "wh-island",
+      "title": "刘公岛景区 · 登岛线路与景点",
+      "kind": "provider",
+      "url": "https://www.liugongdao.com.cn/index.php?a=lists&m=wap&siteid=1&typeid=48",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "甲午战争陈列馆、海军公所及岛内游览。"
+    },
+    {
+      "id": "wh-ticket",
+      "title": "刘公岛运营方 · 景区价格",
+      "kind": "official",
+      "url": "https://qsyxxgk.weihai.gov.cn/art/2026/4/20/art_85585_2871057.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "核验常规成人票 ¥122 含往返船，岛内另收费项目单独计。"
+    },
+    {
+      "id": "wh-boat",
+      "title": "刘公岛景区 · 航班及临时公告",
+      "kind": "provider",
+      "url": "https://www.liugongdao.com.cn/index.php?a=lists&catid=9",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "风浪、气象及临时停航随当天公告。"
+    },
+    {
+      "id": "wh-book",
+      "title": "威海政务 · 刘公岛实名分时与现场查询",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/jact/front/mailpubdetail.do?sysid=61&transactId=681155",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "「刘公岛景区」公众号查动态航班；咨询 0631-5287807。"
+    },
+    {
+      "id": "wh-museum",
+      "title": "威海文旅局 · 威海市博物馆",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/vipchatnew/home/site/41/4693/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "即墨路 2A 文化艺术中心 3 楼，通常周一闭馆，出行日核对。"
+    },
+    {
+      "id": "yt-south",
+      "title": "烟台市政府 · 烟台南站停办客运",
+      "kind": "official",
+      "url": "https://www.yantai.gov.cn/art/2025/10/23/art_11800_3293973.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "2025-10-28 起停办客运，改扩建后重新查 12306。"
+    },
+    {
+      "id": "yt-muping",
+      "title": "烟台市政府 · 烟威铁路与牟平站",
+      "kind": "official",
+      "url": "https://www.yantai.gov.cn/col/col43277/art/2026/art_31f9d7dd23be41a79dfea7a99d5be505.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "核实威海方向经牟平的铁路接驳。"
+    },
+    {
+      "id": "yt-old",
+      "title": "烟台文旅局 · 烟台山、朝阳街和所城里",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42216/art/2026/art_bc76c53b606143c985396e5808ffecd9.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "老城步行路段、景区地址与灯塔登塔票参考。"
+    },
+    {
+      "id": "yt-stay",
+      "title": "华住 · 烟台滨海广场漫心酒店",
+      "kind": "provider",
+      "url": "https://m.huazhu.com/Hotel/Detail/9011848",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "朝阳街 14 号，近烟台山，问清步行街接人点。"
+    },
+    {
+      "id": "yt-stay-b",
+      "title": "华住 · 汉庭烟台火车站酒店",
+      "kind": "provider",
+      "url": "https://m.huazhu.com/Hotel/Detail/2640993",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "青年路 16 号附 1 号，近铁路及汽车总站。"
+    },
+    {
+      "id": "yt-food",
+      "title": "烟台文旅局 · 海肠捞饭与推荐门店",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42216/art/2026/art_14a7063c9e384d8c89eb277488370aa3.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "所城里本家大院与朝阳街百纳·观澜。"
+    },
+    {
+      "id": "yt-noodle",
+      "title": "烟台文旅局 · 蓬莱小面",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42217/art/2026/art_916316bb34f641b79276120054e38dd9.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "建兴面馆南关路店等蓬莱小面门店，营业日重新查。"
+    },
+    {
+      "id": "yt-penglai",
+      "title": "烟台文旅 · 蓬莱阁景区信息",
+      "kind": "official",
+      "url": "https://www.yantai.gov.cn/col/col43277/art/2026/art_b524b8d599f6426da5ce8223fe757c6e.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "北关路 1 号，首道成人票参考 ¥100，公示 08:00–18:00、17:00 止检为示例。"
+    },
+    {
+      "id": "yt-penglai-book",
+      "title": "烟台文旅局 · 蓬莱阁购票入口说明",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/art/2025/8/4/art_42217_2927756.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "「蓬莱阁景区」公众号在线订票，以购票页场次为准。"
+    },
+    {
+      "id": "yt-penglai-drop",
+      "title": "蓬莱区政府 · 车辆临停与上落客",
+      "kind": "official",
+      "url": "https://www.penglai.gov.cn/art/2025/7/10/art_51446_20244.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "景区附近有分时交通管控，按司机和现场引导，可约蓬莱文化广场西门。"
+    },
+    {
+      "id": "yt-penglai-rail",
+      "title": "烟台市政府 · 蓬莱站高铁与景区接驳",
+      "kind": "official",
+      "url": "https://www.yantai.gov.cn/art/2025/1/2/art_50727_3233559.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "按指导先查烟台站至蓬莱站往返，上站前确认出发车站。"
+    },
+    {
+      "id": "yt-wine",
+      "title": "张裕酒文化博物馆 · 参观导览",
+      "kind": "provider",
+      "url": "https://www.cymuseum.cn/daolan/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "大马路 56 号，常规 08:00–17:00，16:30 停止入馆。"
+    },
+    {
+      "id": "yt-wine-price",
+      "title": "烟台文旅 · 张裕博物馆票价",
+      "kind": "official",
+      "url": "https://www.yantai.gov.cn/col/col43277/art/2026/art_20345e0ae55e4b1d9bb3964110a19462.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "常规成人票参考 ¥80，旺季或特展查购票页。"
+    },
+    {
+      "id": "yt-museum",
+      "title": "烟台文旅局 · 烟台市博物馆",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42216/art/2026/art_47c5c25b4b3b4797bc168b73725d6e1c.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "芝罘区南大街 61 号，通常周一闭馆。"
+    },
+    {
+      "id": "yt-airport",
+      "title": "烟台机场 · 机场巴士",
+      "kind": "provider",
+      "url": "https://www.ytairport.com.cn/index/Page/index.html?cate=9",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "按出行日查烟台汽车总站时刻、机场 T2 落客位置。"
+    },
+    {
+      "id": "airchina",
+      "title": "中国国际航空 · 国内机票",
+      "kind": "provider",
+      "url": "https://www.airchina.com.cn/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "按日期搜烟台 YNT 到成都天府 TFU，优先无经停且 18:00 前落地。"
+    },
+    {
+      "id": "ynt-schedule",
+      "title": "携程航空 · 成都与烟台航线班表示例",
+      "kind": "provider",
+      "url": "https://flights.ctrip.com/international/Schedule/ctu-ynt.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "当期可检索示例 CA2610 烟台午前出发，票面可能随航季调整。"
+    },
+    {
+      "id": "sichuan-air",
+      "title": "四川航空 · 航班查询",
+      "kind": "provider",
+      "url": "https://flights.sichuanair.com/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "按日检索烟台至重庆江北或成都天府，确认计划落地时刻及托运行李额。"
+    },
+    {
+      "id": "ckg-bus",
+      "title": "重庆机场 · 长途汽车站",
+      "kind": "provider",
+      "url": "https://www.cqa.cn/jtzn/24/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "机场官网列有自贡线路，具体发车和上车端用「愉客行」查当天。"
+    },
+    {
+      "id": "tao-return",
+      "title": "春秋航空 · 青岛飞成都航班查询",
+      "kind": "provider",
+      "url": "https://flights.ch.com/flight-date/TAO-CTU/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "回青岛接飞时选胶东 TAO 到天府 TFU，不同航季和日期班次不同。"
+    },
+    {
+      "id": "weather",
+      "title": "中国天气网 · 城市天气与预警",
+      "kind": "official",
+      "url": "https://www.weather.com.cn/",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "出发前查三城天气，遇岸边封闭、停航或预警按各日备选改走。"
+    },
+    {
+      "id": "power",
+      "title": "中国民航局 · 充电宝乘机要求",
+      "kind": "official",
+      "url": "https://app.caac.gov.cn/XWZX/MHYW/202506/t20250626_227805.html",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "境内航班不携带无清晰 3C 标识及被召回的充电宝，同时核对容量与随身要求。"
+    },
+    {
+      "id": "amap",
+      "title": "高德地图 · 地点搜索服务",
+      "kind": "map",
+      "url": "https://lbs.amap.com/api/uri-api/guide/search/search?type=spa",
+      "checked_at": "2026-11-22T22:30:00+08:00",
+      "note": "地点使用高德网页搜索或核验过的 POI 链接。"
+    },
+    {
+      "id": "maritime",
+      "title": "交通运输部 · 海上遇险搜救电话",
+      "kind": "official",
+      "url": "https://www.mot.gov.cn/hudong/",
+      "checked_at": "2026-11-22T22:44:00+08:00",
+      "note": "全国海上遇险搜救 12395。"
+    },
+    {
+      "id": "qd-beer-renovation",
+      "title": "青岛啤酒博物馆 · 分阶段闭馆改造公告",
+      "kind": "official",
+      "url": "https://www.tsingtaomuseum.com/articleTitleCus/2122502967174803458?viewName=newDetail",
+      "checked_at": "2026-11-23T23:59:00+08:00",
+      "note": "2026 年 12 月 1 日起闭馆改造，预计 2027 年 2 月 21 日部分开放、6 月下旬整体开放，更新以馆方公告为准。闭馆期台柳路纯生之旅可线上预约。"
+    },
+    {
+      "id": "qd-beer-slots",
+      "title": "青岛政务网 · 青啤博物馆分时预约",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/ywdt/bmdt/202607/t20260721_10681621.shtml",
+      "checked_at": "2026-11-23T23:59:00+08:00",
+      "note": "登州路馆按购票时段、实名信息与当日开放范围入馆。"
+    },
+    {
+      "id": "yt-walk-2026",
+      "title": "烟台文旅 · 朝阳街、烟台山、所城里步行线",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42216/art/2026/art_450154ebc46c4884be196b2dcd9b4bdd.html",
+      "checked_at": "2026-11-23T23:59:00+08:00",
+      "note": "老城馆址、街巷和步行节点，按当天体力组合。"
+    },
+    {
+      "id": "yt-pl-entry",
+      "title": "烟台文旅 · 蓬莱阁振扬门与东门票务",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42217/art/2026/art_bddd086c1d114ed9850fef150ce6096f.html",
+      "checked_at": "2026-11-23T23:59:00+08:00",
+      "note": "核实景区北关路地址、振扬门或东门售票入口。按自购票型确认当天核验处与折扣资格。"
+    },
+    {
+      "id": "sight-signal-hill",
+      "title": "青岛市文旅局 · 信号山与大学路",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202606/t20260618_10638992.shtml",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-dabaodao",
+      "title": "青岛政务网 · 大鲍岛街区更新",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwyw/202305/t20230525_7201175.shtml",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-little-qingdao",
+      "title": "青岛政务网 · 小青岛灯塔与海岸线路",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/ywdt/bmdt/202605/t20260513_10592374.shtml",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-taiping-cape",
+      "title": "青岛政务网 · 太平角公园观海台",
+      "kind": "official",
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202606/t20260618_10638992.shtml",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-haiyuan",
+      "title": "威海市政府 · 海源公园与合庆岸线",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/art/2024/4/2/art_58817_4451285.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-sea-park",
+      "title": "威海市政府 · 经开区海上公园",
+      "kind": "official",
+      "url": "https://www.weihai.gov.cn/art/2025/10/29/art_60619_5892508.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-ding-residence",
+      "title": "刘公岛景区 · 丁汝昌寓所",
+      "kind": "official",
+      "url": "https://www.liugongdao.com.cn/index.php?a=show&catid=103&id=601",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-half-moon",
+      "title": "威海市文旅局 · 半月湾景区名录",
+      "kind": "official",
+      "url": "https://wlj.weihai.gov.cn/art/2026/11/19/art_162556_4824985.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-hongkou-1920",
+      "title": "芝罘区政府 · 滨海历史街区游览路线",
+      "kind": "official",
+      "url": "https://www.zhifu.gov.cn/art/2025/3/6/art_51883_2916888.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-east-fort",
+      "title": "芝罘区政府 · 东炮台历史与海岸路线",
+      "kind": "official",
+      "url": "https://www.zhifu.gov.cn/art/2025/3/6/art_51883_2916888.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-qi-home",
+      "title": "烟台市文旅局 · 登州戚继光故里",
+      "kind": "official",
+      "url": "https://whlyj.yantai.gov.cn/col/col42217/art/2026/art_687b25ea1f984f08a5f90dab3c161662.html",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    },
+    {
+      "id": "sight-tianheng-hill",
+      "title": "蓬莱阁景区 · 在线导览",
+      "kind": "official",
+      "url": "https://www.plgvr.com/",
+      "checked_at": "2026-11-24T14:04:54+08:00"
+    }
+  ],
+  "places": [
+    {
+      "id": "zigong",
+      "name": "自贡站",
+      "category": "transport",
+      "area": "自贡 · 沿滩",
+      "address": "自贡市沿滩区仙市镇，自贡站进站口",
+      "note": "12306 的「自贡」是这里。小组在自己约定的市区集合点出发，先查到站时间。",
+      "source_ids": [
+        "zigong-rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%87%AA%E8%B4%A1%E7%AB%99&city=%E8%87%AA%E8%B4%A1&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "tfu-rail",
+      "name": "天府机场站",
+      "category": "transport",
+      "area": "成都 · 天府机场",
+      "address": "成都天府国际机场综合交通换乘中心 GTC 地下铁路站",
+      "note": "按「高铁／天府机场站」进 GTC，航站楼以机票为准。",
+      "source_ids": [
+        "tfu-hub"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%BA%9C%E6%9C%BA%E5%9C%BA%E7%AB%99&city=%E6%88%90%E9%83%BD&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "tfu",
+      "name": "成都天府国际机场 TFU",
+      "category": "transport",
+      "area": "成都 · 简阳",
+      "address": "成都东部新区，机场出发层按机票航站楼",
+      "note": "买票核对 TFU，使用天府机场站空铁接驳。",
+      "source_ids": [
+        "tfu-hub"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&city=%E6%88%90%E9%83%BD&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "tao",
+      "name": "青岛胶东国际机场 TAO",
+      "category": "transport",
+      "area": "青岛 · 胶州",
+      "address": "青岛胶东国际机场到达层 / GTC 地铁 8 号线",
+      "note": "去老城首选 8 号线至青岛北换 1 号线。手机购票后保留交通码。",
+      "source_ids": [
+        "metro"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E8%83%B6%E4%B8%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qd-station",
+      "name": "青岛站",
+      "category": "transport",
+      "area": "青岛 · 市南",
+      "address": "青岛市市南区，青岛站铁路进站口",
+      "note": "优先查青岛站到威海站。临上车确认票面是青岛站、青岛北站或其他站。",
+      "source_ids": [
+        "rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E7%AB%99&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qd-north",
+      "name": "青岛北站",
+      "category": "transport",
+      "area": "青岛 · 李沧",
+      "address": "青岛市李沧区，青岛北站铁路进站口",
+      "note": "从中山路乘 1 号线可进青岛北。坐机场轨道交通按 8 号线进站。",
+      "source_ids": [
+        "metro-map"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%8C%97%E7%AB%99&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "hongdao",
+      "name": "红岛站",
+      "category": "transport",
+      "area": "青岛 · 城阳",
+      "address": "城阳区红岛站，地铁站名为红岛火车站",
+      "note": "铁路出站后转 8 号线胶东机场方向。",
+      "source_ids": [
+        "metro"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%BA%A2%E5%B2%9B%E7%AB%99&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qd-hotel",
+      "name": "桔子青岛栈桥火车站酒店",
+      "category": "stay",
+      "area": "青岛 · 中山路",
+      "address": "市南区中山路 44–60 号百盛楼内",
+      "note": "D1–D3 连住 3 晚。计划 ¥320–560/间夜，三间全程 ¥2,880–5,040。六人三间双床或按关系配床，五人可订两双床一大床。问寄存、楼层、电梯及早餐。",
+      "source_ids": [
+        "qd-stay"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://www.amap.com/place/B0G1NS2BZY"
+        }
+      ]
+    },
+    {
+      "id": "qd-hotel-b",
+      "name": "汉庭青岛栈桥中山路酒店",
+      "category": "stay",
+      "area": "青岛 · 中山路",
+      "address": "市北区胶州路 37 号",
+      "note": "同商圈经济备选，可保留老城步行路线。订房时确认临街噪音、含早及可退期限。",
+      "source_ids": [
+        "qd-stay-b"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%B1%89%E5%BA%AD%E9%9D%92%E5%B2%9B%E6%A0%88%E6%A1%A5%E4%B8%AD%E5%B1%B1%E8%B7%AF%E9%85%92%E5%BA%97&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山路历史街区",
+      "category": "sight",
+      "area": "青岛 · 老城",
+      "address": "市南区中山路至上街里、劈柴院一带",
+      "note": "青岛站与中山路地铁站皆可切入，坡道和石板路放慢。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%20%E4%B8%8A%E8%A1%97%E9%87%8C%20%E4%B8%AD%E5%B1%B1%E8%B7%AF&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "zhanqiao",
+      "name": "栈桥",
+      "category": "sight",
+      "area": "青岛 · 青岛湾",
+      "address": "市南区太平路 12 号附近，栈桥岸上入口",
+      "note": "风浪、封闭和人多时在路边观海。湿滑处远离栏外礁石。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%A0%88%E6%A1%A5&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "church",
+      "name": "圣弥厄尔大教堂",
+      "category": "sight",
+      "area": "青岛 · 老城",
+      "address": "市南区浙江路 15 号，教堂广场",
+      "note": "主线看外观。室内遇活动会限制，另核开放与票价。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%E6%B5%99%E6%B1%9F%E8%B7%AF&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "chunhe",
+      "name": "春和楼（中山路店）",
+      "category": "food",
+      "area": "青岛 · 老城",
+      "address": "市南区中山路 146 号附近",
+      "note": "5–6 人点香酥鸡、蒸饺、时蔬和一份海鲜，留约 ¥75–120/人，建议预问大桌与营业时段。",
+      "source_ids": [
+        "qd-food"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%98%A5%E5%92%8C%E6%A5%BC%20%E4%B8%AD%E5%B1%B1%E8%B7%AF&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qd-fish-dumplings",
+      "name": "船歌鱼水饺（中山路大鲍岛店）",
+      "category": "food",
+      "area": "青岛 · 大鲍岛",
+      "address": "市北区海泊路裕兴里",
+      "note": "第 2 天老城午餐可选。想吃鲅鱼水饺，出发前确认当日菜单、营业时间和五六人桌位。",
+      "source_ids": [
+        "qd-dumpling-food"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%88%B9%E6%AD%8C%E9%B1%BC%E6%B0%B4%E9%A5%BA%20%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%A4%A7%E9%B2%8D%E5%B2%9B%E5%BA%97&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "pichai",
+      "name": "劈柴院",
+      "category": "food",
+      "area": "青岛 · 老城",
+      "address": "市南区中山路江宁路一带",
+      "note": "早餐可选锅贴、豆腐脑，晚饭等位时也能分头买小吃，过后当面会合。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%8A%88%E6%9F%B4%E9%99%A2&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "name": "青岛市美术馆",
+      "category": "sight",
+      "area": "青岛 · 大学路",
+      "address": "市南区大学路 7 号，按馆方当日开放入口",
+      "note": "确认当天展览及周一等休馆安排，恶劣天气优先在可开馆的室内停留。",
+      "source_ids": [
+        "qd-art"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%B8%82%E7%BE%8E%E6%9C%AF%E9%A6%86&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "xdx",
+      "name": "小鱼山公园",
+      "category": "sight",
+      "area": "青岛 · 小鱼山",
+      "address": "市南区福山支路，小鱼山公园入口",
+      "note": "看览潮阁、红屋顶和汇泉湾，坡陡，风雨时取消登高。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%B0%8F%E9%B1%BC%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qinyu",
+      "name": "琴屿路",
+      "category": "sight",
+      "area": "青岛 · 前海",
+      "address": "市南区琴屿路，小青岛/鲁迅公园相邻路段",
+      "note": "沿海步行，潮湿时别下礁石。愿意多走可查小青岛公园当日开园后再入。",
+      "source_ids": [
+        "qd-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%90%B4%E5%B1%BF%E8%B7%AF&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "governor",
+      "name": "青岛德国总督楼旧址博物馆",
+      "category": "sight",
+      "area": "青岛 · 信号山",
+      "address": "市南区龙山路 26 号",
+      "note": "室内历史建筑，先核对开放、预约和票价。",
+      "source_ids": [
+        "qd-art"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%9D%A3%E6%A5%BC%E6%97%A7%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "name": "青岛啤酒博物馆",
+      "category": "sight",
+      "area": "青岛 · 登州路",
+      "address": "市北区登州路 56 号",
+      "note": "实名分时购票，身份证和二维码备好。普通成人票按约 ¥60 预留。",
+      "source_ids": [
+        "qd-beer"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%95%A4%E9%85%92%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "taidong",
+      "name": "台东步行街",
+      "category": "food",
+      "area": "青岛 · 市北",
+      "address": "市北区台东三路步行街及周边",
+      "note": "午饭选常规营业的饺子、海鲜面馆。避开中午尚未出摊的夜市摊位。",
+      "source_ids": [],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%8F%B0%E4%B8%9C%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "badaguan",
+      "name": "八大关风景区",
+      "category": "sight",
+      "area": "青岛 · 汇泉角",
+      "address": "市南区正阳关路、韶关路、居庸关路一带",
+      "note": "街路慢逛为主，花石楼、公主楼另查入场与票价。",
+      "source_ids": [
+        "qd-bath"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%85%AB%E5%A4%A7%E5%85%B3%E9%A3%8E%E6%99%AF%E5%8C%BA&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "beach",
+      "name": "第二海水浴场",
+      "category": "sight",
+      "area": "青岛 · 八大关",
+      "address": "市南区山海关路，八大关第二海水浴场",
+      "note": "主线在岸上散步。只在当日官方开放、有救生员且现场旗标允许时下水。",
+      "source_ids": [
+        "qd-bath"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%AC%AC%E4%BA%8C%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%9C%BA&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "may4",
+      "name": "五四广场",
+      "category": "sight",
+      "area": "青岛 · 浮山湾",
+      "address": "市南区东海西路与澳门路附近，五月的风雕塑",
+      "note": "可从奥帆方向沿海边步行，也可遇风雨直接进商场。",
+      "source_ids": [
+        "qd-bay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E4%BA%94%E5%9B%9B%E5%B9%BF%E5%9C%BA&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "sailing",
+      "name": "青岛奥林匹克帆船中心",
+      "category": "sight",
+      "area": "青岛 · 浮山湾",
+      "address": "市南区澳门路 121 号，奥帆中心 1 号门",
+      "note": "先沿岸到旗阵广场，活动围挡或夜间临时限流按现场指引。",
+      "source_ids": [
+        "qd-bay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%B8%86%E8%88%B9%E4%B8%AD%E5%BF%83&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qd-mall",
+      "name": "青岛万象城",
+      "category": "food",
+      "area": "青岛 · 五四广场",
+      "address": "市南区山东路 6 号",
+      "note": "附近室内外切换点，用餐集合可约同一层入口。",
+      "source_ids": [],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E4%B8%87%E8%B1%A1%E5%9F%8E&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wh-station",
+      "name": "威海站",
+      "category": "transport",
+      "area": "威海 · 经区",
+      "address": "威海铁路客站，威海经区环山路与青岛中路一带",
+      "note": "韩乐坊住宿优先威海站。按票面核实出口，再约车去同一酒店。",
+      "source_ids": [
+        "rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A8%81%E6%B5%B7%E7%AB%99&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wh-north",
+      "name": "威海北站",
+      "category": "transport",
+      "area": "威海 · 高区",
+      "address": "威海市环翠区，威海北站铁路进站口",
+      "note": "威海站车次不合适时再选，至韩乐坊多留一段车程。",
+      "source_ids": [
+        "rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A8%81%E6%B5%B7%E5%8C%97%E7%AB%99&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wh-hotel",
+      "name": "如家·neo 威海高铁汽车总站韩乐坊店",
+      "category": "stay",
+      "area": "威海 · 韩乐坊",
+      "address": "经区韩乐坊北街乐天世纪城壹号 B 座 1 楼",
+      "note": "D4–D5 两晚。每间夜规划 ¥260–480，三间两晚 ¥1,560–2,880。和酒店确认午间寄存、可取消截止及含早房。",
+      "source_ids": [
+        "wh-stay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A6%82%E5%AE%B6neo%20%E5%A8%81%E6%B5%B7%E9%AB%98%E9%93%81%E6%B1%BD%E8%BD%A6%E6%80%BB%E7%AB%99%E9%9F%A9%E4%B9%90%E5%9D%8A%E5%BA%97&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wh-hotel-b",
+      "name": "汉庭威海高铁站韩乐坊酒店",
+      "category": "stay",
+      "area": "威海 · 韩乐坊",
+      "address": "环翠区海峰路 148 号",
+      "note": "同片区备选，行李寄存和自助洗衣按酒店提报核实。",
+      "source_ids": [
+        "wh-stay-b"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%B1%89%E5%BA%AD%E5%A8%81%E6%B5%B7%E9%AB%98%E9%93%81%E7%AB%99%E9%9F%A9%E4%B9%90%E5%9D%8A%E9%85%92%E5%BA%97&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "hanle",
+      "name": "韩乐坊",
+      "category": "food",
+      "area": "威海 · 经区",
+      "address": "经区韩乐坊商业街/韩乐坊北街",
+      "note": "点炒年糕、鱼饼、炸鸡或拌饭。晚间多人优先选能坐下的店。",
+      "source_ids": [
+        "wh-food"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B0FFGC7MCX"
+        }
+      ]
+    },
+    {
+      "id": "xingfu",
+      "name": "幸福门广场",
+      "category": "sight",
+      "area": "威海 · 环翠",
+      "address": "环翠区海滨北路幸福公园",
+      "note": "看幸福门外观、海湾和刘公岛方向；上楼另核运营。",
+      "source_ids": [
+        "wh-bay"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B0FFGM2GIN"
+        }
+      ]
+    },
+    {
+      "id": "photo-frame",
+      "name": "威海公园大相框",
+      "category": "sight",
+      "area": "威海 · 环翠",
+      "address": "环翠区海滨中路威海公园，靠大相框处",
+      "note": "约车下车点查「市人社局东（大相框）」，附近海风直接。",
+      "source_ids": [
+        "wh-bay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A8%81%E6%B5%B7%E5%A4%A7%E7%9B%B8%E6%A1%86&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "lighthouse-wh",
+      "name": "悦海公园灯塔",
+      "category": "sight",
+      "area": "威海 · 经区海岸",
+      "address": "威海悦海公园北侧，灯塔周边绿道",
+      "note": "下车后在园内短走，遇大风在街区用餐休息。",
+      "source_ids": [
+        "wh-bay"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B0FFG3Q7WB"
+        }
+      ]
+    },
+    {
+      "id": "liugong-port",
+      "name": "刘公岛客运中心（大陆登船点）",
+      "category": "transport",
+      "area": "威海 · 环翠",
+      "address": "环翠区海滨北路 101-2 号，刘公岛旅游码头",
+      "note": "到大厅实名核验。下岛末班比上岛末班更关系回程，第一时间问清。",
+      "source_ids": [
+        "wh-book"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B0FFG8QN7U"
+        }
+      ]
+    },
+    {
+      "id": "liugong-pier",
+      "name": "刘公岛码头（岛上返航）",
+      "category": "transport",
+      "area": "威海 · 刘公岛",
+      "address": "刘公岛岛内旅客码头，返航检票按登岛时问到的位置",
+      "note": "从岛内步行回旅客码头，按当日航班和检票指引。如用地图查位置，认准刘公岛岛上。",
+      "source_ids": [
+        "wh-island",
+        "wh-boat"
+      ],
+      "links": [
+        {
+          "label": "刘公岛景区图",
+          "url": "https://www.liugongdao.com.cn/index.php?a=lists&m=wap&siteid=1&typeid=48"
+        }
+      ]
+    },
+    {
+      "id": "liugong",
+      "name": "甲午战争陈列馆",
+      "category": "sight",
+      "area": "威海 · 刘公岛",
+      "address": "刘公岛岛上，登船先搜大陆客运中心",
+      "note": "与海军公所分属不同展点。可先走展馆，再视展点开放和体力去定远舰。",
+      "source_ids": [
+        "wh-island"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B027700HDL"
+        }
+      ]
+    },
+    {
+      "id": "liugong-navy",
+      "name": "北洋海军提督署（海军公所）",
+      "category": "sight",
+      "area": "威海 · 刘公岛",
+      "address": "刘公岛岛上，按景区步行指引",
+      "note": "船票与景区成人综合票见运营方，先核展馆当天开放，远处炮台可省。",
+      "source_ids": [
+        "wh-island"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%8C%97%E6%B4%8B%E6%B5%B7%E5%86%9B%E6%8F%90%E7%9D%A3%E7%BD%B2%EF%BC%88%E6%B5%B7%E5%86%9B%E5%85%AC%E6%89%80%EF%BC%89&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "changfeng",
+      "name": "长峰邻里农贸海鲜市场",
+      "category": "food",
+      "area": "威海 · 经区",
+      "address": "青岛中路长峰邻里，搜长峰农贸市场",
+      "note": "一楼买、二楼加工。蛤蜊、扇贝、熟乳山蚝可拼盘，确认斤和公斤、时价与加工费。",
+      "source_ids": [
+        "wh-seafood"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%95%BF%E5%B3%B0%E9%82%BB%E9%87%8C%E5%86%9C%E8%B4%B8%E5%B8%82%E5%9C%BA&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wh-museum",
+      "name": "威海市博物馆",
+      "category": "sight",
+      "area": "威海 · 环翠",
+      "address": "即墨路 2A 号，文化艺术中心 3 楼",
+      "note": "停航备选。通常周二至周日 09:00–16:30，闭馆前 15 分钟停止入馆，带身份证并核最新公告。",
+      "source_ids": [
+        "wh-museum"
+      ],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B027714I3I"
+        }
+      ]
+    },
+    {
+      "id": "wh-mall",
+      "name": "威高广场",
+      "category": "food",
+      "area": "威海 · 环翠",
+      "address": "环翠区新威路 17 号",
+      "note": "强风雨、周一场馆闭馆时作为室内休息和聚餐点。",
+      "source_ids": [],
+      "links": [
+        {
+          "label": "高德地图",
+          "url": "https://ditu.amap.com/place/B027714JDO"
+        }
+      ]
+    },
+    {
+      "id": "muping",
+      "name": "牟平站",
+      "category": "transport",
+      "area": "烟台 · 牟平",
+      "address": "烟台市牟平区，牟平站铁路进站口",
+      "note": "威海方向直达常在牟平停。要去芝罘老城，出站再预约车辆。",
+      "source_ids": [
+        "yt-muping"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%89%9F%E5%B9%B3%E7%AB%99&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-station",
+      "name": "烟台站",
+      "category": "transport",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区北马路一带，烟台站铁路进站口",
+      "note": "去蓬莱或回青岛可以查这里。站名要完整，勿把同城站当作同一站。",
+      "source_ids": [
+        "rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E7%AB%99&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-hotel",
+      "name": "烟台滨海广场漫心酒店",
+      "category": "stay",
+      "area": "烟台 · 芝罘老城",
+      "address": "芝罘区朝阳街 14 号",
+      "note": "D6–D7 两晚首选。主店规划 ¥380–650/间夜，预算按和经济备选混合对比 ¥300–590/间夜。问清大堂入口、路口接送、含早和寄存。",
+      "source_ids": [
+        "yt-stay"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E6%BB%A8%E6%B5%B7%E5%B9%BF%E5%9C%BA%E6%BC%AB%E5%BF%83%E9%85%92%E5%BA%97&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-hotel-b",
+      "name": "汉庭烟台火车站酒店",
+      "category": "stay",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区青年路 16 号附 1 号",
+      "note": "近铁路与汽车总站，经济备选预算 ¥240–400/间夜，最终价按日期查。",
+      "source_ids": [
+        "yt-stay-b"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%B1%89%E5%BA%AD%E7%83%9F%E5%8F%B0%E7%81%AB%E8%BD%A6%E7%AB%99%E9%85%92%E5%BA%97&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-hill",
+      "name": "烟台山景区",
+      "category": "sight",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区历新路 7 号",
+      "note": "烟台山入园通常免费，灯塔参考 ¥10，低能见度或腿累可省登塔。",
+      "source_ids": [
+        "yt-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E5%B1%B1%E6%99%AF%E5%8C%BA&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "chaoyang",
+      "name": "朝阳街",
+      "category": "sight",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区，自烟台山南侧沿朝阳街",
+      "note": "看开埠街景，选一家咖啡点短歇。周末人多时和好友约路口会合。",
+      "source_ids": [
+        "yt-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%9C%9D%E9%98%B3%E8%A1%97&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "suocheng",
+      "name": "所城里",
+      "category": "sight",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区南大街 17 号一带",
+      "note": "保留巷道余量，选择广场与主要街巷，晚饭近北门里街。",
+      "source_ids": [
+        "yt-old"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%89%80%E5%9F%8E%E9%87%8C&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "benjia",
+      "name": "本家大院（所城里）",
+      "category": "food",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区所城里北门里街 30 号",
+      "note": "主推海肠捞饭，配鲅鱼水饺、焖子或清蒸时令海鲜。预算 ¥85–150/人。",
+      "source_ids": [
+        "yt-food"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%9C%AC%E5%AE%B6%E5%A4%A7%E9%99%A2%20%E6%89%80%E5%9F%8E%E9%87%8C&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "baina",
+      "name": "百纳·观澜海鲜鲁菜（朝阳街店）",
+      "category": "food",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区朝阳街 4–8 号",
+      "note": "想留在烟台山附近可用此店。问清大桌、鲜货价格和最终份数。",
+      "source_ids": [
+        "yt-food"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%99%BE%E7%BA%B3%C2%B7%E8%A7%82%E6%BE%9C%E6%B5%B7%E9%B2%9C%E9%B2%81%E8%8F%9C%EF%BC%88%E6%9C%9D%E9%98%B3%E8%A1%97%E5%BA%97%EF%BC%89&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "张裕酒文化博物馆",
+      "category": "sight",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区大马路 56 号",
+      "note": "常规 08:00–17:00，16:30 停止入场，成人参考 ¥80。酒窖台阶可按体力取舍。",
+      "source_ids": [
+        "yt-wine"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%BC%A0%E8%A3%95%E9%85%92%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-museum",
+      "name": "烟台市博物馆",
+      "category": "sight",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区南大街 61 号",
+      "note": "遇风雨保留的主馆方案，通常周一闭馆，临时展览单独查。",
+      "source_ids": [
+        "yt-museum"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "nanhong",
+      "name": "南洪风情街",
+      "category": "food",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区南洪街及周边",
+      "note": "午餐候选焖子、饺子或小面，早午餐按各家营业时间安排。",
+      "source_ids": [],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%8D%97%E6%B4%AA%E9%A3%8E%E6%83%85%E8%A1%97&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "penglai",
+      "name": "蓬莱阁景区振扬门",
+      "category": "sight",
+      "area": "烟台 · 蓬莱",
+      "address": "蓬莱区北关路 1 号，停车和落客按当日指引",
+      "note": "主线上午入园。门票参考 ¥100，公众号先查开放、购票与开放入口。",
+      "source_ids": [
+        "yt-penglai"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%93%AC%E8%8E%B1%E9%98%81%E6%99%AF%E5%8C%BA%20%E6%8C%AF%E6%89%AC%E9%97%A8&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "pl-pickup",
+      "name": "蓬莱文化广场西门",
+      "category": "transport",
+      "area": "烟台 · 蓬莱",
+      "address": "蓬莱区蓬莱文化广场西门，临停按当地指引",
+      "note": "发车前与司机确认当天会合点，景区门口有时限车。",
+      "source_ids": [
+        "yt-penglai-drop"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%93%AC%E8%8E%B1%E6%96%87%E5%8C%96%E5%B9%BF%E5%9C%BA%E8%A5%BF%E9%97%A8&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "pl-station",
+      "name": "蓬莱站",
+      "category": "transport",
+      "area": "烟台 · 蓬莱",
+      "address": "烟台市蓬莱区，蓬莱站铁路进站口",
+      "note": "先查好芝罘往返，再转 15–25 分钟车去景区。与蓬莱村站区分。",
+      "source_ids": [
+        "yt-penglai-rail"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%93%AC%E8%8E%B1%E7%AB%99&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "建兴面馆（南关路店）",
+      "category": "food",
+      "area": "烟台 · 蓬莱",
+      "address": "蓬莱区南关路，玛利亚医院东邻",
+      "note": "蓬莱小面按营业和卖完时间灵活选，计划午餐 ¥25–50/人。",
+      "source_ids": [
+        "yt-noodle"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%BB%BA%E5%85%B4%E9%9D%A2%E9%A6%86%20%E5%8D%97%E5%85%B3%E8%B7%AF&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "ynt",
+      "name": "烟台蓬莱国际机场 T2",
+      "category": "transport",
+      "area": "烟台 · 蓬莱",
+      "address": "烟台蓬莱国际机场 T2 国内出发层，以票面为准",
+      "note": "芝罘开车预计 55–85 分钟，按建议起飞前至少 2 小时到航站楼。",
+      "source_ids": [
+        "yt-airport"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E8%93%AC%E8%8E%B1%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT2%E8%88%AA%E7%AB%99%E6%A5%BC&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "yt-bus",
+      "name": "烟台汽车总站",
+      "category": "transport",
+      "area": "烟台 · 芝罘",
+      "address": "芝罘区青年路，烟台汽车总站机场巴士乘车区",
+      "note": "两车送机的备选。先核发车、座位、车程和 T2 落客点。",
+      "source_ids": [
+        "yt-airport"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%83%9F%E5%8F%B0%E6%B1%BD%E8%BD%A6%E6%80%BB%E7%AB%99&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "ckg",
+      "name": "重庆江北国际机场 CKG",
+      "category": "transport",
+      "area": "重庆 · 渝北",
+      "address": "重庆江北机场，按票面航站楼预约接人",
+      "note": "回自贡车程预留约 2.5–3.5 小时。长途客运站按当日实际发车查。",
+      "source_ids": [
+        "ckg-bus"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%87%8D%E5%BA%86%E6%B1%9F%E5%8C%97%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&city=%E9%87%8D%E5%BA%86&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "beer-pure",
+      "name": "青岛啤酒纯生之旅",
+      "category": "sight",
+      "area": "青岛 · 李沧",
+      "address": "李沧区台柳路青岛啤酒二厂，参观入口按预约确认页",
+      "note": "登州路博物馆闭馆改造期间的工业旅游备选。按线上预约信息确认开放场次、票型与准确集合入口。",
+      "source_ids": [
+        "qd-beer-renovation"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%95%A4%E9%85%92%E7%BA%AF%E7%94%9F%E4%B9%8B%E6%97%85&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "signal-hill",
+      "name": "信号山公园",
+      "category": "sight",
+      "area": "青岛 · 信号山",
+      "address": "市南区龙山路一带，导航搜信号山公园入口",
+      "note": "石阶上坡，碰到地面湿滑就改走大学路平路。观景楼按当日公告。",
+      "source_ids": [
+        "sight-signal-hill"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E4%BF%A1%E5%8F%B7%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "dabaodao",
+      "name": "大鲍岛文化休闲街区",
+      "category": "sight",
+      "area": "青岛 · 老城",
+      "address": "市北区四方路、海泊路一带，可搜广兴里",
+      "note": "街区可从多条路进，店铺和具体院门的开放各自确认。",
+      "source_ids": [
+        "sight-dabaodao"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%B2%8D%E5%B2%9B%E6%96%87%E5%8C%96%E4%BC%91%E9%97%B2%E8%A1%97%E5%8C%BA&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "little-qingdao",
+      "name": "小青岛公园",
+      "category": "sight",
+      "area": "青岛 · 前海",
+      "address": "市南区琴屿路向海堤方向，搜小青岛公园入口",
+      "note": "按入口公告决定是否入园。海堤受天气影响时，留在琴屿路安全路段。",
+      "source_ids": [
+        "sight-little-qingdao"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%B0%8F%E9%9D%92%E5%B2%9B%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "taiping-cape",
+      "name": "太平角公园",
+      "category": "sight",
+      "area": "青岛 · 太平角",
+      "address": "市南区太平角一带，导航搜太平角公园",
+      "note": "散步留在开放步道和观海台，风浪大时不上礁石。",
+      "source_ids": [
+        "sight-taiping-cape"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A4%AA%E5%B9%B3%E8%A7%92%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "haiyuan",
+      "name": "海源公园",
+      "category": "sight",
+      "area": "威海 · 环翠 · 合庆湾",
+      "address": "环翠区环海路海源公园，靠合庆码头",
+      "note": "以公园公共步道为准。港口作业区和封闭坡道按现场标识绕行。",
+      "source_ids": [
+        "sight-haiyuan"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%B5%B7%E6%BA%90%E5%85%AC%E5%9B%AD&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "sea-park",
+      "name": "威海海上公园",
+      "category": "sight",
+      "area": "威海 · 经开区",
+      "address": "经开区海滨南路沿线，导航搜威海海上公园",
+      "note": "选海上公园的公共园路散步。海上项目另查当日开放及风浪，普通路线无需参加。",
+      "source_ids": [
+        "sight-sea-park"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%A8%81%E6%B5%B7%E6%B5%B7%E4%B8%8A%E5%85%AC%E5%9B%AD&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "ding-residence",
+      "name": "丁汝昌寓所",
+      "category": "sight",
+      "area": "威海 · 刘公岛",
+      "address": "在刘公岛岛上，先登船，再按岛上丁汝昌寓所指引步行",
+      "note": "查景区开放和返船通知。临近岛上约定会合时刻就去码头。",
+      "source_ids": [
+        "sight-ding-residence"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E4%B8%81%E6%B1%9D%E6%98%8C%E5%AF%93%E6%89%80&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "half-moon",
+      "name": "半月湾景区",
+      "category": "sight",
+      "area": "威海 · 环翠 · 孙家疃",
+      "address": "环翠区孙家疃街道，导航搜半月湾沙滩入口",
+      "note": "早上看天气及风浪。沿开敞步行区走，海滩临时封闭就去环翠市区。",
+      "source_ids": [
+        "sight-half-moon"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E5%8D%8A%E6%9C%88%E6%B9%BE%E6%99%AF%E5%8C%BA&city=%E5%A8%81%E6%B5%B7&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "hongkou-1920",
+      "name": "虹口1920历史文化街区",
+      "category": "sight",
+      "area": "烟台 · 芝罘 · 滨海广场",
+      "address": "芝罘区虹口路一带，导航搜虹口1920微度假历史文化街区",
+      "note": "街区开放及展屋、咖啡店营业以当日为准，先看外立面也能成行。",
+      "source_ids": [
+        "sight-hongkou-1920"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E8%99%B9%E5%8F%A31920%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "east-fort",
+      "name": "东炮台海滨风景区",
+      "category": "sight",
+      "area": "烟台 · 芝罘 · 东山岸线",
+      "address": "芝罘区滨海北路东段，导航搜东炮台海滨风景区",
+      "note": "外部岸线和炮位以开放范围为准。台阶和坡路可能湿滑。",
+      "source_ids": [
+        "sight-east-fort"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E4%B8%9C%E7%82%AE%E5%8F%B0%E6%B5%B7%E6%BB%A8%E9%A3%8E%E6%99%AF%E5%8C%BA&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "qi-home",
+      "name": "戚继光故里",
+      "category": "sight",
+      "area": "烟台 · 蓬莱 · 登州古城",
+      "address": "蓬莱区钟楼西路一带，地图搜戚继光故里景区",
+      "note": "街区可能有修缮和分区开放。导航和约车用戚继光故里，避免与水城内的同名纪念馆混淆。",
+      "source_ids": [
+        "sight-qi-home"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E6%88%9A%E7%BB%A7%E5%85%89%E6%95%85%E9%87%8C&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    },
+    {
+      "id": "tianheng-hill",
+      "name": "田横山公园",
+      "category": "sight",
+      "area": "烟台 · 蓬莱 · 蓬莱阁",
+      "address": "蓬莱阁景区丹崖山西侧，按当日票面和田横山导览走",
+      "note": "沿海步道、索道及入口开放按景区通知。风浪大时留在古阁主景区或改去戚继光故里。",
+      "source_ids": [
+        "sight-tianheng-hill"
+      ],
+      "links": [
+        {
+          "label": "高德搜地点",
+          "url": "https://uri.amap.com/search?keyword=%E7%94%B0%E6%A8%AA%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E7%83%9F%E5%8F%B0&src=jiaodong-roadbook&callnative=0"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "title": "海边散步适合的月份",
+      "category": "季节",
+      "text": "日期可挑时，优先 6 月上中旬或 9 月上中旬，尽量避开法定长假核心几天。主要活动是沿海步行、城市观景和刘公岛。想下海，则按当年有救生服务的浴场日期来选；上一年的开放表可参考。冬天也可沿城市线路走，优先保证白天海边时段，缩短大风天气的岸边停留。",
+      "source_ids": [
+        "qd-bath",
+        "weather"
+      ]
+    },
+    {
+      "title": "三家酒店与房间预算",
+      "category": "住宿",
+      "text": "青岛 D1–D3 中山路住桔子栈桥火车站店或汉庭栈桥中山路店。威海 D4–D5 韩乐坊住如家·neo 或汉庭。烟台 D6–D7 芝罘住朝阳街漫心或汉庭烟台火车站店。每地都订三间，先比每间晚含早总价，再问寄存和取消。详见地点页的住宿分类。",
+      "source_ids": [
+        "qd-stay",
+        "wh-stay",
+        "yt-stay"
+      ]
+    },
+    {
+      "title": "小组叫车怎么分",
+      "category": "交通",
+      "text": "普通车按两组，每车 2–3 人。预订大车时把箱子的尺寸与数量发给司机，7 座含司机。D1 与 D8 四川若不走高铁，两程车辆每程额外准备约 ¥550–950/队，再扣掉不用的车票。D7 不带大箱，可约 7 座。"
+    },
+    {
+      "title": "一桌怎么点菜",
+      "category": "美食",
+      "text": "青岛优先香酥鸡、蛤蜊和鲅鱼水饺；威海优先韩餐与市场海鲜；烟台从海肠捞饭、焖子和蓬莱小面入手。五六人先约一桌，按食量从一份招牌、两三样菜和主食起点。市场先确认斤或公斤、称重和加工费，同行有人对海鲜过敏时，点单前告知店家并安排单独菜品。",
+      "source_ids": [
+        "qd-food",
+        "wh-seafood",
+        "yt-food",
+        "yt-noodle"
+      ]
+    },
+    {
+      "title": "浪大、腿累和临时封闭",
+      "category": "途中",
+      "text": "上午和傍晚的海风也会很强，带防风层。八大关、小鱼山、烟台山、蓬莱阁都有坡道或台阶，想少走可保留海边公园、广场或领馆外观。警戒线内停留，雷雨别在海边空旷地点逗留；海上或沿岸求助可拨 12395，紧急医疗拨 120。",
+      "source_ids": [
+        "weather",
+        "qd-bath",
+        "maritime"
+      ]
+    },
+    {
+      "title": "离线阅读、地图与导出",
+      "category": "使用",
+      "text": "保存离线 HTML 后可以读路线、照片、地址和预算。高德地图、航司、12306 和场馆链接需要联网。地点页可按日期查原路线和备选，收藏、清单及笔记保存在当前浏览器。用同一浏览器重开，或先在出行工具导出本地记录。"
+    },
+    {
+      "title": "实景照片与许可",
+      "category": "图源",
+      "text": "照片来自 Pexels 与 Wikimedia Commons，按页面尺寸裁切或缩放。图下可打开对应的原图档案。",
+      "links": [
+        {
+          "label": "从海上视角俯瞰青岛栈桥和回澜阁",
+          "url": "https://www.pexels.com/photo/zhanqiao-pier-in-china-26873061/"
+        },
+        {
+          "label": "青岛老城红瓦建筑、树梢与远处海湾",
+          "url": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/"
+        },
+        {
+          "label": "青岛站南侧站房",
+          "url": "https://commons.wikimedia.org/wiki/File:20240730_Qingdao_Railway_Station_01.jpg"
+        },
+        {
+          "label": "青岛滨海城市景观，水边礁石与高楼",
+          "url": "https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/"
+        },
+        {
+          "label": "威海海岸的岩礁与远海",
+          "url": "https://www.pexels.com/photo/rocks-on-sea-shore-17538315/"
+        },
+        {
+          "label": "威海幸福门广场",
+          "url": "https://commons.wikimedia.org/wiki/File:Weihai.jpg"
+        },
+        {
+          "label": "刘公岛港与威海湾岸线",
+          "url": "https://commons.wikimedia.org/wiki/File:Weihai.port_de_Liugong_dao.jpg"
+        },
+        {
+          "label": "蓬莱阁古建筑和海岸灯塔",
+          "url": "https://commons.wikimedia.org/wiki/File:PenglaiPavilion_(croppe).jpg"
+        },
+        {
+          "label": "烟台山灯塔与纪念塔",
+          "url": "https://commons.wikimedia.org/wiki/File:Yantaishan_lighthouse_and_monument.jpg"
+        },
+        {
+          "label": "Pexels 许可",
+          "url": "https://www.pexels.com/license/"
+        },
+        {
+          "label": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "label": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "label": "CC BY 2.0",
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "coast",
+      "name": "8 天海岸行程",
+      "summary": "8 天 7 晚，青岛老城 3 晚、威海韩乐坊 2 晚、烟台芝罘 2 晚。城市间交替使用飞机、高铁和车辆。",
+      "days": [
+        {
+          "label": "飞抵青岛",
+          "title": "从自贡到青岛老城",
+          "area": "自贡 · 青岛",
+          "pace": "飞行与接驳",
+          "focus": "买票先看 D8 能否当天回自贡。去程用成都天府 TFU，优先选 11:30–15:00 左右起飞的直飞，按票面倒推，下面是 12:45 起飞的排程示例。",
+          "stay_id": "qd-hotel",
+          "photo": {
+            "file": "photos/qingdao-station.webp",
+            "alt": "青岛站南侧站房的红瓦、石拱门与站名",
+            "credit": "青岛站 · Windmemories · CC BY-SA 4.0 · 缩放与版面裁切",
+            "url": "https://commons.wikimedia.org/wiki/File:20240730_Qingdao_Railway_Station_01.jpg",
+            "focal": [
+              50,
+              55
+            ],
+            "mobile_focal": [
+              51,
+              52
+            ]
+          },
+          "stages": [
+            {
+              "title": "自贡到天府",
+              "item_id": "d1-transfer"
+            },
+            {
+              "title": "落地与入城",
+              "item_id": "d1-flight"
+            },
+            {
+              "title": "老城入住",
+              "item_id": "d1-checkin"
+            }
+          ],
+          "items": [
+            {
+              "id": "d1-transfer",
+              "title": "自贡集合，去天府机场",
+              "kind": "transport",
+              "start": "08:00",
+              "end": "10:10",
+              "detail": "5–6 人带大箱，早班可约合规 9 座车或两辆车，规划路上 1 小时45分–2小时15分。走铁路先在 12306 搜「自贡→天府机场」直达，车上约 35–65 分钟；从市区到自贡站再留 45–65 分钟进站与安检。建议铁路到机场至少比起飞早 2.5 小时。",
+              "from_id": "zigong",
+              "to_id": "tfu-rail",
+              "status": "estimated",
+              "source_ids": [
+                "zigong-rail",
+                "tfu-hub",
+                "rail"
+              ],
+              "steps": [
+                {
+                  "label": "前一晚定走法",
+                  "detail": "先对照全员的起飞机场和时间，再在群里定自贡集合定位、集合时刻、每车名单与箱子数量。铁路搜「自贡 → 天府机场」，按至少比起飞早 2.5 小时抵达机场的目标挑直达。",
+                  "places": [
+                    "zigong",
+                    "tfu-rail"
+                  ]
+                },
+                {
+                  "label": "在自贡集合",
+                  "detail": "走铁路的人在自贡站约定进站口碰头，证件随身，站内核对检票口。走公路就请每位司机复述目的地「成都天府国际机场」和票面航站楼，两车用同一个落客点。"
+                },
+                {
+                  "label": "到了先报位置",
+                  "detail": "高铁到站后从 GTC 跟航班出发指引进航站楼。各车或各组到齐后再确定值机排队的位置，把柜台区发给稍晚到的同伴。",
+                  "places": [
+                    "tfu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d1-airport",
+              "title": "值机安检，机场解决午饭",
+              "kind": "buffer",
+              "start": "10:10",
+              "end": "12:45",
+              "detail": "按机票去天府出发层，建议起飞前至少 2 小时进入航站楼。5–6 人一起托运时多预留排队时间。各自保管证件和托运封条。",
+              "place_id": "tfu",
+              "steps": [
+                {
+                  "label": "先把票和箱办妥",
+                  "detail": "看航显上的航司、航班号和值机区。把证件和订单拿在手边，逐只核对托运行李额度。托运后保留各自的行李凭条，确认随身小包里的证件和充电宝。"
+                },
+                {
+                  "label": "过安检再吃",
+                  "detail": "进入候机区先找到登机口，查一次登机开始时间。人数多时可分开点餐再约同一处座位，时间偏紧就选可带走的简餐。",
+                  "places": [
+                    "tfu"
+                  ]
+                },
+                {
+                  "label": "登机口集合",
+                  "detail": "群里发登机口和回到登机口的时间。航显换门时先同步同伴，再按新登机口移动。"
+                }
+              ]
+            },
+            {
+              "id": "d1-flight",
+              "title": "示例航段 · 成都天府飞青岛胶东",
+              "kind": "transport",
+              "start": "12:45",
+              "end": "15:30",
+              "detail": "主案直飞，飞行约 2 小时 40 分钟。比价以含税、托运和退改的总价为准，低价票先看行李额度，排程随出票更新。",
+              "from_id": "tfu",
+              "to_id": "tao",
+              "status": "pending",
+              "source_ids": [
+                "tao-flight"
+              ],
+              "steps": [
+                {
+                  "label": "订票对四项",
+                  "detail": "先确认直飞的起降机场是天府 TFU 和胶东 TAO，再核全员是否同一班、托运行李额度、计划落地时间与退改规则。出票后把实际时间填进当天计划。",
+                  "places": [
+                    "tfu",
+                    "tao"
+                  ]
+                },
+                {
+                  "label": "落地后怎么会合",
+                  "detail": "从廊桥或摆渡车抵达后，沿国内到达和行李提取指引走。第一组先在航显确认转盘，把号码发群里，所有人在同一转盘附近等齐。"
+                },
+                {
+                  "label": "落地晚就改轻",
+                  "detail": "看到明显延误时先联系中山路酒店保留房间，按实际落地时间决定地铁或两车。晚餐就近解决，原定夜逛可放到次日白天。",
+                  "places": [
+                    "qd-hotel"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d1-enter",
+              "title": "取行李，进青岛中山路",
+              "kind": "transport",
+              "start": "15:30",
+              "end": "17:30",
+              "detail": "取箱后走 GTC，8 号线在青岛北换 1 号线到中山路或青岛站，地铁加步行计划 65–90 分钟。六件大箱或晚到时，提前约两车到同一酒店入口。",
+              "from_id": "tao",
+              "to_id": "qd-hotel",
+              "status": "estimated",
+              "source_ids": [
+                "metro",
+                "metro-map"
+              ],
+              "steps": [
+                {
+                  "label": "取齐再离开",
+                  "detail": "按行李条核对拉杆箱和随身包。两组约好在转盘外或到达层同一根编号柱子会合，把选好的酒店定位发到群里。",
+                  "places": [
+                    "tao"
+                  ]
+                },
+                {
+                  "label": "行李少走地铁",
+                  "detail": "跟 GTC 或地铁牌进入 8 号线，在青岛北转 1 号线。根据实际酒店查中山路或青岛站哪一站更顺，把出站口和最后一段步行提前发群。",
+                  "places": [
+                    "qd-north",
+                    "qd-hotel"
+                  ]
+                },
+                {
+                  "label": "晚到或箱多走两车",
+                  "detail": "按机场网约车上客区指引分两组，每组留一个能联系另一组的人。用酒店门牌与全称叫车，司机到点后按车牌上车；先到的一组可以先问寄存或办理入住。",
+                  "places": [
+                    "qd-hotel-b"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d1-checkin",
+              "title": "中山路入住，连续住三晚",
+              "kind": "stay",
+              "start": "17:30",
+              "end": "18:20",
+              "detail": "首选桔子青岛栈桥火车站酒店，备选汉庭青岛栈桥中山路酒店。五人两双床一单住，六人三双床或按关系配床。订房时按三间可退、同楼层、含早总价筛。",
+              "place_id": "qd-hotel",
+              "source_ids": [
+                "qd-stay",
+                "qd-stay-b"
+              ],
+              "steps": [
+                {
+                  "label": "进店报三间房",
+                  "detail": "报订单姓名和连住三晚的日期，逐人办入住。核对房型、早餐人数、是否可放同层及哪天几点前退房，人多时请前台直接写清各个房号。"
+                },
+                {
+                  "label": "把今晚与明早定下",
+                  "detail": "各房进门确认房卡、热水和充电插座。群里统一写下酒店入口与次日大堂见面的时间，按从酒店到栈桥岸上入口的步行时间倒推。",
+                  "places": [
+                    "qd-hotel",
+                    "zhanqiao"
+                  ]
+                },
+                {
+                  "label": "换店时同步门牌",
+                  "detail": "如果选的是汉庭备选，把地铁出口、晚餐步行和次日集合都改按胶州路那家酒店；群里只留一个实际住处定位。",
+                  "places": [
+                    "qd-hotel-b"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d1-dinner",
+              "title": "老城第一餐，早到可顺走街区",
+              "kind": "meal",
+              "start": "18:30",
+              "end": "20:00",
+              "detail": "中山路或劈柴院附近找能坐下的一桌，点鲅鱼水饺、辣炒蛤蜊、时蔬。简单吃计划 ¥45–85/人。想早睡就回酒店，留栈桥给第二天早上。",
+              "place_id": "pichai",
+              "source_ids": [
+                "qd-old",
+                "qd-food"
+              ],
+              "steps": [
+                {
+                  "label": "先找能坐一桌的店",
+                  "detail": "从酒店往中山路或劈柴院找。让一人先问六人桌、排队时间和菜量，其他人可以在店门外约定的位置等，尽量少在窄巷分散。",
+                  "places": [
+                    "zhongshan",
+                    "pichai"
+                  ]
+                },
+                {
+                  "label": "按饥饿程度点",
+                  "detail": "可先点鲅鱼水饺、蛤蜊和一个时蔬，等菜上桌再追加。晚到时就近找能快速出餐的面馆或饺子馆。"
+                },
+                {
+                  "label": "散步短，早点收",
+                  "detail": "饭后状态好就沿中山路走一小段，定好折返点。回房把身份证、手机和防风层装进明天的随身包。",
+                  "places": [
+                    "qd-hotel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "胶东晚到，直接入住",
+              "trigger": "21:00 后落地，或取箱后地铁、转乘时间已不稳。",
+              "replace": [
+                "d1-enter",
+                "d1-dinner"
+              ],
+              "decision_item_id": "d1-enter",
+              "place_id": "qd-hotel",
+              "detail": "提前告知酒店保留房间，机场官方上客区分两辆车。各车用同一个酒店门牌和行程群，入住后在酒店周边简餐。D2 08:30 仍从栈桥开始，若睡眠不足顺延半小时。",
+              "cost_note": "青岛机场到老城两辆车可先预留约 ¥260–450/队，以当日下单为准。",
+              "steps": [
+                {
+                  "label": "先改集合点",
+                  "detail": "在航班预计到达改变时联系中山路酒店保留房间。告诉同行者直接按到达层与转盘编号会合，晚餐就近，夜逛放到次日。",
+                  "places": [
+                    "qd-hotel"
+                  ]
+                },
+                {
+                  "label": "改两车送到店",
+                  "detail": "用机场指定上客处和实际酒店门牌叫两车，到店先办入住再找简餐。第 2 天根据实际睡眠调整出门时间，栈桥仍为第一站。",
+                  "places": [
+                    "tao",
+                    "zhanqiao"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "红瓦老城",
+          "title": "栈桥、红瓦与琴屿路",
+          "area": "青岛 · 老城",
+          "pace": "步行约 5–7 公里",
+          "focus": "上午走老城区，午后经大学路上小鱼山，再下到琴屿路。小鱼山有坡和台阶，同伴可在山脚约定会合。",
+          "story": "看完栈桥的海，转进中山路和里院。午后沿大学路上小鱼山，从山上看红瓦与汇泉湾，再下到琴屿路沿岸慢走。",
+          "stay_id": "qd-hotel",
+          "photo": {
+            "file": "photos/qingdao-old-town.webp",
+            "alt": "青岛老城红瓦建筑、树梢与远处海湾",
+            "credit": "Whale I · Pexels",
+            "url": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+            "focal": [
+              50,
+              31
+            ],
+            "mobile_focal": [
+              50,
+              29
+            ]
+          },
+          "stages": [
+            {
+              "title": "栈桥与里院",
+              "item_id": "d2-bridge"
+            },
+            {
+              "title": "大学路到海边",
+              "item_id": "d2-art"
+            },
+            {
+              "title": "老城晚餐",
+              "item_id": "d2-dinner"
+            }
+          ],
+          "items": [
+            {
+              "id": "d2-bridge",
+              "title": "栈桥，先看清晨的海",
+              "kind": "visit",
+              "start": "08:30",
+              "end": "09:20",
+              "detail": "从酒店步行入青岛湾。看回澜阁、港湾和小青岛方向。浪大或桥面限流时在岸上看，给同伴 10 分钟合照再往中山路走。",
+              "place_id": "zhanqiao",
+              "source_ids": [
+                "qd-old"
+              ],
+              "steps": [
+                {
+                  "label": "认岸上的集合点",
+                  "detail": "导航选太平路的栈桥岸上入口。早餐后按酒店步行距离出门，尽量 08:30 前在入口一侧会合。",
+                  "places": [
+                    "qd-hotel",
+                    "zhanqiao"
+                  ]
+                },
+                {
+                  "label": "按海况选拍法",
+                  "detail": "开放且人少时走到回澜阁附近，留几分钟拍栈桥与海湾。遇风浪、排队或封闭，就在太平路沿岸看桥，给同行者留合照和休息时间。"
+                },
+                {
+                  "label": "09:20 收队",
+                  "detail": "按约在岸上入口重新数齐，补水后往中山路和浙江路走。想慢走的一组可在教堂广场边缘再会合。",
+                  "places": [
+                    "zhongshan",
+                    "church"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-church",
+              "title": "中山路、教堂广场和里院",
+              "kind": "visit",
+              "start": "09:35",
+              "end": "11:35",
+              "detail": "沿中山路向北，依次看圣弥厄尔教堂广场、安娜别墅外观、太兴里附近的里院。教堂以外观为主，开放且想入内时现场确认。周末拍照给出入口留路。",
+              "place_id": "church",
+              "source_ids": [
+                "qd-old"
+              ],
+              "steps": [
+                {
+                  "label": "先走地标",
+                  "detail": "从中山路转浙江路到教堂广场集合。先看双塔和广场周边，再顺路看安娜别墅外观；有排队就让出门口，把合照放到广场一侧。",
+                  "places": [
+                    "church"
+                  ]
+                },
+                {
+                  "label": "再挑一两处里院",
+                  "detail": "往太兴里或大鲍岛方向看里院入口、砖墙和街巷，遇开放庭院再进。喜欢拍照与愿意坐一会的同伴可短暂分组，约在午饭门口集合。",
+                  "places": [
+                    "zhongshan"
+                  ]
+                },
+                {
+                  "label": "11:35 往午饭走",
+                  "detail": "看教堂是否开放后再决定要不要进。已经临近午饭时保留外观和一处里院，把想细看的街巷留给晚饭前后。",
+                  "places": [
+                    "chunhe",
+                    "qd-fish-dumplings"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-lunch",
+              "title": "春和楼吃鲁菜",
+              "kind": "meal",
+              "start": "11:45",
+              "end": "13:05",
+              "detail": "建议五六人先询大桌，点香酥鸡、蒸饺和一份时蔬，预算 ¥75–120/人。想吃鲅鱼水饺，可改去海泊路裕兴里的船歌鱼水饺。等位超过 30 分钟，可改劈柴院附近锅贴或海鲜面。",
+              "place_id": "chunhe",
+              "source_ids": [
+                "qd-food",
+                "qd-dumpling-food"
+              ],
+              "steps": [
+                {
+                  "label": "到店先问桌",
+                  "detail": "先问春和楼有没有 5–6 人桌、香酥鸡的份量和等位时间。一人报人数，其他人在约好的门牌附近等齐再入座。",
+                  "places": [
+                    "chunhe"
+                  ]
+                },
+                {
+                  "label": "点一桌好分的",
+                  "detail": "香酥鸡、蒸饺配一份青菜先上，按人数再加主食或一两道海鲜。想吃鱼水饺则改海泊路船歌，等位超过约半小时就转老城附近的面馆或锅贴。",
+                  "places": [
+                    "qd-fish-dumplings",
+                    "pichai"
+                  ]
+                },
+                {
+                  "label": "饭后准备上坡路",
+                  "detail": "午饭结束补水、上洗手间，讨论下午要爬小鱼山的人数。腿累的同行者把大学路休息点定下来，再一起去大学路红墙。",
+                  "places": [
+                    "art"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-art",
+              "title": "大学路与鱼山路，给脚歇一会",
+              "kind": "visit",
+              "start": "13:25",
+              "end": "14:20",
+              "detail": "从老城步行约 20–30 分钟或分两车到大学路。看红墙，再顺路在大学路附近坐下喝水。美术馆有合适展览时可把这一段改成室内。",
+              "place_id": "art",
+              "source_ids": [
+                "qd-art"
+              ],
+              "steps": [
+                {
+                  "label": "从老城去大学路",
+                  "detail": "按体力步行或约两车，都用「青岛市美术馆，大学路 7 号」做集合定位。看红墙时把步行通道留出来。",
+                  "places": [
+                    "art"
+                  ]
+                },
+                {
+                  "label": "留个歇脚时段",
+                  "detail": "先走大学路与鱼山路这一段，再挑周围能坐下的地方喝水歇脚。馆内展览想看就先查开放入口，把集合点设在馆外。"
+                },
+                {
+                  "label": "13:30 看雨势",
+                  "detail": "大雨时按当天室内备选，优先美术馆，再考虑总督楼旧址。天气允许就按原计划 14:30 到小鱼山公园入口附近。",
+                  "places": [
+                    "governor",
+                    "xdx"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-panorama",
+              "title": "小鱼山的城景和汇泉湾",
+              "kind": "visit",
+              "start": "14:30",
+              "end": "15:30",
+              "detail": "按指引爬到览潮阁附近，天气通透时看红屋顶与海湾。坡道湿滑、同行者腿累或入园受限时，直接在大学路休息，15:45 去琴屿路。",
+              "place_id": "xdx",
+              "source_ids": [
+                "qd-old"
+              ],
+              "steps": [
+                {
+                  "label": "上山前先分走法",
+                  "detail": "导航福山支路的小鱼山公园入口。能走坡的一组按园内指引上到览潮阁附近，想坐下的同伴留在大学路休息，先约回合地点和时间。",
+                  "places": [
+                    "xdx",
+                    "art"
+                  ]
+                },
+                {
+                  "label": "找两个方向看",
+                  "detail": "到观景处往红瓦屋顶和汇泉湾各看一眼。风雨、路滑或视野很差时减掉上坡，在山脚或大学路等齐。"
+                },
+                {
+                  "label": "下山接海边",
+                  "detail": "15:30 左右结束，沿开放下山路走回约定路口。15:45 开始琴屿路一段，分开走时在鲁迅公园附近的同一入口会合。",
+                  "places": [
+                    "qinyu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-coast",
+              "title": "琴屿路与鲁迅公园，沿岸慢走",
+              "kind": "visit",
+              "start": "15:45",
+              "end": "17:30",
+              "detail": "小鱼山下行后可步行到鲁迅公园附近，再往琴屿路方向。海边拍完回街区，长时间等咖啡或小青岛限流就折返，不下湿滑礁石。",
+              "place_id": "qinyu",
+              "source_ids": [
+                "qd-old"
+              ],
+              "steps": [
+                {
+                  "label": "从鲁迅公园一侧走",
+                  "detail": "先在公园外围可辨认的入口集合，视开放沿岸走一段到琴屿路。想看小青岛的人先查开放和进场时间。",
+                  "places": [
+                    "qinyu"
+                  ]
+                },
+                {
+                  "label": "挑一段海景就够",
+                  "detail": "咖啡店排队时先走海边，想歇脚的同伴可在可坐的位置等。浪大或路面湿滑就留在栏内的人行道和观景点。"
+                },
+                {
+                  "label": "17:30 往晚饭收",
+                  "detail": "把折返点写在群里，沿原安全步道回街区。晚餐想少走就叫两车到同一中山路餐馆门牌。",
+                  "places": [
+                    "zhongshan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d2-dinner",
+              "title": "海鲜晚餐或早点回酒店",
+              "kind": "meal",
+              "start": "18:00",
+              "end": "19:30",
+              "detail": "老城附近可点葱烧海参或烧鲅鱼配米饭，预算 ¥80–135/人，量力点。晚上步行回酒店，不必再出远门。",
+              "place_id": "zhongshan",
+              "steps": [
+                {
+                  "label": "确定今天的收尾",
+                  "detail": "五六人找老城能坐一桌的餐馆，在酒店步行可回的范围挑。带有台阶疲劳的同伴先坐下，另一个人核海鲜的标价单位与份量。",
+                  "places": [
+                    "zhongshan"
+                  ]
+                },
+                {
+                  "label": "分一桌鲁菜",
+                  "detail": "可从一份烧鲅鱼或葱烧海参加时蔬、米饭起点；时价菜先问菜钱和加工。想吃轻一点就换鱼水饺或一碗面。"
+                },
+                {
+                  "label": "回房确认青啤预约",
+                  "detail": "把次日场次、集合时间、实名票和证件对上。外套、雨具和防滑鞋放在门口，早上能直接出门。",
+                  "places": [
+                    "qd-hotel",
+                    "beer"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "大学路室内走法",
+              "trigger": "13:00 确认午后降雨，栈桥临时封闭或小鱼山不宜登高。",
+              "replace": [
+                "d2-art",
+                "d2-panorama",
+                "d2-coast"
+              ],
+              "decision_item_id": "d2-art",
+              "place_id": "art",
+              "resume_item_id": "d2-dinner",
+              "detail": "完成老城午饭后 13:30 查当日展览，开放就看青岛市美术馆。若不开馆，查询龙山路德国总督楼旧址博物馆，核门票与时间；两个都休馆就原片区找咖啡馆和里院室内，17:30 回中山路。",
+              "cost_note": "免费展、茶饮或旧址门票各按所选方案实付。",
+              "source_ids": [
+                "qd-art"
+              ],
+              "steps": [
+                {
+                  "label": "13:30 查展馆",
+                  "detail": "先看大学路美术馆的当天展览、入口与开放时间。开馆就分车走同一入口，居内慢看并在出口会合。",
+                  "places": [
+                    "art"
+                  ]
+                },
+                {
+                  "label": "第二选择和收队",
+                  "detail": "若美术馆闭馆，查龙山路总督楼旧址的当日票。两处都闭馆就回老城选咖啡馆或开放里院歇脚，17:30 左右回中山路晚餐。",
+                  "places": [
+                    "governor",
+                    "zhongshan"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "浮山湾夜色",
+          "title": "青啤、八大关与浮山湾",
+          "area": "青岛 · 八大关",
+          "pace": "馆内参观与城市海岸",
+          "focus": "青啤登州路馆自 2026 年 12 月 1 日起改造，先按第 3 天的实际日期查开放，再订票。闭馆时改台柳路纯生之旅或老城室内馆，下午按天气走八大关和浮山湾。",
+          "stay_id": "qd-hotel",
+          "photo": {
+            "file": "photos/qingdao-coast.webp",
+            "alt": "青岛滨海城市景观，水边礁石与高楼",
+            "credit": "Zhengyang TIAN · Pexels",
+            "url": "https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/",
+            "focal": [
+              50,
+              62
+            ],
+            "mobile_focal": [
+              50,
+              57
+            ]
+          },
+          "stages": [
+            {
+              "title": "青啤参观",
+              "item_id": "d3-beer"
+            },
+            {
+              "title": "八大关到浮山湾",
+              "item_id": "d3-badaguan"
+            },
+            {
+              "title": "奥帆晚餐",
+              "item_id": "d3-dinner"
+            }
+          ],
+          "items": [
+            {
+              "id": "d3-beer",
+              "title": "青啤参观，先核登州路开放",
+              "kind": "visit",
+              "start": "09:15",
+              "end": "11:25",
+              "detail": "登州路开放时同一时段实名购票，普通成人票以 ¥60 作规划额，提前约 15 分钟到。预约须核当天开放范围和票型。台柳路、室内馆的上午改线见紧接的备选。",
+              "place_id": "beer",
+              "source_ids": [
+                "qd-beer",
+                "qd-beer-ticket",
+                "qd-beer-renovation",
+                "qd-beer-slots"
+              ],
+              "steps": [
+                {
+                  "label": "先核开放和场次",
+                  "detail": "登州路馆自 2026 年 12 月 1 日起闭馆改造。预计 2027 年 2 月 21 日部分区域开放、6 月下旬整体开放。实际日期能买到需要的展馆场次时，前晚存好票，示例 09:15 时段约 09:00 在入口碰头。",
+                  "places": [
+                    "beer"
+                  ]
+                },
+                {
+                  "label": "馆内先看历史",
+                  "detail": "有开放的情况下按馆方路线参观。全馆开放时先看历史展，再看酿造工艺和设备。部分恢复开放时只按票面范围走，约在参观线末段或出口会合。"
+                },
+                {
+                  "label": "结束后到台东",
+                  "detail": "体验、品鉴或购物按票面和个人需要选择。开放时走完登州路馆后约 11:25 去台东。闭馆或全员约不到票时，上午换走台柳路或室内馆，下午按天气接原路线。",
+                  "places": [
+                    "taidong",
+                    "beer-pure"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d3-lunch",
+              "title": "台东附近吃午饭",
+              "kind": "meal",
+              "start": "11:45",
+              "end": "13:10",
+              "detail": "午间找现营业的饺子或海鲜面馆，预算 ¥40–80/人。午饭后分两车到八大关，平日预留约 25–40 分钟。",
+              "place_id": "taidong",
+              "steps": [
+                {
+                  "label": "从登州路走到饭点",
+                  "detail": "从登州路出来就在台东商圈找出餐快、有大桌的饺子馆或面馆。上午改走台柳路时，就近吃饭再去八大关。短暂分开吃时先定共同集合门牌。",
+                  "places": [
+                    "taidong"
+                  ]
+                },
+                {
+                  "label": "午饭给下午留体力",
+                  "detail": "多人桌先配主食和一两道配菜，吃完补水，顺便检查手机电量、雨势和脚力。遇岸线关闭就提前改走室内。",
+                  "places": [
+                    "qd-mall"
+                  ]
+                },
+                {
+                  "label": "13:10 前后上车",
+                  "detail": "两辆车把目的地都发成八大关同一段正阳关路或现场能下车的入口。到得早的组在指定路口等齐后再开始步行。",
+                  "places": [
+                    "badaguan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d3-badaguan",
+              "title": "八大关树荫与旧洋楼",
+              "kind": "visit",
+              "start": "13:45",
+              "end": "15:15",
+              "detail": "在正阳关路和周边挑两三条街，看看花石楼或公主楼外观。若想入内只选一个，分开查票。花园小路和坡道适合短走。",
+              "place_id": "badaguan",
+              "source_ids": [
+                "qd-bath"
+              ],
+              "steps": [
+                {
+                  "label": "给步行画个短圈",
+                  "detail": "以正阳关路和毗邻街巷为主，挑两三段树荫路逛。想看别墅外观要先选花石楼或公主楼的优先次序，给偏慢的人留等候点。",
+                  "places": [
+                    "badaguan"
+                  ]
+                },
+                {
+                  "label": "入内只选一个",
+                  "detail": "对比开放、预约以及排队后再定是否入内。想接第二海水浴场就优先靠海一侧的步行路线，剩余时间留给海边。"
+                },
+                {
+                  "label": "到同一处路口会合",
+                  "detail": "15:15 左右结束洋楼段，按开放通道前往山海关路海边。体力不足的同行者可以直接在浴场岸上集合。",
+                  "places": [
+                    "beach"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d3-beach",
+              "title": "第二海水浴场岸边",
+              "kind": "visit",
+              "start": "15:20",
+              "end": "16:05",
+              "detail": "从八大关接沙滩，拍浪和岸线，游泳需按当日浴场公告与救生标志，其他时间踏沙看景。离开前拍好上车点。",
+              "place_id": "beach",
+              "source_ids": [
+                "qd-bath"
+              ],
+              "steps": [
+                {
+                  "label": "在岸上先看旗标",
+                  "detail": "到第二海水浴场先看通行和救生公告。只安排拍岸线与沙滩也足够；需要下海时按开放条件、救生提示和个人游泳能力决定。",
+                  "places": [
+                    "beach"
+                  ]
+                },
+                {
+                  "label": "海边留半小时",
+                  "detail": "在安全岸线上散步、合影，选能避风的方位歇脚。上岸后整理湿衣和沙子，确认每个人的随身物品。"
+                },
+                {
+                  "label": "16:05 转五四广场",
+                  "detail": "提前把合法上客点的门牌或位置发给同行者，车齐后再分组出发。下一站目标是五月的风雕塑附近。",
+                  "places": [
+                    "may4"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d3-may4",
+              "title": "五四广场到奥帆中心",
+              "kind": "visit",
+              "start": "16:35",
+              "end": "18:30",
+              "detail": "从八大关分两车或地铁转到五四广场，沿浮山湾慢走到奥帆中心旗阵广场一带。若脚累，五四广场合照后打车到奥帆中心 1 号门。",
+              "place_id": "may4",
+              "source_ids": [
+                "qd-bay"
+              ],
+              "steps": [
+                {
+                  "label": "先在五月的风见面",
+                  "detail": "两组的目的地用雕塑附近同一可下车位置，先往人行广场集合。拍完一张全队合照，再看是否沿浮山湾步行。",
+                  "places": [
+                    "may4"
+                  ]
+                },
+                {
+                  "label": "沿湾向奥帆走",
+                  "detail": "按开放滨海步道往奥帆中心方向，走走停停，到旗阵广场附近会合。脚累的同伴可从五四广场短驳到奥帆中心 1 号门。",
+                  "places": [
+                    "sailing"
+                  ]
+                },
+                {
+                  "label": "天色不确定这样收",
+                  "detail": "把灯光秀当一个可选项，当天有明确公告、天气合适且用餐时间允许再看。否则到餐馆休息，优先在 18:30 左右结束海湾段。"
+                }
+              ]
+            },
+            {
+              "id": "d3-dinner",
+              "title": "浮山湾晚餐，回程早点打包",
+              "kind": "meal",
+              "start": "18:40",
+              "end": "20:15",
+              "detail": "在奥帆或五四广场商圈吃鲅鱼饺子、家常鲁菜，预算 ¥65–115/人。回酒店检查 D4 车票上写青岛站还是青岛北站，收好寄存单。",
+              "place_id": "sailing",
+              "source_ids": [
+                "qd-bay"
+              ],
+              "steps": [
+                {
+                  "label": "找近处吃晚饭",
+                  "detail": "尽量选离当下集合点近的馆子。先问等位、六人桌和份量，人少要分桌时见面点仍设为同一个门牌。",
+                  "places": [
+                    "sailing",
+                    "may4"
+                  ]
+                },
+                {
+                  "label": "点可以快吃完的一桌",
+                  "detail": "从鱼水饺或家常鲁菜配米饭起点，点海鲜前问清价格和斤重。看完夜景的人把回餐馆与返店时间写进群里。"
+                },
+                {
+                  "label": "回酒店准备换城",
+                  "detail": "查 12306 票面是青岛站还是青岛北站，确定早饭形式和前台退房时间。把三间房的箱子尽量今晚打包，别让早上临时找东西拖慢进站。",
+                  "places": [
+                    "qd-hotel",
+                    "qd-station",
+                    "qd-north"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "下午风雨大，改走室内",
+              "trigger": "午饭前看到海滨风雨明显，浴场或岸线发出关闭消息。",
+              "replace": [
+                "d3-badaguan",
+                "d3-beach",
+                "d3-may4"
+              ],
+              "decision_item_id": "d3-badaguan",
+              "place_id": "qd-mall",
+              "resume_item_id": "d3-dinner",
+              "detail": "13:30 从午饭处乘车到万象城休息，视展览开放情况选青岛市美术馆作前半段。风雨持续就在五四广场商圈室内吃晚饭，避免继续在海湾站立等候。",
+              "cost_note": "室内商圈免费进入，餐饮及有价展览另付。",
+              "source_ids": [
+                "qd-bath",
+                "qd-art"
+              ],
+              "steps": [
+                {
+                  "label": "午饭时切换下午路线",
+                  "detail": "确认浴场或滨海步道状态，天气不便时从台东去山东路万象城。先找座、用洗手间，等全员抵达后再决定是否看展。",
+                  "places": [
+                    "qd-mall"
+                  ]
+                },
+                {
+                  "label": "把晚餐留在室内",
+                  "detail": "天气转好再决定短走海边。风雨持续就在五四广场附近的室内商圈吃饭，直接约车回酒店，晚上仍完成第 4 天车站核对。",
+                  "places": [
+                    "may4",
+                    "qd-hotel"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "登州路馆闭馆，改走台柳路",
+              "trigger": "登州路馆在第 3 天闭馆，想看的展区未恢复，或全队无法订到合适时段。提前一天按馆方公告决定。",
+              "replace": [
+                "d3-beer",
+                "d3-lunch"
+              ],
+              "decision_item_id": "d3-beer",
+              "place_id": "beer-pure",
+              "resume_item_id": "d3-badaguan",
+              "detail": "馆方预计 2027 年 2 月 21 日部分开放，6 月下旬整体开放。改台柳路时重新核票价、开放场次与工厂参观入口，午后仍安排八大关。持续风雨时，再用下午室内备选。",
+              "cost_note": "台柳路的门票和跨区车费按实际订单另核，原预算中的登州路门票随方案替换。",
+              "source_ids": [
+                "qd-beer-renovation",
+                "qd-art"
+              ],
+              "steps": [
+                {
+                  "label": "先定上午的预约",
+                  "detail": "用线上预约核这天是否有全队可去的台柳路纯生之旅场次。订好再看从中山路的实时车程，按同一个预约入口分两车。",
+                  "places": [
+                    "beer-pure"
+                  ]
+                },
+                {
+                  "label": "无场次则留老城",
+                  "detail": "查德国总督楼旧址或青岛市美术馆当日开放，选一个室内点。若两个都闭馆，回中山路喝咖啡、看开放里院，给下午海岸线路多留体力。",
+                  "places": [
+                    "governor",
+                    "art"
+                  ]
+                },
+                {
+                  "label": "就近吃午饭",
+                  "detail": "11:45 左右在参观就近的片区吃饭，按到八大关的实际车程安排出发。目标 13:45 接上原计划，天气差就转下午室内走法。",
+                  "places": [
+                    "badaguan",
+                    "qd-mall"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "抵达威海",
+          "title": "从青岛到威海湾",
+          "area": "青岛 · 威海",
+          "pace": "上午火车，下午三座公园",
+          "focus": "按威海站订车票，在同一家韩乐坊酒店放行李。抵达晚就保留威海公园大相框或悦海公园灯塔其中一处，晚餐仍在韩乐坊。",
+          "stay_id": "wh-hotel",
+          "stages": [
+            {
+              "title": "青岛站出发",
+              "item_id": "d4-checkout"
+            },
+            {
+              "title": "威海湾沿岸",
+              "item_id": "d4-xingfu"
+            },
+            {
+              "title": "韩乐坊晚餐",
+              "item_id": "d4-dinner"
+            }
+          ],
+          "items": [
+            {
+              "id": "d4-checkout",
+              "title": "退房，按票面去青岛站",
+              "kind": "transport",
+              "start": "07:50",
+              "end": "08:35",
+              "detail": "优先查青岛站直达威海站，目标 09:10–10:00 前后发车。建议至少发车前 40 分钟到铁路站；如订青岛北站，早餐后更早出门，从中山路 1 号线直达或分两车。",
+              "from_id": "qd-hotel",
+              "to_id": "qd-station",
+              "source_ids": [
+                "rail",
+                "metro-map"
+              ],
+              "steps": [
+                {
+                  "label": "出门前看精确站名",
+                  "detail": "昨晚先把实际车次、出发站和发车时刻发群里。示例 09:15 发车，按 08:35 前到站倒推。青岛北站那一案要另算地铁、站外步行和安检。",
+                  "places": [
+                    "qd-station",
+                    "qd-north"
+                  ]
+                },
+                {
+                  "label": "三间房一起退",
+                  "detail": "各房清点行李、房卡与充电器。一人结算和确认是否有遗留物，其他人在同一酒店入口等。优先选方便走到或靠车停的路口集合。",
+                  "places": [
+                    "qd-hotel"
+                  ]
+                },
+                {
+                  "label": "进站后再换队形",
+                  "detail": "过安检后第一组查车次和检票口，其他人按同一标识过去。买饮料或早餐的人先约最迟回到检票口的时间。"
+                }
+              ]
+            },
+            {
+              "id": "d4-train",
+              "title": "高铁到威海站（参考窗口）",
+              "kind": "transport",
+              "start": "09:15",
+              "end": "11:35",
+              "detail": "直达车程约 1 小时35分–2小时35分，二等座预留 ¥90–140/人，查有人同行时同车次与 5–6 张余票。若到威海北站，进韩乐坊多留 25–40 分钟。",
+              "from_id": "qd-station",
+              "to_id": "wh-station",
+              "status": "pending",
+              "source_ids": [
+                "rail",
+                "rail-sale"
+              ],
+              "steps": [
+                {
+                  "label": "购买同一趟车",
+                  "detail": "按实际日期搜青岛站或青岛北站 → 威海站，核全员同一车次、车厢和座位。能邻座就优先安排给需要互相照应的同伴。",
+                  "places": [
+                    "wh-station"
+                  ]
+                },
+                {
+                  "label": "临下车清点",
+                  "detail": "到站前收水杯、充电线和行李架上的箱，行李多的同伴先腾出手。出站后在铁路站指定出口或网约车等候区集合。"
+                },
+                {
+                  "label": "到威海北站时换接法",
+                  "detail": "若票面到威海北，把该站定位发给所有人。等大家出站再分车到同一家韩乐坊酒店，多留一段车程；酒店办完寄存晚就省一个海边点。",
+                  "places": [
+                    "wh-north",
+                    "wh-hotel"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d4-checkin",
+              "title": "酒店放行李，韩乐坊午饭",
+              "kind": "stay",
+              "start": "11:45",
+              "end": "13:45",
+              "detail": "从威海站分两车或步行到如家·neo 威海高铁汽车总站韩乐坊店，早到先寄存，备选汉庭。午饭吃拌饭、汤饭等，¥35–60/人。能入住就休息一会儿。",
+              "from_id": "wh-station",
+              "to_id": "wh-hotel",
+              "source_ids": [
+                "wh-stay",
+                "wh-stay-b",
+                "wh-food"
+              ],
+              "steps": [
+                {
+                  "label": "先到同一酒店",
+                  "detail": "根据箱子和天气从威海站步行或分两车。把「乐天世纪城壹号 B 座」和酒店订单截图给全员，备选汉庭时统一更新目的地。",
+                  "places": [
+                    "wh-hotel",
+                    "wh-hotel-b"
+                  ]
+                },
+                {
+                  "label": "箱子集中登记",
+                  "detail": "到店先看能否入住，早到就问寄存凭证与取件时间。各人把下午要用的水、防风层和手机充电用品留在随身包，再去韩乐坊吃午饭。",
+                  "places": [
+                    "hanle"
+                  ]
+                },
+                {
+                  "label": "根据寄存时刻删点",
+                  "detail": "14:30 左右能从容出发就去幸福门。更晚就按当日备选，保留大相框或灯塔一个即可。",
+                  "places": [
+                    "xingfu",
+                    "photo-frame",
+                    "lighthouse-wh"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d4-xingfu",
+              "title": "幸福门广场，先看威海湾北段",
+              "kind": "visit",
+              "start": "14:30",
+              "end": "15:15",
+              "detail": "酒店出发前预留约半小时。海滨北路看幸福门外观和海湾，岸上看一圈就够。到得晚可略过这一站。",
+              "place_id": "xingfu",
+              "source_ids": [
+                "wh-bay"
+              ],
+              "steps": [
+                {
+                  "label": "把目的地发对",
+                  "detail": "两车都去海滨北路的幸福门广场附近，车在合规处落客。约在幸福门一侧宽阔位置集合。",
+                  "places": [
+                    "xingfu"
+                  ]
+                },
+                {
+                  "label": "先合影，再看海",
+                  "detail": "在广场上看门架与海湾方向，约 30 分钟走完外观。风硬时把停留压短，移到背风的地方等车。"
+                },
+                {
+                  "label": "15:15 左右移动",
+                  "detail": "绿道或路况使步行太久时分车去大相框。仍以主要留影点为目标，错过饭点就更适合只留一座公园。",
+                  "places": [
+                    "photo-frame"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d4-frame",
+              "title": "威海公园大相框",
+              "kind": "visit",
+              "start": "15:35",
+              "end": "16:25",
+              "detail": "幸福门到大相框用短途车，近海广场合照后走一点绿道。合照排队太久，各车在原落客点前后约好集合。",
+              "place_id": "photo-frame",
+              "source_ids": [
+                "wh-bay"
+              ],
+              "steps": [
+                {
+                  "label": "打车搜「大相框」",
+                  "detail": "给两位司机发同一个威海公园大相框定位。到后记住合规下车点，先往面向海湾的一侧找大相框。",
+                  "places": [
+                    "photo-frame"
+                  ]
+                },
+                {
+                  "label": "先判断队伍",
+                  "detail": "想拍全队照就先看等候长度。等待会压过下一站时间时，转旁边开阔步道拍海湾，把相框当背景即可。"
+                },
+                {
+                  "label": "16:25 找接车点",
+                  "detail": "离开相框前重新数人，找现场允许上车的位置。按当天风势决定是否继续灯塔，体力不足就回韩乐坊。",
+                  "places": [
+                    "lighthouse-wh",
+                    "hanle"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d4-lighthouse",
+              "title": "悦海公园灯塔，留一点海边时间",
+              "kind": "visit",
+              "start": "16:45",
+              "end": "17:40",
+              "detail": "再分车去悦海公园，选灯塔附近短走。日落时间随月份变化，风大收短行程，别走下湿滑堤岸。",
+              "place_id": "lighthouse-wh",
+              "source_ids": [
+                "wh-bay"
+              ],
+              "steps": [
+                {
+                  "label": "导航到悦海公园灯塔",
+                  "detail": "两车去灯塔附近可落客处，先在园内主步道的明显节点碰头。想拍海和塔同框，可以沿开放绿道换一个角度。",
+                  "places": [
+                    "lighthouse-wh"
+                  ]
+                },
+                {
+                  "label": "海风大就短走",
+                  "detail": "把灯塔外观当唯一必看，按日照与风势决定在海边等多久。沿有栏杆的开放步道走，给每个人留一点坐下或避风时间。"
+                },
+                {
+                  "label": "17:40 前后回韩乐坊",
+                  "detail": "记下返程上客点和餐馆门牌。到韩乐坊后先查大桌，愿意逛夜市的同伴饭后再分开。",
+                  "places": [
+                    "hanle"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d4-dinner",
+              "title": "韩乐坊点一桌韩国菜",
+              "kind": "meal",
+              "start": "18:15",
+              "end": "19:50",
+              "detail": "炒年糕、鱼饼、炸鸡、烤肉或拌饭轮流尝。正餐预算 ¥55–95/人，夜市先约集合点。20:30 推一人查次日刘公岛航班和进出岛末船。",
+              "place_id": "hanle",
+              "source_ids": [
+                "wh-food",
+                "wh-boat"
+              ],
+              "steps": [
+                {
+                  "label": "先坐下来吃正餐",
+                  "detail": "问六人桌与出餐时间。可选烤肉或拌饭当主餐，炒年糕、甜辣炸鸡、鱼饼挑两样分尝，辣酱可分装。",
+                  "places": [
+                    "hanle"
+                  ]
+                },
+                {
+                  "label": "夜市分组有集合点",
+                  "detail": "饭后想继续逛的同伴先定回合门牌和时间，逛完各自把次日水、防风层和证件收进随身包，早点回酒店。",
+                  "places": [
+                    "wh-hotel"
+                  ]
+                },
+                {
+                  "label": "20:30 查次日船",
+                  "detail": "一人打开刘公岛景区官方入口看进岛时段、出岛末班及天气公告，截图发全员，写清楚去的是大陆客运中心。",
+                  "places": [
+                    "liugong-port"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "到威海晚，只留一座海边公园",
+              "trigger": "酒店办完寄存已经晚于 14:30，或海滨步道出现大风雨。",
+              "replace": [
+                "d4-xingfu",
+                "d4-frame",
+                "d4-lighthouse"
+              ],
+              "decision_item_id": "d4-xingfu",
+              "place_id": "photo-frame",
+              "resume_item_id": "d4-dinner",
+              "detail": "天气正常仅去大相框，或悦海公园灯塔二选一。持续强风雨就到威高广场室内休息，再回韩乐坊晚餐，出门前看刘公岛公告。",
+              "cost_note": "少跑两段短驳，室内餐饮按实付。",
+              "source_ids": [
+                "wh-bay",
+                "wh-boat"
+              ],
+              "steps": [
+                {
+                  "label": "14:30 后只选一景",
+                  "detail": "办完寄存后看还能从容走多久。想拍一张全队海湾照就去威海公园大相框，想慢走就去悦海公园灯塔。两地选一处。",
+                  "places": [
+                    "photo-frame",
+                    "lighthouse-wh"
+                  ]
+                },
+                {
+                  "label": "风雨强则改室内",
+                  "detail": "到威高广场等雨、休息或找正餐。保持韩乐坊晚餐和次日查船两个安排，晚饭后按新海况决定需不需要停航备选。",
+                  "places": [
+                    "wh-mall",
+                    "hanle"
+                  ]
+                }
+              ]
+            }
+          ],
+          "photo": {
+            "file": "photos/weihai-rocky-coast.webp",
+            "alt": "从岸边绿植间望向威海的蓝色海水和岩礁",
+            "credit": "威海海岸 · lee starry · Pexels",
+            "url": "https://www.pexels.com/photo/rocks-on-sea-shore-17538315/",
+            "focal": [
+              64,
+              55
+            ],
+            "mobile_focal": [
+              74,
+              52
+            ]
+          }
+        },
+        {
+          "label": "乘船上刘公岛",
+          "title": "刘公岛与威海海鲜",
+          "area": "威海 · 刘公岛",
+          "pace": "乘船，岛上约半天",
+          "focus": "08:30 到大陆的刘公岛客运中心。登岛前查回船时间及临时停航，计划 14:30 回岛上码头，至少比实际回程末班早 60 分钟。",
+          "stay_id": "wh-hotel",
+          "photo": {
+            "file": "photos/weihai-harbor.webp",
+            "alt": "刘公岛港与威海湾岸线",
+            "credit": "Popolon · CC BY-SA 3.0 · 缩放，页面按画幅裁切",
+            "url": "https://commons.wikimedia.org/wiki/File:Weihai.port_de_Liugong_dao.jpg",
+            "focal": [
+              52,
+              51
+            ],
+            "mobile_focal": [
+              52,
+              51
+            ]
+          },
+          "stages": [
+            {
+              "title": "码头检票登岛",
+              "item_id": "d5-check"
+            },
+            {
+              "title": "甲午展馆和岛上步行",
+              "item_id": "d5-museum"
+            },
+            {
+              "title": "回威海吃海鲜",
+              "item_id": "d5-back"
+            }
+          ],
+          "items": [
+            {
+              "id": "d5-check",
+              "title": "早餐后核查航班和风浪",
+              "kind": "other",
+              "at": "07:45",
+              "detail": "前一晚可先看一遍航班信息，早餐后再核当日班次。船方临时调整时按现场引导。",
+              "place_id": "liugong-port",
+              "source_ids": [
+                "wh-boat",
+                "wh-book"
+              ],
+              "steps": [
+                {
+                  "label": "查往返船班",
+                  "detail": "早餐后看「刘公岛景区」公众号的航班信息，记录本组能用的检票时段、当日出岛末班和风浪通知。拿不准就打 0631-5287807 问船方。",
+                  "places": [
+                    "liugong-port"
+                  ]
+                },
+                {
+                  "label": "定岛上会合时刻",
+                  "detail": "以 14:30 为会合目标，若末班早于 15:30，就把目标提到末船前至少 60 分钟。把具体时刻发到群里，留一张离线截图。",
+                  "places": [
+                    "liugong-pier"
+                  ]
+                },
+                {
+                  "label": "停航时改市区",
+                  "detail": "停航、海况不适合或全队订不到同一时段，就在出酒店前切到威海市博物馆备选。先问退改，再发新地址。",
+                  "places": [
+                    "wh-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d5-board",
+              "title": "到刘公岛客运中心，按所约时段登船",
+              "kind": "transport",
+              "start": "08:30",
+              "end": "09:20",
+              "detail": "常规成人票参考 ¥122，包含往返船和景区。按 5 人 ¥610、6 人 ¥732 备款。可提前 1–2 天看票，岛内观光车等自选项目按需另付。",
+              "from_id": "liugong-port",
+              "to_id": "liugong-pier",
+              "source_ids": [
+                "wh-ticket",
+                "wh-book"
+              ],
+              "steps": [
+                {
+                  "label": "叫车去大陆码头",
+                  "detail": "08:30 目标到海滨北路 101-2 号刘公岛客运中心。各车在同一个入口附近会合，票据、有效证件和优惠凭证拿在手边。",
+                  "places": [
+                    "liugong-port"
+                  ]
+                },
+                {
+                  "label": "进检票队前对表",
+                  "detail": "看票面检票时段，把五六人安排到同一船次范围。普通票按票面核往返与景区范围；观光车等自选。进闸后跟工作人员的候船区域引导。"
+                },
+                {
+                  "label": "上岛记住返航位置",
+                  "detail": "上岸第一件事先看返航检票口，拍清楚步行标牌。问回去从哪个方向排队，把码头与集合时刻一起发群里。",
+                  "places": [
+                    "liugong-pier"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d5-museum",
+              "title": "看甲午战争陈列馆和海军公所",
+              "kind": "visit",
+              "start": "09:30",
+              "end": "12:00",
+              "detail": "从岛上码头先去甲午战争陈列馆，再依开放和步行条件去北洋海军提督署。可关注威海湾为何被选作军港和展馆如何还原其地理位置。公所及展馆各自查开放。",
+              "place_id": "liugong",
+              "source_ids": [
+                "wh-island"
+              ],
+              "steps": [
+                {
+                  "label": "码头先找展馆方向",
+                  "detail": "从上岸口沿岛内导览先到甲午战争陈列馆。先看开放状况、洗手间和可以坐下等人的地方，再一起入馆。",
+                  "places": [
+                    "liugong"
+                  ]
+                },
+                {
+                  "label": "按展览节奏看",
+                  "detail": "优先读战争时间线、海图和军港相关展项，选择各自感兴趣的小展段。分开参观就约在同一出口碰头，再去北洋海军提督署。",
+                  "places": [
+                    "liugong-navy"
+                  ]
+                },
+                {
+                  "label": "11:45 前后盘点",
+                  "detail": "看步行速度和已用时间再决定是否看第二处。预计赶不上返航缓冲、脚累或某馆限入时，先保留陈列馆与午饭。"
+                }
+              ]
+            },
+            {
+              "id": "d5-lunch",
+              "title": "岛上简餐，午后选一项",
+              "kind": "meal",
+              "start": "12:00",
+              "end": "14:05",
+              "detail": "岛上简餐预留 ¥35–60/人，自带水。13:00 后优先考虑近陈列馆的定远舰，确认开放和票型；腿累或离末船不足就缩短，尽早到码头。",
+              "place_id": "liugong-navy",
+              "source_ids": [
+                "wh-island"
+              ],
+              "steps": [
+                {
+                  "label": "就近坐下吃",
+                  "detail": "中午先在已到的展馆周边找营业的简餐处。买热饭和水，优先选能较快出餐的餐点，把 14:30 或提前后的组队时刻再确认一遍。",
+                  "places": [
+                    "liugong-navy"
+                  ]
+                },
+                {
+                  "label": "下午只加一个点",
+                  "detail": "时间充裕时按景区导览去岛上的定远舰，核参观开放和当前票面。腿累、现场等候长或返航有变，就选码头附近短走。"
+                },
+                {
+                  "label": "提前往返航口走",
+                  "detail": "把从当前位置走到返航检票口的时间算进去，至少在原定会合前一段时间停止游览。去程拍下的返航牌可直接用来对方向。",
+                  "places": [
+                    "liugong-pier"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d5-back",
+              "title": "岛上码头会合，回大陆",
+              "kind": "transport",
+              "start": "14:30",
+              "end": "15:20",
+              "detail": "14:30 为团队目标。若当日末船早于 15:30，将集合提前到末班前至少 60 分钟，以船票、现场排队和船方引导为准。上岸后歇脚或回酒店。",
+              "from_id": "liugong-pier",
+              "to_id": "liugong-port",
+              "status": "estimated",
+              "source_ids": [
+                "wh-boat"
+              ],
+              "steps": [
+                {
+                  "label": "到岛上返航口会合",
+                  "detail": "根据早餐时定下的时刻集合。同行者逛开了就用「岛上返航检票」定位和现场标志会合，水与外套在随身包。",
+                  "places": [
+                    "liugong-pier"
+                  ]
+                },
+                {
+                  "label": "再查队伍和船班",
+                  "detail": "按回程票核验后走工作人员指向的候船区。如果船方临时调整，先按公告与工作人员安排排队，再在群里同步新的到岸预期。"
+                },
+                {
+                  "label": "到大陆再分车",
+                  "detail": "下船通过出口后一起清点，去大陆客运中心同一上客区。可以先回酒店歇脚，再按 17:30 目标去长峰邻里吃饭。",
+                  "places": [
+                    "liugong-port",
+                    "changfeng"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d5-dinner",
+              "title": "长峰邻里吃现选海鲜",
+              "kind": "meal",
+              "start": "17:30",
+              "end": "19:45",
+              "detail": "可在农贸市场一楼挑蛤蜊、扇贝和乳山牡蛎，二楼按价加工。先问斤数、时价、熟制和加工费，合理预算 ¥90–150/人。想少折腾就回韩乐坊坐店吃。",
+              "place_id": "changfeng",
+              "source_ids": [
+                "wh-seafood"
+              ],
+              "steps": [
+                {
+                  "label": "一楼挑货先对价",
+                  "detail": "到长峰邻里先问当天适合清蒸的蛤蜊、扇贝或牡蛎。确认称重单位、净重与单价后再挑五六个人能吃完的量。",
+                  "places": [
+                    "changfeng"
+                  ]
+                },
+                {
+                  "label": "二楼确认加工",
+                  "detail": "携带买好的海鲜去加工区，先问哪几份蒸、炒或煮，核每份加工费与桌位。也可先点主食和青菜，等海鲜上桌后再追加。"
+                },
+                {
+                  "label": "饭后定次日接车",
+                  "detail": "清点次日大箱件数，写下两组同一个酒店下车点。晚上回韩乐坊酒店，和两车司机分别确认 09:00 的见面位置。",
+                  "places": [
+                    "wh-hotel",
+                    "yt-hotel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "停航改威海市博物馆",
+              "trigger": "前一晚或 07:45 查到停航、海况不适合，或全队约不到同一船班。",
+              "replace": [
+                "d5-board",
+                "d5-museum",
+                "d5-lunch",
+                "d5-back"
+              ],
+              "decision_item_id": "d5-check",
+              "place_id": "wh-museum",
+              "resume_item_id": "d5-dinner",
+              "detail": "先查改退。09:30 到即墨路 2A 号三楼的威海市博物馆，带身份证，通常周一闭馆。中午在市区吃饭；下午风小可选海源公园短走，强风雨或休馆就在威高广场。17:30 接长峰晚餐。",
+              "cost_note": "若船票成功退回则扣除原船票开支，另计市内短驳和餐饮。",
+              "source_ids": [
+                "wh-boat",
+                "wh-museum"
+              ],
+              "steps": [
+                {
+                  "label": "先处理船票与通知",
+                  "detail": "遇到停航或全队票约不到时，先查买票渠道的改退，并把大陆码头的叫车取消或改址。群里更新前往的新集合处和时刻。",
+                  "places": [
+                    "liugong-port"
+                  ]
+                },
+                {
+                  "label": "上午改看市博物馆",
+                  "detail": "先查即墨路 2A 号三楼馆区当天是否开门，再带证件过去。下午视风雨选市区短走或威高广场休息；周一或馆方闭馆时可直接按室内半日走。",
+                  "places": [
+                    "wh-museum",
+                    "wh-mall"
+                  ]
+                },
+                {
+                  "label": "继续长峰晚饭",
+                  "detail": "午后预留回酒店歇脚的时间，17:30 左右到长峰。退票和车费按各自订单规则核。",
+                  "places": [
+                    "changfeng"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "烟台开埠老街",
+          "title": "芝罘老城的一下午",
+          "area": "威海 · 烟台",
+          "pace": "酒店到酒店，下午步行",
+          "focus": "跨城主案是两辆车或能放下行李的合规 9 座车，直接到芝罘酒店。铁路备选落牟平再进城，留足第二段的时间。",
+          "stay_id": "yt-hotel",
+          "photo": {
+            "file": "photos/yantai-lighthouse.webp",
+            "alt": "烟台山白色灯塔与抗日烈士纪念塔",
+            "credit": "烟台山 · K.Y.K.Z.K. · CC BY-SA 4.0 · 缩放与版面裁切",
+            "url": "https://commons.wikimedia.org/wiki/File:Yantaishan_lighthouse_and_monument.jpg",
+            "focal": [
+              44,
+              37
+            ],
+            "mobile_focal": [
+              43,
+              36
+            ]
+          },
+          "stages": [
+            {
+              "title": "威海退房到芝罘",
+              "item_id": "d6-transfer"
+            },
+            {
+              "title": "烟台山与朝阳街",
+              "item_id": "d6-hill"
+            },
+            {
+              "title": "所城里晚饭",
+              "item_id": "d6-suo"
+            }
+          ],
+          "items": [
+            {
+              "id": "d6-transfer",
+              "title": "威海退房，包车直送芝罘",
+              "kind": "transport",
+              "start": "09:00",
+              "end": "11:10",
+              "detail": "一车先问清核载和能装几只箱，分车报同一个芝罘酒店门牌。公路约 1.5–2 小时，预留 ¥450–750/队。铁路备选搜威海或威海北→牟平（约 15–40 分钟，¥12–30/人），再两车 40–65 分钟到芝罘。烟台南站施工期间停办客运。",
+              "from_id": "wh-hotel",
+              "to_id": "yt-hotel",
+              "status": "estimated",
+              "source_ids": [
+                "yt-south",
+                "yt-muping",
+                "rail"
+              ],
+              "steps": [
+                {
+                  "label": "提前确认箱位",
+                  "detail": "把人数、箱子尺寸和芝罘酒店全名发给司机。两辆车分别约在韩乐坊酒店同一侧门口接，用同一个可到达的芝罘下车点。",
+                  "places": [
+                    "wh-hotel",
+                    "yt-hotel"
+                  ]
+                },
+                {
+                  "label": "09:00 出发前清点",
+                  "detail": "三间房退房后，按分车名单把箱子和人分别数一遍。第一辆车先到就把实际路口发给另一组并联系前台，避免车辆在步行街分头兜圈。"
+                },
+                {
+                  "label": "要坐高铁先看整段",
+                  "detail": "按日期查威海站或威海北到牟平，先在牟平侧约好进芝罘的两个座位组，再确定午饭时间。站名与当天能订到的车次以 12306 为准。",
+                  "places": [
+                    "wh-station",
+                    "wh-north",
+                    "muping"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d6-checkin",
+              "title": "放行李，烟台老城午饭",
+              "kind": "stay",
+              "start": "11:15",
+              "end": "13:10",
+              "detail": "想多步行住漫心烟台滨海广场店，想近火车站住汉庭烟台火车站店。三间连住 D6–D7；漫心在朝阳街上，问清车辆可到的会合门牌。午饭选南洪街附近焖子、饺子或面食，¥35–70/人。",
+              "place_id": "yt-hotel",
+              "source_ids": [
+                "yt-stay",
+                "yt-stay-b"
+              ],
+              "steps": [
+                {
+                  "label": "在车能到的位置交接",
+                  "detail": "住漫心先问朝阳街 14 号附近哪处路口便于放行李，约在同一个位置。住汉庭备选就按青年路门牌重新发定位。",
+                  "places": [
+                    "yt-hotel",
+                    "yt-hotel-b"
+                  ]
+                },
+                {
+                  "label": "早到就登记寄存",
+                  "detail": "先核三间连住两晚的房型并寄存大箱。把箱子件数、领用凭证和最晚取件方式告诉各房，方便返程日退房。"
+                },
+                {
+                  "label": "午饭选老城近处",
+                  "detail": "午饭可到南洪街附近吃福山大面、焖子或饺子，宁可就近吃完再出发。13:15 左右重新集合，按体力步行或分车去烟台山。",
+                  "places": [
+                    "nanhong",
+                    "yt-hill"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d6-hill",
+              "title": "烟台山，从领馆旧址看到海",
+              "kind": "visit",
+              "start": "13:30",
+              "end": "15:00",
+              "detail": "历新路 7 号入园，逐步往灯塔方向。园区通常免费，灯塔另约 ¥10。登高时间拥挤或风大时只看主要建筑和海边。",
+              "place_id": "yt-hill",
+              "source_ids": [
+                "yt-old",
+                "yt-walk-2026"
+              ],
+              "steps": [
+                {
+                  "label": "入口先认历新路",
+                  "detail": "导航历新路 7 号的烟台山景区。到后看入口提示，给需要休息的同行者约好山脚会合点。",
+                  "places": [
+                    "yt-hill"
+                  ]
+                },
+                {
+                  "label": "先看建筑再定登塔",
+                  "detail": "在开放区域看领事馆旧址和港湾方向，接着看灯塔。登塔有票价、排队及开放变化，视线差或风大时把灯塔留作外观。"
+                },
+                {
+                  "label": "从山脚接朝阳街",
+                  "detail": "15:00 左右往山脚收队，从景区南侧接朝阳街。天气转坏可切换张裕或烟台市博物馆室内方案。",
+                  "places": [
+                    "chaoyang",
+                    "wine"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d6-chaoyang",
+              "title": "朝阳街喝杯咖啡",
+              "kind": "visit",
+              "start": "15:15",
+              "end": "16:35",
+              "detail": "顺道走街道，观察开埠留下的砖石建筑立面，一起坐 30 分钟，随后步行到所城里。",
+              "place_id": "chaoyang",
+              "source_ids": [
+                "yt-old",
+                "yt-walk-2026"
+              ],
+              "steps": [
+                {
+                  "label": "沿老街看砖石立面",
+                  "detail": "从烟台山脚顺朝阳街步行，先看几处近代建筑立面的窗、拱门与街巷尺度。想买苹果小吃或特产可挑一家停留。",
+                  "places": [
+                    "chaoyang"
+                  ]
+                },
+                {
+                  "label": "给同行者坐 30 分钟",
+                  "detail": "选五六个人能坐下的店歇脚，愿意拍照的人在同一街段活动。集合点用店名和门牌，全员都留得出继续步行的体力。"
+                },
+                {
+                  "label": "朝所城里转场",
+                  "detail": "16:35 左右一起离开朝阳街，导航到所城里南大街一侧。脚累或下雨就分车到同一可落点，自己不确定时先确认司机所说的入口。",
+                  "places": [
+                    "suocheng"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d6-suo",
+              "title": "所城里看老街入夜",
+              "kind": "visit",
+              "start": "17:00",
+              "end": "18:05",
+              "detail": "南大街入街，逛一圈北门里街和院落主巷。居民门口和窄巷留通道。",
+              "place_id": "suocheng",
+              "source_ids": [
+                "yt-old",
+                "yt-walk-2026"
+              ],
+              "steps": [
+                {
+                  "label": "先从宽处进街",
+                  "detail": "把南大街一侧主入口作为第一集合处。先沿主街进巷，看青砖门楼、院墙与街巷转折，开放院落按现场提示入内。",
+                  "places": [
+                    "suocheng"
+                  ]
+                },
+                {
+                  "label": "窄巷分开也能会合",
+                  "detail": "拍照的人留出居民门口与人行线，从主巷走到北门里街。愿意少走的一组直接在晚餐门口等。",
+                  "places": [
+                    "benjia"
+                  ]
+                },
+                {
+                  "label": "18:05 确认晚餐地址",
+                  "detail": "首选本家大院北门里街 30 号，若等位就提前联系朝阳街备选。改去哪一家都发门牌与步行或车辆集合点。",
+                  "places": [
+                    "benjia",
+                    "baina"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d6-dinner",
+              "title": "海肠捞饭，配一桌烟台菜",
+              "kind": "meal",
+              "start": "18:15",
+              "end": "20:00",
+              "detail": "所城里就近用本家大院（北门里街 30 号），住朝阳街也可选百纳·观澜。点海肠捞饭配焖子、鲅鱼水饺，预算 ¥85–150/人。",
+              "place_id": "benjia",
+              "source_ids": [
+                "yt-food"
+              ],
+              "steps": [
+                {
+                  "label": "先问招牌的份量",
+                  "detail": "到本家大院可先问一份海肠捞饭可分几人，以及有没有焖子和带海鲜的饺子。五六人可以先点一份捞饭、一份焖子加蔬菜。",
+                  "places": [
+                    "benjia"
+                  ]
+                },
+                {
+                  "label": "视等位切换同片区",
+                  "detail": "全员找大桌，等候太久提前问百纳·观澜或老城中的近处餐馆。换地点把正式名称发全员，人齐后再点餐。",
+                  "places": [
+                    "baina"
+                  ]
+                },
+                {
+                  "label": "回酒店定蓬莱车",
+                  "detail": "确认第 7 天 08:00 的车辆座位、无大箱安排和司机联系方式。今晚先把蓬莱门票及上车点顺手存离线。",
+                  "places": [
+                    "yt-hotel",
+                    "penglai"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "雨天逛张裕博物馆",
+              "trigger": "午饭后仍有明显降雨，或烟台山景区/灯塔限入。",
+              "replace": [
+                "d6-hill",
+                "d6-chaoyang",
+                "d6-suo"
+              ],
+              "decision_item_id": "d6-hill",
+              "place_id": "wine",
+              "resume_item_id": "d6-dinner",
+              "detail": "13:30 到大马路 56 号，先核当日开馆及 16:30 止入场条件。雨小可回朝阳街短逛，强风雨就回酒店休息和吃晚饭。若张裕也关门，查烟台市博物馆；两处都关则留室内用餐。",
+              "cost_note": "张裕普通成人参考 ¥80，原城市步行方案基本免费。",
+              "source_ids": [
+                "yt-wine",
+                "yt-wine-price",
+                "yt-museum"
+              ],
+              "steps": [
+                {
+                  "label": "饭后查张裕开放",
+                  "detail": "在路上先看张裕酒文化博物馆的大马路 56 号入口、检票时限和全员能买到的票，先让下一步明确再叫车。",
+                  "places": [
+                    "wine"
+                  ]
+                },
+                {
+                  "label": "决定是否回老街",
+                  "detail": "张裕闭馆可改市博物馆，需核当日开放。雨小时顺路短逛朝阳街，强雨就回酒店。晚饭保留在所城里或朝阳街能坐下的大桌。",
+                  "places": [
+                    "yt-museum",
+                    "chaoyang",
+                    "baina"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "登临蓬莱阁",
+          "title": "蓬莱水城、古阁与一碗小面",
+          "area": "烟台 · 蓬莱",
+          "pace": "当天往返，约半天游园",
+          "focus": "08:00 从芝罘出发。上午完成水城与古建筑群，午饭前出园。车辆进出按当日交通管控，提前与司机约好同一回程点。",
+          "stay_id": "yt-hotel",
+          "photo": {
+            "file": "photos/yantai-penglai.webp",
+            "alt": "蓬莱阁古建筑和海岸灯塔",
+            "credit": "Chrishcn · CC BY 2.0 · 裁切与缩放",
+            "url": "https://commons.wikimedia.org/wiki/File:PenglaiPavilion_(croppe).jpg",
+            "focal": [
+              56,
+              52
+            ],
+            "mobile_focal": [
+              58,
+              52
+            ]
+          },
+          "stages": [
+            {
+              "title": "芝罘往返接驳",
+              "item_id": "d7-car"
+            },
+            {
+              "title": "水城和古阁",
+              "item_id": "d7-visit"
+            },
+            {
+              "title": "小面与返城",
+              "item_id": "d7-lunch"
+            }
+          ],
+          "items": [
+            {
+              "id": "d7-car",
+              "title": "从芝罘去蓬莱阁",
+              "kind": "transport",
+              "start": "08:00",
+              "end": "09:35",
+              "detail": "往返预约合规 7 座车（司机占一座，当天不带大行李）或两辆车，预计单程 75–100 分钟，来回 ¥650–950/队。从司机处确认振扬门可否落客，以及蓬莱文化广场西门能否会合。",
+              "from_id": "yt-hotel",
+              "to_id": "penglai",
+              "status": "estimated",
+              "source_ids": [
+                "yt-penglai-drop"
+              ],
+              "steps": [
+                {
+                  "label": "前一晚确认两次车",
+                  "detail": "和司机约好芝罘酒店一侧的上客点、去蓬莱景区的下客点及 16:00 回程会合点。六位同行者乘 7 座车时，把司机也算进核载；大箱留酒店。",
+                  "places": [
+                    "yt-hotel",
+                    "pl-pickup"
+                  ]
+                },
+                {
+                  "label": "08:00 准备上车",
+                  "detail": "出门带证件、门票、饮水、防风层和能走台阶的鞋。一人核对车牌及人数再出发，另一人留好票据与司机手机号供返程。"
+                },
+                {
+                  "label": "进蓬莱先认入口",
+                  "detail": "临近景区看当日交通和检票口公告。振扬门可作为导航目标，若管控要求在别处下车，拍下从落客点走到景区的指路牌。",
+                  "places": [
+                    "penglai"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d7-visit",
+              "title": "蓬莱阁振扬门入园，走水城和古建",
+              "kind": "visit",
+              "start": "09:40",
+              "end": "12:35",
+              "detail": "先经水城再上古阁。按景区公告看可抵达的沿海视点，有空再看戚继光纪念馆。普通成人首道票参考 ¥100，公众号「蓬莱阁景区」在线订票、带本人证件。不同季节闭园时间不同，安排上午入园。",
+              "place_id": "penglai",
+              "source_ids": [
+                "yt-penglai",
+                "yt-penglai-book",
+                "yt-pl-entry"
+              ],
+              "steps": [
+                {
+                  "label": "从票面入口检票",
+                  "detail": "先对照当日入园说明，实名票和证件放手边。入园后看景区图，记住可接午饭的出口和下午上车点的方向。",
+                  "places": [
+                    "penglai",
+                    "pl-pickup"
+                  ]
+                },
+                {
+                  "label": "先水城，再古阁",
+                  "detail": "沿水城看城门、岸线和水道，再走开放的上山路到古建筑群。给长坡、台阶和排队留时间，同伴愿意慢走时约在主要入口附近会合。"
+                },
+                {
+                  "label": "午饭前把支线收掉",
+                  "detail": "主线没走完就优先保留水城与古阁。当日有止入限制、风雨或队伍累时，先省纪念馆等支线，约 12:35 出园。"
+                }
+              ]
+            },
+            {
+              "id": "d7-lunch",
+              "title": "吃蓬莱小面，顺便休息",
+              "kind": "meal",
+              "start": "12:45",
+              "end": "14:05",
+              "detail": "看建兴面馆南关路店当天是否午间营业。售完可就近吃蓬莱小面，点一碗小面加鱼卤或本地小菜，预留 ¥25–50/人。",
+              "place_id": "noodles",
+              "source_ids": [
+                "yt-noodle"
+              ],
+              "steps": [
+                {
+                  "label": "先问建兴还有面吗",
+                  "detail": "离园时问建兴面馆南关路店是否还在营业、能否坐下五六人。售完或等候长时，直接在南关路附近找其他蓬莱小面。",
+                  "places": [
+                    "noodles"
+                  ]
+                },
+                {
+                  "label": "鱼卤小面按人点",
+                  "detail": "每人先定一碗面，按口味追加本地小菜。问清鱼卤里有什么，吃完补水，能坐下就给同伴一点休息时间。"
+                },
+                {
+                  "label": "饭后定下午走法",
+                  "detail": "风小就只走一段海岸。风雨持续、疲劳或时间赶时把休息移到室内，提前问司机可否早接。",
+                  "places": [
+                    "pl-pickup"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d7-seaside",
+              "title": "蓬莱海边透气，约好上车点",
+              "kind": "visit",
+              "start": "14:15",
+              "end": "15:40",
+              "detail": "风和日丽走一小段海滨；风大就选咖啡馆或提前回芝罘。离园后安排自由停留，回程上车按与司机约好的落客点。",
+              "place_id": "pl-pickup",
+              "source_ids": [
+                "yt-penglai-drop"
+              ],
+              "steps": [
+                {
+                  "label": "把自由活动放在一块",
+                  "detail": "饭后只选离回程接人处不远的海滨步行段。分开散步和喝咖啡时，大家保留同一个集合定位与时间。"
+                },
+                {
+                  "label": "15:40 前向车点收拢",
+                  "detail": "以已与司机确认的合法上客点为准。如选蓬莱文化广场西门，就发准确门名和路侧位置。两辆车各报车牌。",
+                  "places": [
+                    "pl-pickup"
+                  ]
+                },
+                {
+                  "label": "路口变化立即同步",
+                  "detail": "临时管控时先电话找到新上客点，再到站牌或门牌下重发定位。全队确认后一起移动，接上 16:00 回芝罘安排。"
+                }
+              ]
+            },
+            {
+              "id": "d7-return",
+              "title": "回芝罘，最后一晚吃正餐",
+              "kind": "transport",
+              "start": "16:00",
+              "end": "17:50",
+              "detail": "往市区回程，尽量按 16:00 出发以避开晚饭时段。铁路省钱方案搜「烟台站→蓬莱站」往返同时有票再下单，单程约 30–50 分钟、二等座 ¥30–50/人，另留 15–25 分钟车到景区。",
+              "from_id": "pl-pickup",
+              "to_id": "yt-hotel",
+              "source_ids": [
+                "yt-penglai-rail",
+                "rail"
+              ],
+              "steps": [
+                {
+                  "label": "接车时清点全员",
+                  "detail": "各组从约定同一地点上车，记下谁坐哪辆车。到芝罘可直接到酒店或已预约的餐馆，统一下车点。",
+                  "places": [
+                    "pl-pickup",
+                    "yt-hotel"
+                  ]
+                },
+                {
+                  "label": "铁路走法先锁返程",
+                  "detail": "若用铁路备选，提前在 12306 核同一天有票的「烟台站 ↔ 蓬莱站」。另算从景区到蓬莱站、进站和烟台站回酒店的时间，按真实发车时刻提前收队。",
+                  "places": [
+                    "pl-station",
+                    "yt-station"
+                  ]
+                },
+                {
+                  "label": "回城慢了就挪晚餐",
+                  "detail": "车在途时联系餐馆调整入座时间。到店晚先吃饭，再回酒店准备第 8 天。",
+                  "places": [
+                    "baina"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d7-dinner",
+              "title": "芝罘晚餐，确认次日上车",
+              "kind": "meal",
+              "start": "18:10",
+              "end": "20:30",
+              "detail": "烟台砂锅、焖子或海鲜亲自看价分量再点。饭后核对 D8 的航班、机场 T2、接送落客、天府后续车票和自贡收尾车辆，按实际起飞时刻重算酒店出发时间。",
+              "place_id": "baina",
+              "source_ids": [
+                "yt-food",
+                "yt-airport"
+              ],
+              "steps": [
+                {
+                  "label": "在酒店附近收尾",
+                  "detail": "想安静吃一桌可选朝阳街商圈，提前问大桌和份量。已经吃过海肠捞饭就换砂锅、焖子或自己想补的本地菜。",
+                  "places": [
+                    "baina"
+                  ]
+                },
+                {
+                  "label": "饭后逐段核对返程",
+                  "detail": "打开实际机票与车票，依次核烟台出发航站楼、天府落地时刻、GTC 高铁发车和自贡接人。分开买的机票车票给取箱、步行、安检和检票留足时间。",
+                  "places": [
+                    "ynt",
+                    "tfu-rail",
+                    "zigong"
+                  ]
+                },
+                {
+                  "label": "把集合时间发到群里",
+                  "detail": "用返程试算倒推出酒店集合，和司机约好两车上客点。各房把证件、房卡、衣物和充电器放在容易拿到的地方。",
+                  "places": [
+                    "yt-hotel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "蓬莱风雨，留在芝罘看展",
+              "trigger": "07:30 查到蓬莱阁关停、雷暴、大风影响长途车或海边游览。",
+              "replace": [
+                "d7-car",
+                "d7-visit",
+                "d7-lunch",
+                "d7-seaside",
+                "d7-return"
+              ],
+              "decision_item_id": "d7-car",
+              "place_id": "yt-museum",
+              "resume_item_id": "d7-dinner",
+              "detail": "按订单规则处理门票与用车。09:00 左右查烟台市博物馆开放时段，周一或馆方休馆改张裕酒文化博物馆；若前一天已去张裕，留市区正餐与室内休息。中午到南洪风情街，天气转缓再走所城里，18:10 接原晚餐。",
+              "cost_note": "少付蓬莱交通和门票的前提是订单允许取消，烟台市博物馆票务按馆方公告，张裕约 ¥80/人。",
+              "source_ids": [
+                "weather",
+                "yt-museum",
+                "yt-wine"
+              ],
+              "steps": [
+                {
+                  "label": "07:30 做出改线决定",
+                  "detail": "查蓬莱开放、风雨及用车订单可否取消或改期，先通知司机和同行者。保留在烟台市区的午饭和晚餐安排。",
+                  "places": [
+                    "yt-hotel"
+                  ]
+                },
+                {
+                  "label": "按场馆开放顺序挑",
+                  "detail": "先看烟台市博物馆，闭馆改张裕。已参观过张裕或两个都闭馆时，上午在芝罘室内休息，中午去南洪街附近吃饭。",
+                  "places": [
+                    "yt-museum",
+                    "wine",
+                    "nanhong"
+                  ]
+                },
+                {
+                  "label": "18:10 接回原晚餐",
+                  "detail": "风雨转小再考虑所城里短走，否则就在老城就餐。饭后照常确认第 8 天航班与送机、在天府的换乘方案。",
+                  "places": [
+                    "suocheng",
+                    "baina"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "返回自贡",
+          "title": "从烟台回自贡",
+          "area": "烟台 · 自贡",
+          "pace": "返程专日",
+          "focus": "先选有把握当天到自贡的票。首选烟台 YNT 直飞成都天府 TFU，建议 18:00 前落地。下列 11:35 起飞的时间是倒推示例，订好后在返程工具改成自己的时刻。",
+          "stages": [
+            {
+              "title": "退房和送机",
+              "item_id": "d8-bags"
+            },
+            {
+              "title": "飞成都天府",
+              "item_id": "d8-flight"
+            },
+            {
+              "title": "接高铁回自贡",
+              "item_id": "d8-rail"
+            }
+          ],
+          "items": [
+            {
+              "id": "d8-bags",
+              "title": "退房、取箱，在约定路口集合",
+              "kind": "stay",
+              "at": "07:45",
+              "detail": "有早班就选含早餐打包或自带简餐。核对房卡、充电器、证件和行李。朝阳街若限车，请各车在同一可停靠路口集合。",
+              "place_id": "yt-hotel",
+              "steps": [
+                {
+                  "label": "按实际起飞倒推",
+                  "detail": "提前问酒店早餐可否打包，若不用就备一份简餐。三间房各派一人退房，一起核证件、房卡、电子票和所有箱子。",
+                  "places": [
+                    "yt-hotel"
+                  ]
+                },
+                {
+                  "label": "步行街外同点上车",
+                  "detail": "头一晚问前台哪段朝阳街可停车。把能停车的路口用照片或定位发给每辆车；先到的人留在约定的人行空间等齐。"
+                },
+                {
+                  "label": "箱子入车再出发",
+                  "detail": "各车逐件清点自己的箱子，确认司机目的地是烟台蓬莱机场票面的国内出发层。若住汉庭，就从青年路那家重新倒推集合。",
+                  "places": [
+                    "yt-hotel-b",
+                    "ynt"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d8-airport",
+              "title": "芝罘酒店送机到烟台蓬莱机场",
+              "kind": "transport",
+              "start": "08:00",
+              "end": "09:10",
+              "detail": "两车到 T2 国内出发层，按 55–85 分钟路程规划。建议起飞前 3 小时30 分钟左右离开酒店、至少前 2 小时到航站楼；若只查得到较早航班，按票面整体提前。两车 ¥250–450/队。巴士从烟台汽车总站查当天班次。",
+              "from_id": "yt-hotel",
+              "to_id": "ynt",
+              "arrive_by": "09:35",
+              "arrive_label": "示例行程最晚到 T2 航站楼",
+              "status": "estimated",
+              "source_ids": [
+                "yt-airport"
+              ],
+              "steps": [
+                {
+                  "label": "把车程和缓冲算足",
+                  "detail": "按起飞时刻往前留 2 小时到航站楼，再减去实际预估车程。示例 11:35 起飞，08:00 酒店出发，有箱多、天气差或交通慢时增加缓冲。"
+                },
+                {
+                  "label": "统一到 T2 出发层",
+                  "detail": "叫车时行程目的地用机场加「T2 国内出发层」，最终对照航司票面。抵达后先报楼层、门号或值机区，全员到齐再各自办托运。",
+                  "places": [
+                    "ynt"
+                  ]
+                },
+                {
+                  "label": "机场巴士要先核整段",
+                  "detail": "从汽车总站出发的巴士先核当日时刻、座位及落客航站楼，还要加酒店到总站和等车时间。早班或约不到适合的巴士时优先两车。",
+                  "places": [
+                    "yt-bus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d8-flight",
+              "title": "示例航段 · 烟台直飞成都天府",
+              "kind": "transport",
+              "start": "11:35",
+              "end": "15:00",
+              "detail": "用 11:35 起飞、15:00 落地演示倒推。查国航等航司同一天全部同行者的机票和托运，优先无经停。过晚降落会挤压回自贡时间，预订前核对地面回程。",
+              "from_id": "ynt",
+              "to_id": "tfu",
+              "status": "pending",
+              "source_ids": [
+                "airchina",
+                "ynt-schedule"
+              ],
+              "steps": [
+                {
+                  "label": "订票从到家倒推",
+                  "detail": "同时查航司和 12306，优先筛烟台直飞天府且计划 18:00 前落地的航班。再核「天府机场 → 自贡」是否真有全员可接的直达，以及取箱与进站缓冲。高铁接不上时先把同日接车安排算进去。",
+                  "places": [
+                    "ynt",
+                    "tfu-rail"
+                  ]
+                },
+                {
+                  "label": "登记实际票面与行李",
+                  "detail": "把航班号、实际起降、航站楼、退改和托运行李配额写进同行群。分开购票时，把高铁改签和汽车接送选项也提前存好。"
+                },
+                {
+                  "label": "延误时先重算地面段",
+                  "detail": "发现预计落地变晚就重查当日余票与换乘够不够。无法稳妥接上高铁时，按天府接车备选提前询价，抵达后按实际门号叫车。",
+                  "places": [
+                    "tfu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d8-rail",
+              "title": "从航站楼走 GTC，换乘自贡方向",
+              "kind": "transport",
+              "start": "15:00",
+              "end": "18:10",
+              "detail": "天府机场站至自贡的直达车上时间参考 35–65 分钟，二等座预留 ¥45–75/人。进站、等车和机场取箱另计。",
+              "from_id": "tfu-rail",
+              "to_id": "zigong",
+              "status": "pending",
+              "source_ids": [
+                "tfu-hub",
+                "zigong-rail",
+                "rail"
+              ],
+              "steps": [
+                {
+                  "label": "先留换乘时间",
+                  "detail": "按落地后至少 90 分钟挑直达，托运多人或临近末班尽量留 120 分钟。例如 15:00 计划落地，先看 16:30 以后，箱子多优先看 17:00 以后的可接车次。"
+                },
+                {
+                  "label": "取齐行李再进 GTC",
+                  "detail": "在到达层按「高铁／天府机场站」标识进入综合交通换乘中心，跟当日指引找铁路安检和检票。五六人用同一发车屏和检票口会合。",
+                  "places": [
+                    "tfu",
+                    "tfu-rail"
+                  ]
+                },
+                {
+                  "label": "高铁接不上时",
+                  "detail": "确认列车余位、实际发车和进站所需时间。来不及则按退改规则处理高铁票，切换两车或有足够箱位的 9 座车，约好合法接人点。",
+                  "places": [
+                    "zigong"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d8-home",
+              "title": "自贡站出站，各自回家",
+              "kind": "transport",
+              "start": "18:10",
+              "end": "19:30",
+              "detail": "按真实列车到站时间调提前接车。离开前再次确认箱子、电子票报销与房费支付。当天回家优先于临时增加游览。",
+              "place_id": "zigong",
+              "steps": [
+                {
+                  "label": "按实际到站通知接人",
+                  "detail": "上高铁或上车后再把到自贡的预计时间发给接人者。到站统一从确认的出口出去，分车的各组都先报同行者和行李齐全。",
+                  "places": [
+                    "zigong"
+                  ]
+                },
+                {
+                  "label": "收尾各自确认",
+                  "detail": "核全身份证、行李和充电器，再分别坐车回家。需要报销的人保留机票、高铁、用车与住宿的订单号和电子凭证。"
+                },
+                {
+                  "label": "最后在群里报平安",
+                  "detail": "到家后各自确认，另约时间核费用。若前段延误已经跨日，先把新的接人时刻和落点告诉家人。"
+                }
+              ]
+            }
+          ],
+          "alternatives": [
+            {
+              "title": "直飞重庆江北，然后约车到自贡",
+              "trigger": "订票时烟台到天府没有合适的早班、连续席位，或落地无法可靠接到回自贡的车。",
+              "replace": [
+                "d8-flight",
+                "d8-rail",
+                "d8-home"
+              ],
+              "decision_item_id": "d8-flight",
+              "place_id": "ckg",
+              "detail": "购买 YNT→CKG 计划 17:00 前落地的直飞，按票面改送机时间。预约合规 9 座车或两辆车在航站楼接人，取箱按 45–60 分钟留余，公路回自贡约 2.5–3.5 小时。选机场大巴时先在「愉客行」核准当日自贡班次与上车航站楼。",
+              "cost_note": "改道机票与重庆接送另核，未纳入主路预算。",
+              "source_ids": [
+                "sichuan-air",
+                "ckg-bus"
+              ],
+              "steps": [
+                {
+                  "label": "先对整条重庆链路",
+                  "detail": "订票前确认全员有烟台到江北的相对早班直飞，结合计划落地时间、取箱及路上所需时间确认能否当天回到自贡。",
+                  "places": [
+                    "ynt",
+                    "ckg"
+                  ]
+                },
+                {
+                  "label": "约同一个航站楼接车",
+                  "detail": "把航班号、票面航站楼、人数和箱子尺寸发给司机。两车都用同一个合规上客点，落地取齐箱再通知司机到位。"
+                },
+                {
+                  "label": "备选大巴怎么查",
+                  "detail": "在「愉客行」核实际日期是否还有去自贡的班次、有无足够座位和从哪一站上车。把取箱到车站的时间加进去，赶不上就沿用约车。"
+                }
+              ]
+            },
+            {
+              "title": "早班铁路到青岛胶东接飞",
+              "trigger": "订票时两条烟台直飞回四川的方案均不合适，青岛胶东能买到较早落地天府的航班。",
+              "replace": [
+                "d8-airport",
+                "d8-flight",
+                "d8-rail",
+                "d8-home"
+              ],
+              "decision_item_id": "d8-airport",
+              "place_id": "yt-station",
+              "detail": "至少前一晚定，D8 早班从烟台站到红岛或青岛北，红岛含出站与 8 号线到机场留 45–60 分钟，青岛北留 60–75 分钟。机票优先选 13:00–16:00 起飞且天府 18:00 前落地。给铁路到站至起飞留 3–3.5 小时以上，落地后同主案或事先约车回自贡。",
+              "cost_note": "加计烟台到青岛的车票与地铁。若时间链不成立，出票时调整去程日期以对齐合适回程。",
+              "source_ids": [
+                "rail",
+                "metro",
+                "tao-return"
+              ],
+              "steps": [
+                {
+                  "label": "两段票同时能接才选",
+                  "detail": "同一天查烟台站到红岛或青岛北的早班，再查胶东机场飞天府的中午或下午班。把下车、地铁、安检和托运都计入，铁路计划到站至飞机起飞至少留 3–3.5 小时。",
+                  "places": [
+                    "yt-station",
+                    "hongdao",
+                    "qd-north"
+                  ]
+                },
+                {
+                  "label": "落地接上地面才出票",
+                  "detail": "在 12306 对照天府落地后到自贡的直达车次，同时确认末班和箱子缓冲。若需要约车，先把车辆与预期到家时间也确认下来。",
+                  "places": [
+                    "tao",
+                    "tfu-rail"
+                  ]
+                },
+                {
+                  "label": "改掉原机场集合",
+                  "detail": "选好这条走法后，把第 8 天集合提前到烟台站，分配 5–6 人同一车次和地铁入口。出发当天携带各段订单的离线截图。"
+                }
+              ]
+            },
+            {
+              "title": "天府晚到，车辆直接接回自贡",
+              "trigger": "航班提前通知推迟、天府已无可接的自贡直达高铁，或同行者需要门到门。",
+              "replace": [
+                "d8-rail",
+                "d8-home"
+              ],
+              "decision_item_id": "d8-rail",
+              "place_id": "tfu",
+              "detail": "在起飞前或获知延误时重约天府到自贡的车，核航站楼、接车区、尾箱与夜间费。计划行车约 1小时45分–2小时15分，延误严重时实时重算到家是否跨日；可先请航司查看更早的改签。",
+              "cost_note": "两车或 9 座车单程规划 ¥550–950/队，若原高铁已订同步查退改。",
+              "source_ids": [
+                "rail",
+                "tfu-hub"
+              ],
+              "steps": [
+                {
+                  "label": "按延误重算",
+                  "detail": "收到延误通知后用新的预计落地时刻重算取箱、走到 GTC 和进站。若接不上可用的自贡直达，开始联系接送车辆并核原高铁改退。",
+                  "places": [
+                    "tfu-rail"
+                  ]
+                },
+                {
+                  "label": "落地再发接人点",
+                  "detail": "询问司机几座、能装多大箱、夜间费用以及接送区域。两组取得同一个到达层、门号或网约车定位，取齐箱后再叫车到位。",
+                  "places": [
+                    "tfu"
+                  ]
+                },
+                {
+                  "label": "更新家里的接人时间",
+                  "detail": "上车后确认最终下车地址和预计到达，夜间严重延误时提前通知接人者可能跨日。",
+                  "places": [
+                    "zigong"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "budget": [
+        {
+          "id": "air",
+          "label": "两段国内机票",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 1200,
+          "amount_max": 2800,
+          "note": "成都天府→青岛胶东、烟台蓬莱→成都天府。平日含税和常见托运的规划区间，节假日重算。",
+          "source_ids": [
+            "tao-flight",
+            "airchina"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "sc-rail",
+          "label": "四川往返机场高铁",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 90,
+          "amount_max": 150,
+          "note": "自贡与天府机场两段二等座预算，约车替代按全队另算。",
+          "source_ids": [
+            "rail"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "qd-wh",
+          "label": "青岛到威海高铁",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 90,
+          "amount_max": 140,
+          "note": "D4 二等座预算，按出票日期和实际出发站核对。",
+          "source_ids": [
+            "rail"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "qd-rooms",
+          "label": "青岛住宿 · 3 间 × 3 晚",
+          "basis": "units",
+          "currency": "CNY",
+          "amount": 320,
+          "amount_max": 560,
+          "quantity": 9,
+          "note": "老城中山路及青岛站片区。单间夜价 ¥320–560，节假日超出需重估。",
+          "source_ids": [
+            "qd-stay",
+            "qd-stay-b"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "wh-rooms",
+          "label": "威海住宿 · 3 间 × 2 晚",
+          "basis": "units",
+          "currency": "CNY",
+          "amount": 260,
+          "amount_max": 480,
+          "quantity": 6,
+          "note": "韩乐坊片区，单间夜价 ¥260–480。",
+          "source_ids": [
+            "wh-stay",
+            "wh-stay-b"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "yt-rooms",
+          "label": "烟台住宿 · 3 间 × 2 晚",
+          "basis": "units",
+          "currency": "CNY",
+          "amount": 300,
+          "amount_max": 590,
+          "quantity": 6,
+          "note": "芝罘老城与火车站区经济或标准房，住宿款约 ¥300–590/间夜，首选热门房型可能更高。",
+          "source_ids": [
+            "yt-stay",
+            "yt-stay-b"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "wh-yt",
+          "label": "威海到烟台车辆",
+          "basis": "group",
+          "currency": "CNY",
+          "amount": 450,
+          "amount_max": 750,
+          "note": "D6 酒店到酒店的两车或一辆合规多人车，核对行李位与高速费。",
+          "source_ids": [],
+          "status": "estimated"
+        },
+        {
+          "id": "pl-car",
+          "label": "烟台到蓬莱阁往返车辆",
+          "basis": "group",
+          "currency": "CNY",
+          "amount": 650,
+          "amount_max": 950,
+          "note": "D7 当天往返，和司机确认等候、过路费及上车点。",
+          "source_ids": [],
+          "status": "estimated"
+        },
+        {
+          "id": "yt-taxi",
+          "label": "烟台酒店到机场",
+          "basis": "group",
+          "currency": "CNY",
+          "amount": 250,
+          "amount_max": 450,
+          "note": "D8 芝罘机场送机的两辆车，确认夜间/早班附加费。",
+          "source_ids": [],
+          "status": "estimated"
+        },
+        {
+          "id": "city",
+          "label": "其他市内交通与进青岛",
+          "basis": "group",
+          "currency": "CNY",
+          "amount": 560,
+          "amount_max": 1050,
+          "note": "含市内地铁、短驳、青岛进城和自贡两端的市区至车站接驳；青岛机场使用两车可能接近上沿。",
+          "source_ids": [],
+          "status": "estimated"
+        },
+        {
+          "id": "meals",
+          "label": "8 天个人餐饮",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 720,
+          "amount_max": 1100,
+          "note": "早餐、正餐和饮水的合计；包含按节奏吃几顿海鲜，含早房实际可减餐饮。",
+          "source_ids": [],
+          "status": "estimated"
+        },
+        {
+          "id": "tickets",
+          "label": "主要景区与船票",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 282,
+          "amount_max": 350,
+          "note": "青啤按 ¥60、刘公岛 ¥122、蓬莱阁 ¥100 备款，余量供灯塔、小展馆等按需进场。",
+          "source_ids": [
+            "qd-beer-ticket",
+            "wh-ticket",
+            "yt-penglai"
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "buffer",
+          "label": "机动预备金",
+          "basis": "per_person",
+          "currency": "CNY",
+          "amount": 250,
+          "amount_max": 400,
+          "note": "用于餐费波动、临时短驳、普通加价等。改飞、门到门接送、购物与保险按实际另列。",
+          "source_ids": [],
+          "status": "estimated"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "flight",
+          "label": "先确认第 8 天当天能回自贡",
+          "category": "订票",
+          "detail": "先比烟台直飞天府、重庆江北备选以及早班加青岛飞行路线，确保所有人同日能买到票，再定 D1 和 D8 的机票。",
+          "source_ids": [
+            "airchina",
+            "tao-flight"
+          ],
+          "critical": true,
+          "steps": [
+            {
+              "label": "先查第 8 天的整条回程",
+              "detail": "先定烟台航班的落地窗口，再看取箱后能接的直达或车辆。把重庆接车和青岛接飞各自所需时间对照表列出来，先选五六人整组能走通的方案。",
+              "places": [
+                "ynt",
+                "tfu-rail",
+                "ckg"
+              ]
+            },
+            {
+              "label": "再对第 1 天出票",
+              "detail": "回程能接上再订去程。机票购买前核全员姓名、证件、起降机场和托运额度，订单截图各自留一份。"
+            }
+          ]
+        },
+        {
+          "id": "rooms",
+          "label": "三城各订 3 间可退房",
+          "category": "订房",
+          "detail": "锁定青岛 3 晚、威海 2 晚、烟台 2 晚。五人两双床一单住，六人三双床或按关系配床。比较含早与无早总价，写下寄存、临街和退改截止。",
+          "source_ids": [
+            "qd-stay",
+            "wh-stay",
+            "yt-stay"
+          ],
+          "critical": true,
+          "steps": [
+            {
+              "label": "按三城各三间搜索",
+              "detail": "分别查青岛三晚、威海两晚、烟台两晚的同店房态。调成正确日期和人数，先确认双床与单住，再比含早及取消前的总价。",
+              "places": [
+                "qd-hotel",
+                "wh-hotel",
+                "yt-hotel"
+              ]
+            },
+            {
+              "label": "问清入口与寄存",
+              "detail": "电话或订单备注确认同层、到店可否先放箱、早班早餐和朝阳街车辆落客位置。把每城最终订的店和地址集中发群。"
+            }
+          ]
+        },
+        {
+          "id": "rail",
+          "label": "到铁路预售期查精确站名",
+          "category": "订票",
+          "detail": "起售日查自贡→天府机场、青岛（或青岛北）→威海、天府机场→自贡。下单后把靠近的座位搭配给需要同行的人，记下上下车站全称。",
+          "source_ids": [
+            "rail",
+            "rail-sale"
+          ],
+          "critical": true,
+          "steps": [
+            {
+              "label": "先列会混淆的站名",
+              "detail": "自贡到天府机场、青岛或青岛北到威海、天府机场回自贡，全部按实际票面输入。每段从目标发车时间倒推站内安检、走路和会合。",
+              "places": [
+                "qd-station",
+                "qd-north",
+                "wh-station"
+              ]
+            },
+            {
+              "label": "开售前分配订票",
+              "detail": "一人核 12306 起售时刻和同行人，另一人校车次。尽量让全员同趟。查到的票面发车、到达、车厢、备选车次发群。"
+            }
+          ]
+        },
+        {
+          "id": "scenic",
+          "label": "核开放，再预约青啤、刘公岛与蓬莱阁",
+          "category": "预约",
+          "detail": "按旅行日期查青啤改造公告、开放的刘公岛船班和蓬莱阁购票页，再实名购票。",
+          "source_ids": [
+            "qd-beer",
+            "wh-book",
+            "yt-penglai-book",
+            "qd-beer-renovation"
+          ],
+          "critical": true,
+          "steps": [
+            {
+              "label": "同一场次看开放",
+              "detail": "先查登州路青啤是否开放，并看改造公告；需要改走台柳路时重新约票。刘公岛按实名分时购票同时看末船，蓬莱阁选上午并确认检票口。",
+              "places": [
+                "beer",
+                "liugong-port",
+                "penglai"
+              ]
+            },
+            {
+              "label": "证件与凭证各自备齐",
+              "detail": "下单前核全员有效证件、现场需核原件的优惠票，以及订单改退。每个人把名下的入场凭证存到手机。"
+            }
+          ]
+        },
+        {
+          "id": "vehicles",
+          "label": "提前约 D6、D7 与 D8 的车辆",
+          "category": "交通",
+          "detail": "告诉司机几人、箱子外部尺寸、车站／酒店门牌和最晚到达。六人带大箱优先两车或确认过容量的 9 座车；D7 日游可用 7 座。",
+          "source_ids": [
+            "yt-penglai-drop"
+          ],
+          "critical": false,
+          "steps": [
+            {
+              "label": "把车型与行李问实",
+              "detail": "D6、D8 有大箱时把数量和最大箱子三边报给司机，确认含司机的核载及可放的箱位。D7 只带小包，七座车算上司机再核人数。"
+            },
+            {
+              "label": "每程留一个落点",
+              "detail": "和司机对齐酒店实际门牌、可停靠一侧、返程会合路口及最迟到达。分两车时司机和同行者都看同一张定位图。",
+              "places": [
+                "wh-hotel",
+                "yt-hotel",
+                "pl-pickup"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weather-check",
+          "label": "出发前几天看风雨，登岛当天再查船",
+          "category": "天气",
+          "detail": "按青岛、威海、烟台三地分别查预报，D4 晚和 D5 早查海况与末船，D7 出发前查蓬莱公告。",
+          "source_ids": [
+            "weather",
+            "wh-boat"
+          ],
+          "critical": false,
+          "steps": [
+            {
+              "label": "按日期看三个城市",
+              "detail": "临行前按青岛、威海、烟台的实际到访日分别查风雨。青岛岸边和蓬莱按当日封闭公告改线，箱里留防风与防雨层。"
+            },
+            {
+              "label": "登船前再核一次",
+              "detail": "D4 晚及 D5 早餐后各查一次“刘公岛景区”进出岛航班；一人截图后宣布继续或切换市区。D7 早晨出车前同样查蓬莱阁。",
+              "places": [
+                "liugong-port",
+                "penglai"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bag",
+          "label": "身份证、行李与应季装备",
+          "category": "行李",
+          "detail": "带身份证、确认托运、轻薄防风外套、雨具、防晒、能走湿地的鞋和常用个人用品。充电宝随身，核对容量、3C 标识及是否召回。",
+          "source_ids": [
+            "rail-bag",
+            "power"
+          ],
+          "critical": false,
+          "steps": [
+            {
+              "label": "把容易漏的分两包",
+              "detail": "随身包放证件、手机、票据与个人常用物，箱子放换洗和防风层。拍下箱子辨认特征，机场取行李时便于对照。"
+            },
+            {
+              "label": "出门前再核航空规则",
+              "detail": "按票面确认可免费托运的件数与重量，照民航局与航司要求核充电宝清晰标识、容量和召回状态。常走坡路准备抓地好的鞋。"
+            }
+          ]
+        },
+        {
+          "id": "offline",
+          "label": "把订单、入口和 HTML 离线保存",
+          "category": "行李",
+          "detail": "每个人保存或截屏自己的票证和三家酒店入口。提前在浏览器打开 HTML，重要导航门牌可以抄到手机备忘录。",
+          "source_ids": [],
+          "critical": false,
+          "steps": [
+            {
+              "label": "打开一次真实文件",
+              "detail": "让每个人把离线 HTML 存到手机，断网试开一天和一处地址。从网页入口搜到所城里和返程送机，确认拿的是真实可用版本。",
+              "places": [
+                "suocheng",
+                "ynt"
+              ]
+            },
+            {
+              "label": "单独保存当天凭证",
+              "detail": "保存航班、酒店入口、往返船票和购票凭证截图，临时无网时照样能在正确门牌会合。动态变更在有网时再核。"
+            }
+          ]
+        },
+        {
+          "id": "meeting",
+          "label": "定群内负责人和各天会合点",
+          "category": "同行",
+          "detail": "确定出发集合点、跨城司机联络人、船票和机票负责人。分车报同一个真实下车点，移动前在群里确认所有人状态。",
+          "source_ids": [],
+          "critical": false,
+          "steps": [
+            {
+              "label": "先定谁核什么",
+              "detail": "一人核机票与回程高铁，一人核酒店与景点，分车后各车留一个联系人。当天有变更由当段联系人在群里统一发新版地址和时间。"
+            },
+            {
+              "label": "把集合点写到能找到",
+              "detail": "每天约一个真实入口、门牌或编号柱子；自由活动前发回到该点的时间。车站、码头和机场会合时先清点人再移动。"
+            }
+          ]
+        },
+        {
+          "id": "backcheck",
+          "label": "D7 晚重算退房和机场出发时间",
+          "category": "交通",
+          "detail": "用返程工具输入实际起飞时刻；地面段、值机缓冲、天府接驳铁路和约车至少各核一遍。",
+          "source_ids": [
+            "yt-airport",
+            "rail"
+          ],
+          "critical": true,
+          "steps": [
+            {
+              "label": "用实票试算送机",
+              "detail": "D7 晚把起飞时刻填入返程试算，更新车程和取箱缓冲。确认第 8 天同一上车点、司机和车牌，给每房定退房时间。",
+              "places": [
+                "yt-hotel",
+                "ynt"
+              ]
+            },
+            {
+              "label": "复核落地换乘",
+              "detail": "验天府落地后可接的车次、预留走到 GTC 与检票的时间。赶不上时按真实落地状态核同日接车及原票改退。",
+              "places": [
+                "tfu-rail",
+                "zigong"
+              ]
+            }
+          ]
+        }
+      ],
+      "return_item_id": "d8-airport",
+      "return_plan": {
+        "departure_item_id": "d8-flight",
+        "luggage_item_id": "d8-bags"
+      }
+    }
+  ]
+}

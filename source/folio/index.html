@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f2e6">
+  <meta name="description" content="自贡往返青岛、威海和烟台的八天路书，可加住一晚。逐日路线、三城地点图册、食单和返程速查。">
+  <title>$title</title>
+  <style>$styles</style>
+</head>
+<body>
+  <a class="skip" href="#routes">跳到每一天</a>
+  <header class="mast">
+    <div class="mast-inner">
+      <a class="brand" href="#top" data-guide-tab="home"><span class="motif motif-land" aria-hidden="true"></span><span>沿着胶东海岸</span></a>
+      <nav class="nav" aria-label="路书导航">
+        <a href="#routes" data-guide-tab="routes"><span class="motif motif-land" aria-hidden="true"></span><span>行程</span></a>
+        <a href="#places" data-guide-tab="places"><span class="motif motif-places" aria-hidden="true"></span><span>地点</span></a>
+        <a href="#food" data-guide-tab="food"><span class="motif motif-food" aria-hidden="true"></span><span>美食</span></a>
+        <a class="mast-prep" href="#travel-tools" data-guide-tab="travel-tools" aria-label="行前准备"><span class="motif motif-prep" aria-hidden="true"></span><span>行前</span></a>
+        <a href="#field-coast--event-d8-airport" data-guide-tab="field-coast--event-d8-airport"><span class="motif motif-return" aria-hidden="true"></span><span>返程</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="cover shell" data-guide-view="home" aria-labelledby="trip-title">
+      <div class="cover-spread">
+        <div class="cover-copy">
+          <p class="cover-meta">自贡往返 <span>8 天 7 晚</span><span>5–6 人</span></p>
+          <h1 id="trip-title">$title</h1>
+          <p class="cover-intro">$intro</p>
+          <div class="cover-actions">
+            <a class="button primary" href="#routes">看八天行程</a>
+            <a class="cover-link" href="#places">先挑想去的地方</a>
+            <a class="cover-link" href="#extra-day">九天怎么走</a>
+          </div>
+        </div>
+        $hero
+      </div>
+      <nav id="route-overview" class="trip-rail" aria-label="三城停留顺序">$stops</nav>
+    </section>
+
+    <section id="routes" class="chapter itinerary" data-guide-view="routes" aria-labelledby="routes-title">
+      <div class="shell">
+        <header class="chapter-head">
+          <div>
+            <h2 class="chapter-title" id="routes-title"><span class="motif chapter-mark motif-land" aria-hidden="true"></span>沿海行程</h2>
+            <p class="chapter-deck">青岛 3 晚 · 威海 2 晚 · 烟台 2 晚</p>
+          </div>
+          <a class="text-action chapter-shortcut" href="#extra-day">多一天怎么排</a>
+        </header>
+        <nav class="day-nav" aria-label="选择行程日期">$days</nav>
+        <details class="route-summary sheet" id="route-summary">
+          <summary>路线图与当天照片</summary>
+          <section class="route-atlas" id="route-atlas" aria-labelledby="atlas-title">
+          <div class="coast-panel">
+            <h3 class="subhead" id="atlas-title">沿海路线图</h3>
+            <figure class="coast-chart">
+              <div class="coast-map-board">
+                <canvas class="js-only" aria-hidden="true"></canvas>
+                <span class="map-water gulf js-only" aria-hidden="true">渤海</span>
+                <span class="map-water ocean js-only" aria-hidden="true">黄海</span>
+                <span class="map-north js-only" aria-label="上方为北">北</span>
+                <nav class="coast-pins" aria-label="选择海岸停靠点">$pins</nav>
+              </div>
+              <figcaption>
+                <span class="js-only">点地名切换图册 · 走法示意</span>
+                <a class="image-source" href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/" target="_blank" rel="noopener noreferrer">海岸线来源</a>
+              </figcaption>
+            </figure>
+            <div class="city-notes">$chapters</div>
+          </div>
+          <div class="atlas-preview">
+            <div class="atlas-preview-head">
+              <h3 class="subhead">当天图册</h3>
+              <div class="atlas-turn js-only" role="group" aria-label="浏览路线图册">
+                <button class="round-action" data-atlas-step="-1" type="button" aria-label="前一天图册" disabled></button>
+                <output id="atlas-position" aria-live="polite"></output>
+                <button class="round-action" data-atlas-step="1" type="button" aria-label="后一天图册" disabled></button>
+              </div>
+            </div>
+            <div class="atlas-pages">$atlas</div>
+          </div>
+          </section>
+        </details>
+        <div class="day-grid">
+          <div class="day-pages">$schedules</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="places" class="chapter places" data-guide-view="places" aria-labelledby="places-title">
+      <div class="shell" id="place-index">
+        <header class="chapter-head">
+          <div>
+            <h2 class="chapter-title" id="places-title"><span class="motif chapter-mark motif-places" aria-hidden="true"></span>沿途地点</h2>
+            <p class="chapter-deck">$sight_total 处可游览地点 · 点图查看多个视角、选它的理由和地址</p>
+          </div>
+          <a class="text-action chapter-shortcut" href="#place-lookup"><span class="place-search-icon" aria-hidden="true"></span>查找地点</a>
+        </header>
+        <div class="place-atlas" id="place-atlas">
+          $place_atlas
+        </div>
+        <details class="place-lookup" id="place-lookup">
+          <summary><span>地点速查</span><span class="place-catalog-size">含住宿与交通 · $place_total 处</span></summary>
+          <div class="place-lookup-body">
+            $place_controls
+            <section class="index-route js-only" id="place-sequence" aria-labelledby="place-sequence-title" hidden>
+              <header>
+                <h3 id="place-sequence-title">当天停靠顺序</h3>
+                <a class="text-action" href="#route-coast--day-1">看当天行程</a>
+              </header>
+              $place_routes
+              <div class="index-route-nav" role="group" aria-label="横向浏览停靠点" hidden>
+                <button type="button" class="text-action" data-index-step="-1" aria-label="往前看停靠点">往前</button>
+                <button type="button" class="text-action" data-index-step="1" aria-label="往后看停靠点">往后</button>
+              </div>
+            </section>
+            <header class="place-results-head js-only">
+              <output id="place-count" aria-live="polite"></output>
+              <button class="place-reset" id="place-reset" type="button">清除筛选</button>
+            </header>
+            <div class="place-list" id="place-results">$places</div>
+            <p class="empty js-only" id="place-empty" hidden>没有找到地点。可以试试片区、景点或车站名。</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <aside id="scenes" class="chapter scenes coast-interlude" aria-labelledby="scenes-title">
+      <div class="shell">
+        <header class="chapter-head">
+          <h2 class="chapter-title" id="scenes-title"><span class="motif chapter-mark motif-tide" aria-hidden="true"></span>沿途四景</h2>
+          <div class="scene-turn js-only">
+            <button class="round-action" type="button" data-scene-step="-1" aria-label="上一景" aria-controls="scene-track" disabled></button>
+            <span class="scene-position" aria-live="polite"></span>
+            <button class="round-action" type="button" data-scene-step="1" aria-label="下一景" aria-controls="scene-track" disabled></button>
+          </div>
+        </header>
+        <div class="scene-track" id="scene-track" data-film>$scenes</div>
+      </div>
+    </aside>
+
+    <section id="food" class="chapter dining" data-guide-view="food" aria-labelledby="food-title">
+      <div class="shell">
+        <header class="chapter-head">
+          <h2 class="chapter-title" id="food-title"><span class="motif chapter-mark motif-food" aria-hidden="true"></span>沿海吃三城</h2>
+        </header>
+        <nav class="section-landings" aria-label="跳至城市食单">
+          <a href="#menu-city-1">青岛</a>
+          <a href="#menu-city-2">威海</a>
+          <a href="#menu-city-3">烟台</a>
+        </nav>
+        <div class="food-grid" id="food-grid">$food</div>
+        $food_tip
+      </div>
+    </section>
+
+    <section id="travel-tools" class="chapter preparation" data-guide-view="travel-tools" aria-labelledby="prep-title">
+      <div class="shell">
+        <header class="chapter-head">
+          <h2 class="chapter-title" id="prep-title"><span class="motif chapter-mark motif-prep" aria-hidden="true"></span>行前准备</h2>
+          <nav class="chapter-actions" aria-label="行前速查">
+            <a class="text-action" href="#trip-budget">看预算</a>
+            <a class="text-action" data-offline hidden>保存离线版</a>
+          </nav>
+        </header>
+        <div class="prep-cover">
+          <div class="prep-cover-copy">
+            <dl class="prep-facts">
+              <div><dt>三城住宿</dt><dd>3 间 × 7 晚</dd></div>
+              <div><dt>带大件行李接驳</dt><dd>优先分两车</dd></div>
+            </dl>
+            <p class="trip-notice">$notice</p>
+          </div>
+          $packing
+        </div>
+        $prep
+      </div>
+    </section>
+
+    <section id="field-coast--event-d8-airport" class="chapter returning" data-guide-view="field-coast--event-d8-airport" aria-labelledby="return-title">
+      <div class="shell">
+        <header class="chapter-head">
+          <h2 class="chapter-title" id="return-title"><span class="motif chapter-mark motif-return" aria-hidden="true"></span>从烟台回自贡</h2>
+          <a class="text-action" href="#route-coast--day-8">返程当天完整安排</a>
+        </header>
+        $returning
+      </div>
+    </section>
+
+    <footer class="shell footer">
+      <details id="sources" class="sheet">
+        <summary>资料与插图原始参考</summary>
+        <div class="sheet-body">$sources</div>
+      </details>
+      <a class="text-action" href="#top">回到封面</a>
+    </footer>
+  </main>
+
+  <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+  <div class="toast" id="toast" hidden aria-hidden="true"></div>
+  <button type="button" class="route-back js-only" id="route-back" hidden></button>
+  <dialog class="place-viewer" id="place-viewer" aria-labelledby="place-viewer-title">
+    <header class="place-viewer-head">
+      <h2 id="place-viewer-title"></h2>
+      <button type="button" id="place-viewer-address" class="place-viewer-address">地址</button>
+      <button type="button" id="place-back" class="round-action viewer-close" aria-label="关闭地点详情" autofocus></button>
+    </header>
+    <div class="place-viewer-content">
+      <section class="place-media" id="place-viewer-picture" aria-label="地点图集" hidden>
+        <div class="place-media-frame"><img alt=""></div>
+        <div class="place-photo-controls">
+          <button type="button" class="round-action" data-place-photo-step="-1" aria-label="上一张地点图"></button>
+          <div class="place-filmstrip" aria-label="选择照片"></div>
+          <button type="button" class="round-action" data-place-photo-step="1" aria-label="下一张地点图"></button>
+        </div>
+        <div class="place-photo-caption">
+          <p id="place-photo-caption"></p>
+          <span id="place-photo-position" role="status"></span>
+          <a class="image-source" id="place-photo-credit" target="_blank" rel="noopener noreferrer">查看实拍来源</a>
+        </div>
+      </section>
+      <div id="place-viewer-info"></div>
+    </div>
+  </dialog>
+  <dialog class="image-viewer" id="image-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-header">
+      <h2 id="viewer-title"></h2>
+      <button class="round-action viewer-close" type="button" aria-label="关闭" autofocus></button>
+    </div>
+    <div class="viewer-picture"><img alt=""></div>
+    <div class="viewer-footer">
+      <div class="viewer-controls">
+        <button class="round-action" type="button" data-viewer-step="-1" aria-label="上一幅"></button>
+        <span id="viewer-count" role="status"></span>
+        <button class="round-action" type="button" data-viewer-step="1" aria-label="下一幅"></button>
+      </div>
+      <a class="image-source" id="viewer-source" target="_blank" rel="noopener noreferrer">实拍参考</a>
+    </div>
+  </dialog>
+  <script type="application/json" id="itinerary-data">$data</script>
+  <script type="application/json" id="place-media-data">$place_media</script>
+  <script type="application/json" id="coast-data">$coast</script>
+  <script>$script</script>
+</body>
+</html>

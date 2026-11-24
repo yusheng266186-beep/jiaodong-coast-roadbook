@@ -1,0 +1,335 @@
+{
+  "qingdao": {
+    "file": "qingdao.webp",
+    "alt": "青岛栈桥和回澜阁，青蓝色海面延伸到老城岸线",
+    "name": "青岛栈桥",
+    "reference": "https://www.pexels.com/photo/zhanqiao-pier-in-china-26873061/",
+    "credit": "zy s · Pexels",
+    "license": "https://www.pexels.com/license/",
+    "reference_file": "photos/qingdao-cover.webp"
+  },
+  "oldtown": {
+    "file": "oldtown.webp",
+    "alt": "青岛老城的红瓦屋顶、山顶亭楼与远处海面",
+    "name": "青岛老城",
+    "reference": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+    "credit": "Whale I · Pexels",
+    "license": "https://www.pexels.com/license/"
+  },
+  "weihai": {
+    "file": "weihai.webp",
+    "alt": "威海幸福门的玻璃门架与广场的圆形铜雕",
+    "name": "威海幸福门",
+    "reference": "https://commons.wikimedia.org/wiki/File:Weihai.jpg",
+    "credit": "Fanghong · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "yantai": {
+    "file": "yantai.webp",
+    "alt": "蓬莱阁的古建、沿山城墙与右侧灯塔",
+    "name": "烟台蓬莱阁",
+    "reference": "https://commons.wikimedia.org/wiki/File:PenglaiPavilion_(croppe).jpg",
+    "credit": "Chrishcn · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "dumpling": {
+    "file": "dumpling.webp",
+    "alt": "一盘白皮绿边的青岛鲅鱼水饺和一小碟蘸料",
+    "name": "青岛鲅鱼水饺",
+    "reference": "https://commons.wikimedia.org/wiki/File:Mackerel-stuffed_jiaozi_in_Qingdao_(20191002202358).jpg",
+    "credit": "N509FZ · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "seafood": {
+    "file": "seafood.webp",
+    "alt": "盛在盘中的清蒸对虾和带壳牡蛎",
+    "name": "威海清蒸海鲜",
+    "reference": "https://www.whnews.cn/news/node/2026-09/14/content_7394139.htm",
+    "credit": "威海日报 · 海鲜嘉年华现场"
+  },
+  "noodle": {
+    "file": "noodle.webp",
+    "alt": "筷子挑起鱼卤里的细面，碗中可见鸡蛋和海鲜",
+    "name": "烟台蓬莱小面",
+    "reference": "https://www.yantai.gov.cn/col/col11771/art/2026/art_22a568465f774a64bda92e139630641d.html",
+    "credit": "烟台文旅 · 蓬莱小面实拍"
+  },
+  "station": {
+    "file": "station.webp",
+    "thumb": "index/station.webp",
+    "alt": "青岛站朝向广场的石砌站房、三道拱门和红瓦屋顶",
+    "name": "青岛站",
+    "reference": "https://commons.wikimedia.org/wiki/File:20240730_Qingdao_Railway_Station_01.jpg",
+    "credit": "Windmemories · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "fushan": {
+    "file": "fushan.webp",
+    "alt": "浮山湾夜色，五四广场的五月的风雕塑立在城市灯火和弧形海岸之间",
+    "name": "浮山湾夜色",
+    "reference": "https://www.qingdaonews.com/content/2018-05/23/content_20154501.htm",
+    "credit": "王华、蓝莲花 · 青岛新闻网组图「五四广场，霓虹醉人」"
+  },
+  "harbor": {
+    "file": "harbor.webp",
+    "thumb": "index/harbor.webp",
+    "alt": "刘公岛码头从海上望见的翘檐建筑、白色候船篷和停靠客船",
+    "name": "刘公岛码头",
+    "reference": "https://commons.wikimedia.org/wiki/File:Weihai.port_de_Liugong_dao.jpg",
+    "credit": "Popolon · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "lighthouse": {
+    "file": "lighthouse.webp",
+    "thumb": "index/lighthouse.webp",
+    "alt": "烟台山顶白色灯塔旁立着石质抗日烈士纪念塔",
+    "name": "烟台山灯塔",
+    "reference": "https://commons.wikimedia.org/wiki/File:Yantaishan_lighthouse_and_monument.jpg",
+    "credit": "K.Y.K.Z.K. · Wikimedia Commons",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "airport": {
+    "file": "airport.webp",
+    "alt": "烟台蓬莱机场 T2 航站楼的波浪形屋顶、玻璃正门和地面倒影",
+    "name": "烟台蓬莱机场 T2",
+    "reference": "https://www.aedas.com/sc/project/yantai-penglai-international-airport-terminal-2/",
+    "credit": "Aedas 项目图片 · 404NF STUDIO"
+  },
+  "chicken": {
+    "file": "chicken.webp",
+    "alt": "春和楼切块香酥鸡装在白盘里，旁边是一碟椒盐和雕花",
+    "name": "春和楼香酥鸡",
+    "reference": "https://www.guanhai.com.cn/p/296441.html",
+    "credit": "青岛市南区文化馆 · 观海新闻"
+  },
+  "menzi": {
+    "file": "menzi.webp",
+    "alt": "圆碗里装着煎过的半透明地瓜淀粉块，上面淋麻汁与蒜末",
+    "name": "烟台焖子",
+    "reference": "https://www.sohu.com/a/328266773_100187048",
+    "credit": "搜狐号 · 烟台焖子实拍组图"
+  },
+  "church": {
+    "file": "church.webp",
+    "alt": "青岛圣弥厄尔教堂的两座红色尖顶，石塔上是成对的拱窗",
+    "name": "圣弥厄尔教堂",
+    "reference": "https://www.pexels.com/photo/towers-of-the-st-michaels-cathedral-qingdao-china-18334693/",
+    "credit": "KIM · Pexels",
+    "license": "https://www.pexels.com/license/"
+  },
+  "stone-villa": {
+    "file": "stone-villa.webp",
+    "alt": "青岛八大关花石楼的圆形石砌塔楼、拱窗和门廊",
+    "name": "八大关花石楼",
+    "reference": "https://www.dailyqd.com/channelzt/2020-09/14/content_522114.htm",
+    "credit": "王雷 · 青岛日报 / 观海新闻"
+  },
+  "yuehai": {
+    "file": "yuehai.webp",
+    "alt": "威海悦海公园的白色灯塔、海边广场和弧形岸线",
+    "name": "悦海公园灯塔",
+    "reference": "https://www.whnews.cn/news/node/2026-05/02/content_7385814.htm",
+    "credit": "Hi 威海客户端 · 威海新闻网"
+  },
+  "suocheng": {
+    "file": "suocheng.webp",
+    "alt": "烟台所城里的老石巷，灰墙之间挂着一串串红灯笼",
+    "name": "烟台所城里",
+    "reference": "https://yantai.sdnews.com.cn/ytxw/202604/t20260424_4668892.htm",
+    "credit": "张佳 · 鲁网「城长·印记」"
+  },
+  "bibimbap": {
+    "file": "bibimbap.webp",
+    "alt": "深色石锅里分别码着豆芽、胡萝卜、菌菇、青菜和辣酱",
+    "name": "韩式石锅拌饭",
+    "reference": "https://cn.yna.co.kr/view/ACK20241007004200881",
+    "credit": "韩联社 · 菜式实拍",
+    "reference_label": "菜式参考"
+  },
+  "sea-rice": {
+    "file": "sea-rice.webp",
+    "alt": "铜碗中浅棕色海肠段和青绿韭菜浇在一侧可见的米饭上",
+    "name": "烟台海肠捞饭",
+    "reference": "https://www.yantai.gov.cn/col/col11771/art/2026/art_7a0649fbcdc14a5fa4d423ba5cc1e6d8.html",
+    "credit": "烟台市政府 · 海肠捞饭实拍"
+  },
+  "zhongshan": {
+    "file": "zhongshan.webp",
+    "alt": "青岛中山路的红白色沿街建筑，路口左侧望见远处教堂双塔",
+    "name": "中山路老城",
+    "reference": "https://www.thepaper.cn/newsDetail_forward_29988135",
+    "credit": "吴正中 · 澎湃新闻中山路组图 · 2008 年",
+    "reference_label": "旧照参考"
+  },
+  "hanlefang": {
+    "file": "hanlefang.webp",
+    "alt": "韩乐坊青绿色彩绘门楼与双层灰瓦屋檐，背后是现代楼群",
+    "name": "韩乐坊",
+    "reference": "https://www.yzwb.net/news/yw/202611/t20261112_411710.html",
+    "credit": "荔枝新闻 · 扬子晚报"
+  },
+  "chaoyang": {
+    "file": "chaoyang.webp",
+    "alt": "烟台朝阳街步行道两侧的近代建筑，石砌拱窗旁挂着蓝色雨棚",
+    "name": "朝阳街",
+    "reference": "https://www.jiaodong.net/travel/system/2021/02/07/014143049.shtml",
+    "credit": "胶东在线 · 朝阳街实拍组图"
+  },
+  "packing": {
+    "file": "packing.webp",
+    "alt": "打开的旅行箱内装着叠好的衣物和墨镜，蓝色束带交叉固定衣物",
+    "name": "收拾行李",
+    "reference": "https://www.pexels.com/photo/clothes-and-sunglasses-in-an-open-suitcase-on-a-rug-8933565/",
+    "credit": "SHVETS production · Pexels",
+    "license": "https://www.pexels.com/license/"
+  },
+  "spicy-clams": {
+    "file": "spicy-clams.webp",
+    "alt": "白盘里装着带纹路的炒蛤蜊，蛤蜊开壳，撒有细碎辣椒和葱",
+    "name": "青岛辣炒蛤蜊",
+    "reference": "https://m.guanhai.com.cn/p/2176.html",
+    "credit": "观海新闻 · 青岛辣炒蛤蜊图"
+  },
+  "pork-ribs": {
+    "file": "pork-ribs.webp",
+    "alt": "深色碗里的炖排骨带着棕色汤汁，旁边单盛一碗白米饭",
+    "name": "青岛排骨米饭",
+    "reference": "https://news.qingdaonews.com/zonghe/2016-07/06/content_11670867.htm",
+    "credit": "青岛新闻网 · 排骨米饭组图",
+    "reference_label": "菜式参考"
+  },
+  "yangnyeom": {
+    "file": "yangnyeom.webp",
+    "alt": "甜辣酱包裹的韩式炸鸡撒了白芝麻，下面垫着绿叶菜",
+    "name": "韩式甜辣炸鸡",
+    "reference": "https://english1.visitkorea.or.kr/enu/FOD/FO_EN_EC_Recipes.jsp?cid=1928339",
+    "credit": "韩国观光公社 · 菜式实拍",
+    "reference_label": "菜式参考"
+  },
+  "tteokbokki": {
+    "file": "tteokbokki.webp",
+    "alt": "白色双耳碗中，红色辣酱裹着圆条年糕，上面撒着葱碎",
+    "name": "韩式炒年糕",
+    "reference": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178955",
+    "credit": "韩国观光公社 · 菜式实拍",
+    "reference_label": "菜式参考"
+  },
+  "fushan-noodles": {
+    "file": "fushan-noodles.webp",
+    "alt": "青花瓷碗里的福山手拉面和汤卤，旁边是一小碟拌菜",
+    "name": "烟台福山大面",
+    "reference": "https://yantai.iqilu.com/ytgushi/2018/0413/3885029.shtml",
+    "credit": "齐鲁网 · 烟台台《守艺·传承》"
+  },
+  "yantai-apples": {
+    "file": "yantai-apples.webp",
+    "alt": "刚采下的烟台栖霞苹果带着粉红和浅黄纹路，堆在圆形编筐里",
+    "name": "烟台苹果",
+    "reference": "https://www.forestry.gov.cn/c/www/dfdt/530686.jhtml",
+    "credit": "新华社 · 国家林业和草原局"
+  },
+  "weihai-frame": {
+    "file": "weihai-frame.webp",
+    "alt": "威海公园海滨广场上，两只雕塑手举起深色大相框，框内可见蓝天和远海",
+    "name": "威海公园大相框",
+    "reference": "https://www.whnews.cn/news/data/attachement/jpg/site2/20260502/9c5c8ebf618d2b5fd9eb06.jpg",
+    "credit": "Hi 威海客户端 · 威海公园大相框实拍"
+  },
+  "sea-jelly": {
+    "file": "sea-jelly.webp",
+    "name": "海菜凉粉",
+    "alt": "海菜凉粉与海藻配料",
+    "credit": "青岛早报 · 青岛食材节实拍",
+    "reference": "https://epaper.qingdaonews.com/qdzb/resfile/2024-12-13/A03/qdzb-20241213-A03.pdf"
+  },
+  "potstickers": {
+    "file": "potstickers.webp",
+    "name": "青岛锅贴",
+    "alt": "带金黄脆底的青岛锅贴",
+    "credit": "青岛早报 · 青岛食材节实拍",
+    "reference": "https://epaper.qingdaonews.com/qdzb/resfile/2024-12-13/A03/qdzb-20241213-A03.pdf"
+  },
+  "fried-oysters": {
+    "file": "fried-oysters.webp",
+    "name": "炸蛎黄",
+    "alt": "深色盘里的金黄炸蛎黄",
+    "credit": "青岛早报 · 青岛食材节实拍",
+    "reference": "https://epaper.qingdaonews.com/qdzb/resfile/2024-12-13/A03/qdzb-20241213-A03.pdf"
+  },
+  "fish-pot": {
+    "file": "fish-pot.webp",
+    "name": "威海鱼锅饼子",
+    "alt": "鱼锅里沿边贴着玉米面饼子",
+    "credit": "威海日报 · 鱼锅饼子",
+    "reference": "https://www.whnews.cn/news/node/2021-10/02/content_7194199.htm"
+  },
+  "garlic-oyster": {
+    "file": "garlic-oyster.webp",
+    "name": "蒜蓉乳山牡蛎",
+    "alt": "壳上撒蒜蓉的烤牡蛎",
+    "credit": "灯塔水母 · 牡蛎菜品实拍",
+    "reference": "https://www.dtsm.com/media_detail/237.html"
+  },
+  "fishcake-skewer": {
+    "file": "fishcake-skewer.webp",
+    "name": "韩式鱼饼串",
+    "alt": "折在竹签上并浸在汤里的鱼饼",
+    "credit": "IDN Times · 韩式鱼饼实拍",
+    "reference": "https://www.idntimes.com/food/diet/serba-serbi-eomuk-fish-cake-korea-c1c2-01-qj8yh-m57xz0"
+  },
+  "flower-buns": {
+    "file": "flower-buns.webp",
+    "name": "胶东花饽饽",
+    "alt": "桃形胶东花饽饽",
+    "credit": "非遗美食 · 胶东花饽饽",
+    "reference": "https://www.ichf.cn/fyms?id=537&lang=zh"
+  },
+  "seaweed-bun": {
+    "file": "seaweed-bun.webp",
+    "name": "胶东海菜包",
+    "alt": "竹蒸笼里一排透出深色海菜馅的包子",
+    "credit": "长岛海菜包实拍",
+    "reference": "https://k.sina.cn/article_2189824074_8286104a001005927.html?from=food"
+  },
+  "church-square": {
+    "file": "church-square.webp",
+    "name": "圣弥厄尔大教堂正面",
+    "alt": "从教堂广场正面看到双塔和主入口",
+    "credit": "Da Da · Unsplash",
+    "reference": "https://unsplash.com/photos/a-large-building-with-st-michaels-cathedral-qingdao-VrhIklqX4ns"
+  },
+  "laiyang-pear": {
+    "file": "laiyang-pear.webp",
+    "name": "莱阳茌梨",
+    "alt": "枝头的两只青绿色梨",
+    "credit": "莱阳梨枝头实拍",
+    "reference": "https://k.sina.com.cn/article_6434953543_17f8d9947001003q5r.html"
+  },
+  "crispy-pork": {
+    "file": "crispy-pork.webp",
+    "alt": "白盘里的金黄色脆脂渣",
+    "name": "郑庄脂渣",
+    "reference": "https://item.jd.com/10068600745915.html",
+    "credit": "郑庄脂渣 · 商品实物图",
+    "original": "https://img10.360buyimg.com/n1/s720x720_jfs/t1/376559/35/10992/236491/693d2ee8Fb65b9fac/19f9ff36f99d1f75.jpg",
+    "reference_file": "photos/food-refs/crispy-pork.webp"
+  },
+  "braised-cucumber": {
+    "file": "braised-cucumber.webp",
+    "alt": "白瓷盘里的海参、焦香葱段与酱汁",
+    "name": "威海葱烧海参",
+    "reference": "https://www.whggwly.com/new-25480.html",
+    "credit": "威海公共文旅服务云 · 名菜实拍",
+    "original": "https://imgcloud.whggwly.com/weihai//20210914/304cd93c-d4e9-4325-9d06-e4be9869d413.png",
+    "reference_file": "photos/food-refs/braised-cucumber.webp"
+  },
+  "eight-immortals": {
+    "file": "eight-immortals.webp",
+    "alt": "圆桌上的八仙宴展陈，海鲜与凉菜分盘",
+    "name": "齐鲁八仙宴",
+    "reference": "https://ytapp.jiaodong.net/system/2025/05/13/201014920.shtml",
+    "credit": "烟海 e 家 · 学院展陈实拍",
+    "original": "https://ytapp.jiaodong.net/pic/003/105/804/00310580483_ed1a26fe.jpg",
+    "reference_file": "photos/food-refs/eight-immortals.webp"
+  }
+}
