@@ -38,12 +38,16 @@
           <div class="cover-actions">
             <a class="button primary" href="#routes">看八天行程</a>
             <a class="cover-link" href="#places">先挑想去的地方</a>
-            <a class="cover-link" href="#extra-day">九天怎么走</a>
+            <a class="cover-link cover-extra" href="#extra-day">九天怎么走</a>
           </div>
         </div>
         $hero
+        <a class="cover-scroll phone-only" href="#route-overview">三城落脚</a>
       </div>
-      <nav id="route-overview" class="trip-rail shell" aria-label="三城停留顺序">$stops</nav>
+      <nav id="route-overview" class="trip-rail shell" aria-label="三城停留顺序">
+        <p class="trip-rail-label phone-only">三城落脚</p>
+        $stops
+      </nav>
     </section>
 
     <section id="routes" class="chapter itinerary" data-guide-view="routes" data-scenery="oldtown" aria-labelledby="routes-title">

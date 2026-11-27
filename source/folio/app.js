@@ -4,6 +4,8 @@
   const route = data.routes[0];
   const storageKey = "travel-roadbook.v1." + data.trip.id;
   const mast = document.querySelector(".mast");
+  const cover = document.querySelector(".cover-spread");
+  const phoneLayout = matchMedia("(max-width: 700px)");
   const dayPages = Array.from(document.querySelectorAll("[data-day-page]"));
   const dayRail = document.querySelector(".day-nav");
   const dayTabs = Array.from(document.querySelectorAll("[data-day-select]"));
@@ -335,8 +337,10 @@
 
   function trackReading() {
     readingFrame = 0;
+    const mastBottom = mast.getBoundingClientRect().bottom;
+    root.classList.toggle("phone-cover", phoneLayout.matches && cover.getBoundingClientRect().bottom > mastBottom + 16);
     if (placeViewer.open) return;
-    const line = mast.getBoundingClientRect().bottom + 28;
+    const line = mastBottom + 28;
     let section = "home";
     for (const [name, view] of views) {
       if (view.getBoundingClientRect().top <= line) section = name;
@@ -531,6 +535,7 @@
   renderPlaces();
   navigate();
   addEventListener("scroll", scheduleReading, {passive:true});
+  addEventListener("resize", scheduleReading, {passive:true});
   window.addEventListener("popstate", () => navigate({restore:true}));
   window.addEventListener("hashchange", () => navigate());
   document.addEventListener("click", (event) => {

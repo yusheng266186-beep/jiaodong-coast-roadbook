@@ -861,7 +861,7 @@ class FieldGuide:
         ornaments = self.asset_url(self.folder / "art" / "marginalia.webp")
         styles = f':root{{--motifs: url("{texture}");--ornaments: url("{ornaments}")}}\n' + "\n".join(
             (self.folder / name).read_text(encoding="utf-8")
-            for name in ("style.css", "atlas.css", "gallery.css", "directory.css", "steps.css")
+            for name in ("style.css", "atlas.css", "gallery.css", "directory.css", "steps.css", "phone.css")
         )
         script = "\n".join(
             (self.folder / name).read_text(encoding="utf-8") for name in ("app.js", "atlas.js")

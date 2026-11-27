@@ -10,6 +10,8 @@
   --gold: #eaca9e;
   --rule: #d5ccb7;
   --track: #a6af99;
+  --coast-paper-near: 71%;
+  --coast-paper-far: 65%;
   --gutter: clamp(1rem, 4.3vw, 4.2rem);
   --width: 1260px;
   --mast-min-height: 63px;
@@ -73,7 +75,7 @@ a,button,summary { -webkit-tap-highlight-color: transparent; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(145deg,#faf4e7c2 4%,#faf4e715 58%,#e1ecdf36);
+  background: linear-gradient(145deg,#faf4e724 4%,#faf4e70c 58%,#e1ecdf15);
 }
 .scenery-place {
   position: absolute;
@@ -355,8 +357,8 @@ main [id] { scroll-margin-block-start: calc(var(--mast-height) + 19px); }
 }
 :root.enhanced .chapter {
   background: linear-gradient(107deg,
-    color-mix(in srgb,var(--chapter-paper) 93%,transparent) 10%,
-    color-mix(in srgb,var(--chapter-paper) 77%,transparent) 100%);
+    color-mix(in srgb,var(--chapter-paper) var(--coast-paper-near),transparent) 10%,
+    color-mix(in srgb,var(--chapter-paper) var(--coast-paper-far),transparent) 100%);
 }
 .scenes { --chapter-paper: #f1e9d9; --chapter-rule: #cfc2a8; }
 .places { --chapter-paper: #e8eee3; --chapter-rule: #c1ccbb; --chapter-ink: #224f45; }
@@ -923,9 +925,6 @@ select { appearance: none; padding-inline-end: 1.52rem; text-overflow: ellipsis;
   .fallback-body { gap: .68rem; padding-block: .54rem .86rem; }
   .checklist label { line-height: 1.58; font-weight: 565; padding-block: .33rem; }
   .scenery-page > img { object-position: 54% 48%; }
-  :root.enhanced .chapter { background: linear-gradient(108deg,
-    color-mix(in srgb,var(--chapter-paper) 91%,transparent),
-    color-mix(in srgb,var(--chapter-paper) 78%,transparent)); }
   .place-controls { grid-template-columns: minmax(0,.91fr) minmax(0,1.09fr); gap: .33rem .83rem; }
   #place-count { grid-column: 1/-1; justify-self: start; margin-bottom: 0; }
   .return-grid { gap: 1.5rem; }
